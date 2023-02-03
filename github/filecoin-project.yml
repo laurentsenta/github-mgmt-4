@@ -1581,8 +1581,6 @@ repositories:
         - autonome
         - mroth
         - web3risk-admin
-      pull:
-        - web3-bot
     files:
       CODEOWNERS:
         content: |
