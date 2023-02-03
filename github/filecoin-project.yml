@@ -3073,7 +3073,6 @@ repositories:
         - infra
   sentinel-infra:
     collaborators:
-      admin:
       push:
         - pl-deploy-bot
         - thattommyhall
