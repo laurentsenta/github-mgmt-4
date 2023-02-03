@@ -212,22 +212,10 @@ members:
 repositories:
   actors-private:
     collaborators:
-      admin:
-        - BigLep
-        - jennijuju
       maintain:
         - momack2
-      pull:
-        - nicola
-        - porcuquine
-      push:
-        - hsanjuan
-        - laudiacay
-        - magik6k
-        - travisperson
-        - web3-bot
     teams:
-      admin:
+      push:
         - actors-maintainers
   aq:
     collaborators:
@@ -331,10 +319,6 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
-      push:
-        - magik6k
-        - nikkolasg
-        - ZenGround0
   bellperson:
     collaborators:
       admin:
@@ -456,15 +440,11 @@ repositories:
         - web3-bot
   builtin-actor-priv:
     collaborators:
-      admin:
-        - ZenGround0
-      pull:
-        - cryptonemo
       push:
         - momack2
     teams:
       push:
-        - lotus-maintainers
+        - actors-maintainers
   builtin-actors-bundler:
     teams:
       admin:
@@ -486,6 +466,7 @@ repositories:
         - actors-committers
         - Forest
         - fvm-core-devs
+        - lotus-contributors
         - Venus
   c-bls-sigs:
     collaborators:
@@ -567,7 +548,6 @@ repositories:
         - protocolin
         - witnsby
       pull:
-        - jesseclay
         - pk-controller
         - ychiaoli18
       push:
@@ -687,16 +667,7 @@ repositories:
         - cryptoeconomics
       push:
         - research
-  cryptolab-private:
-    collaborators:
-      admin:
-        - porcuquine
-      push:
-        - web3-bot
-    teams:
-      triage:
-        - proofs
-        - research
+  cryptolab-private: {}
   cryptolab:
     collaborators:
       admin:
@@ -711,6 +682,7 @@ repositories:
       push:
         - bedrock-go
         - datasystems
+        - lotus-contributors
   data-transfer-benchmark:
     collaborators:
       admin:
@@ -737,6 +709,8 @@ repositories:
     teams:
       maintain:
         - w3dt-stewards
+      push:
+        - lotus-contributors
   depr-notary-governance:
     collaborators:
       admin:
@@ -963,6 +937,9 @@ repositories:
       push:
         - kasteph
         - rvagg
+    teams:
+      push:
+        - lotus-contributors
   fff:
     collaborators:
       admin:
@@ -981,6 +958,9 @@ repositories:
       push:
         - hsanjuan
         - willscott
+    teams:
+      push:
+        - lotus-contributors
   fil_pasta_curves:
     collaborators:
       admin:
@@ -1185,12 +1165,6 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
-        - Kubuxu
-        - porcuquine
-      push:
-        - magik6k
-        - web3-bot
-        - ZenGround0
   filecoin-ffi:
     collaborators:
       admin:
@@ -1402,6 +1376,8 @@ repositories:
         - cryptoeconomics
         - infra
         - proofs
+      push:
+        - lotus-contributors
   fut-ff:
     collaborators:
       admin:
@@ -1496,6 +1472,7 @@ repositories:
     teams:
       push:
         - Forest
+        - lotus-contributors
         - lotus-maintainers
         - Venus
   fvm-wasm-instrument:
@@ -1532,11 +1509,6 @@ repositories:
       admin:
         - DiegoRBaquero
   gfm-priv:
-    collaborators:
-      admin:
-        - jennijuju
-      push:
-        - rvagg
     teams:
       admin:
         - lotus-maintainers
@@ -1553,12 +1525,15 @@ repositories:
     collaborators:
       admin:
         - andyschwab-admin
+        - arajasek
         - galargh
+        - jennijuju
         - JesseXie
         - mastrwayne-admin
       push:
         - autonome
         - mroth
+        - scotthconner
         - web3risk-admin
     files:
       CODEOWNERS:
@@ -1637,6 +1612,7 @@ repositories:
         - w3dt-stewards
       push:
         - actors-committers
+        - lotus-contributors
   go-bls-sigs:
     collaborators:
       maintain:
@@ -1688,6 +1664,7 @@ repositories:
       push:
         - datasystems
         - labbers
+        - lotus-contributors
   go-crypto:
     collaborators:
       admin:
@@ -1707,6 +1684,8 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
+      push:
+        - lotus-contributors
   go-data-transfer-bus:
     collaborators:
       admin:
@@ -1724,12 +1703,16 @@ repositories:
       push:
         - datasystems
         - labbers
+        - lotus-contributors
   go-ds-versioning:
     collaborators:
       admin:
         - hannahhoward
       push:
         - web3-bot
+    teams:
+      push:
+        - lotus-contributors
   go-fil-commcid:
     collaborators:
       admin:
@@ -1741,6 +1724,9 @@ repositories:
         - ribasushi
       push:
         - web3-bot
+    teams:
+      push:
+        - lotus-contributors
   go-fil-commp-hashhash:
     collaborators:
       admin:
@@ -1776,6 +1762,7 @@ repositories:
         - bedrock-go
       push:
         - datasystems
+        - lotus-contributors
   go-filecoin-backup: {}
   go-filecoin-badges:
     collaborators:
@@ -1861,6 +1848,9 @@ repositories:
         - whyrusleeping
       push:
         - web3-bot
+    teams:
+      push:
+        - lotus-contributors
   go-padreader:
     collaborators:
       admin:
@@ -1912,16 +1902,8 @@ repositories:
         - Strike Team
   go-state-types-private:
     collaborators:
-      pull:
-        - nicola
-        - porcuquine
       push:
         - momack2
-        - travisperson
-        - web3-bot
-    teams:
-      admin:
-        - actors-maintainers
   go-state-types:
     collaborators:
       push:
@@ -1933,6 +1915,7 @@ repositories:
         - lotus-maintainers
       push:
         - actors-committers
+        - lotus-contributors
   go-statemachine:
     collaborators:
       maintain:
@@ -1946,6 +1929,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      push:
+        - lotus-contributors
   go-statestore:
     collaborators:
       push:
@@ -2089,7 +2074,7 @@ repositories:
         - infra
   homebrew-lotus:
     collaborators:
-      push:
+      admin:
         - ianconsolata
     teams:
       admin:
@@ -2203,11 +2188,11 @@ repositories:
         - olizilla
       push:
         - alanshaw
+        - placer14
         - web3-bot
         - willscott
-        - placer14
       triage:
-       - coryschwartz
+        - coryschwartz
     teams:
       admin:
         - Sentinel Admin
@@ -2276,6 +2261,8 @@ repositories:
       admin:
         - infra
         - w3dt-stewards
+      push:
+        - lotus-contributors
   lotus-infra:
     collaborators:
       admin:
@@ -2321,13 +2308,6 @@ repositories:
       admin:
         - arajasek
         - jennijuju
-        - Kubuxu
-        - magik6k
-      maintain:
-        - ZenGround0
-      push:
-        - cryptonemo
-        - ychiaoli18
   lotus-testground:
     collaborators:
       admin:
@@ -2619,7 +2599,10 @@ repositories:
     teams:
       push:
         - research
-  pubsub: {}
+  pubsub:
+    teams:
+      push:
+        - lotus-contributors
   ref-fvm-fuzz-corpora:
     collaborators:
       admin:
@@ -2635,11 +2618,6 @@ repositories:
     collaborators:
       admin:
         - Stebalien
-        - ZenGround0
-      push:
-        - cryptonemo
-        - maciejwitowski
-        - magik6k
   ref-fvm:
     collaborators:
       admin:
@@ -2658,6 +2636,7 @@ repositories:
       push:
         - Forest
         - fvm-core-devs
+        - lotus-contributors
         - lotus-maintainers
   release-metrics-gitops:
     collaborators:
@@ -2714,36 +2693,7 @@ repositories:
       push:
         - cryptoeconomics
         - product-biz
-  research-private:
-    collaborators:
-      pull:
-        - AnomalRoil
-        - matteocam
-        - ribasushi
-        - vukolic
-        - vyzo
-      push:
-        - KarolaKirsanow
-        - web3-bot
-      triage:
-        - alanshaw
-        - hsanjuan
-        - scotthconner
-        - thattommyhall
-        - wadeAlexC
-        - willscott
-    teams:
-      admin:
-        - research
-      pull:
-        - cryptoeconomics
-        - datasystems
-        - labbers
-        - lotus-maintainers
-        - Lotus-TSE
-      push:
-        - dev-misc
-        - proofs
+  research-private: {}
   research-retreats:
     collaborators:
       push:
@@ -2866,31 +2816,24 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
-        - dkkapur
-        - porcuquine
-      push:
-        - DrPeterVanNostrand
-        - magik6k
-        - nicola
-        - web3-bot
-        - ZenGround0
   rust-fil-proofs:
     collaborators:
       admin:
         - cryptonemo
         - jennijuju
-        - porcuquine
-      push:
+      pull:
         - BlocksOnAChain
         - DignifiedquireSyncBot
         - web3-bot
+      triage:
+        - porcuquine
     teams:
       pull:
         - ci
-      push:
         - dev-misc
         - infra
         - proofs
+      triage:
         - research
   rust-fil-secp256k1:
     collaborators:
@@ -2922,24 +2865,16 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
-        - dkkapur
-        - DrPeterVanNostrand
-        - porcuquine
-      push:
-        - magik6k
-        - web3-bot
-        - ZenGround0
   rust-filecoin-proofs-api:
     collaborators:
       admin:
         - cryptonemo
-      push:
+      pull:
         - web3-bot
     teams:
-      maintain:
-        - proofs
       pull:
         - ci
+        - proofs
   rust-gpu-tools:
     collaborators:
       admin:
@@ -3046,8 +2981,6 @@ repositories:
         - Sentinel
   sentinel-private:
     collaborators:
-      admin:
-        - hsanjuan
       push:
         - web3-bot
     teams:
@@ -3065,6 +2998,7 @@ repositories:
         - Sentinel
       push:
         - infra
+        - lotus-contributors
   sentinel:
     collaborators:
       admin:
@@ -3132,7 +3066,7 @@ repositories:
         - tarafanlin
         - web3-bot
       triage:
-       - toastts
+        - toastts
   snapcraft-exporter:
     collaborators:
       admin:
@@ -3177,13 +3111,12 @@ repositories:
         - Stefaan-V
   specs-actors:
     collaborators:
-      maintain:
-        - vyzo
       pull:
         - zixuanzh
       push:
         - frrist
         - laudiacay
+        - vyzo
         - web3-bot
     teams:
       admin:
@@ -3191,15 +3124,9 @@ repositories:
       maintain:
         - actors-committers
       push:
+        - lotus-contributors
         - w3dt-stewards
   specs-private:
-    collaborators:
-      admin:
-        - porcuquine
-      pull:
-        - davidad
-      push:
-        - frrist
     teams:
       admin:
         - specs
@@ -3316,6 +3243,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - oni
+      push:
+        - lotus-contributors
   testnet-hyperspace:
     collaborators:
       admin:
@@ -3356,7 +3285,6 @@ repositories:
         - assaf-anchor
         - bajohns
         - dwhjames
-        - jesseclay
         - ndrewmin
         - peterlouis
         - pk-controller
@@ -3629,16 +3557,12 @@ teams:
         - anorth
         - Stebalien
         - ZenGround0
-      member:
-        - aarshkshah1992
-        - magik6k
-        - vmx
-        - vyzo
   actors-maintainers:
     members:
       maintainer:
         - anorth
         - arajasek
+        - jennijuju
         - raulk
         - Stebalien
         - ZenGround0
@@ -3652,7 +3576,8 @@ teams:
         - lksbrssr
         - longfeiWan9
         - TheDiscordian
-  Alumni: {}
+  Alumni:
+    create_default_maintainer: false
   bacalhau-team:
     members:
       maintainer:
@@ -3803,8 +3728,6 @@ teams:
     members:
       maintainer:
         - johnnymatthews
-      member:
-        - TheDiscordian
   fips-contributors:
     members:
       maintainer:
@@ -3880,7 +3803,6 @@ teams:
         - Kubuxu
         - maciejwitowski
         - magik6k
-        - mriise
         - vmx
         - vyzo
         - ychiaoli18
@@ -3894,7 +3816,6 @@ teams:
         - Stebalien
       member:
         - magik6k
-        - mriise
         - vyzo
   fvm-team:
     members:
@@ -3912,7 +3833,6 @@ teams:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
     create_default_maintainer: false
-    description: Users that are effectively org admins
     members:
       # WARN: membership here should be treated exactly as cautiosly as having an org admin role
       # ATTN: members are expected to:
@@ -3921,7 +3841,6 @@ teams:
       maintainer:
         - BigLep
         - galargh
-    privacy: secret
   infra:
     members:
       maintainer:
@@ -4035,14 +3954,29 @@ teams:
     members:
       member:
         - jesseclay
+  lotus-contributors:
+    members:
+      maintainer:
+        - arajasek
+        - jennijuju
+        - raulk
+        - whyrusleeping
+      member:
+        - dirkmc
+        - frrist
+        - geoff-vball
+        - hannahhoward
+        - Kubuxu
+        - nonsense
+        - rjan90
+        - vyzo
+        - ychiaoli18
   lotus-infra-core:
     members:
       maintainer:
         - ognots
       member:
         - GlacierWalrus
-        - steve-fraser
-        - travisperson
   lotus-maintainers:
     members:
       maintainer:
@@ -4050,7 +3984,6 @@ teams:
         - jennijuju
         - Stebalien
       member:
-        - geoff-vball
         - magik6k
         - shrenujbansal
         - travisperson
@@ -4178,7 +4111,6 @@ teams:
         - birdychang
         - hsanjuan
       member:
-        - cmharden
         - frrist
         - kasteph
   Sentinel Operators:
@@ -4187,7 +4119,6 @@ teams:
         - birdychang
       member:
         - cmharden
-        - frrist
   Sentinel:
     members:
       maintainer:
