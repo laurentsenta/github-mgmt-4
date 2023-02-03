@@ -229,8 +229,6 @@ repositories:
     teams:
       admin:
         - actors-maintainers
-      push:
-        - lotus-contributors
   aq:
     collaborators:
       admin:
@@ -488,7 +486,6 @@ repositories:
         - actors-committers
         - Forest
         - fvm-core-devs
-        - lotus-contributors
         - Venus
   c-bls-sigs:
     collaborators:
@@ -714,7 +711,6 @@ repositories:
       push:
         - bedrock-go
         - datasystems
-        - lotus-contributors
   data-transfer-benchmark:
     collaborators:
       admin:
@@ -740,7 +736,6 @@ repositories:
         - web3-bot
     teams:
       maintain:
-        - lotus-contributors
         - w3dt-stewards
   depr-notary-governance:
     collaborators:
@@ -968,9 +963,6 @@ repositories:
       push:
         - kasteph
         - rvagg
-    teams:
-      pull:
-        - lotus-contributors
   fff:
     collaborators:
       admin:
@@ -989,9 +981,6 @@ repositories:
       push:
         - hsanjuan
         - willscott
-    teams:
-      push:
-        - lotus-contributors
   fil_pasta_curves:
     collaborators:
       admin:
@@ -1412,7 +1401,6 @@ repositories:
       pull:
         - cryptoeconomics
         - infra
-        - lotus-contributors
         - proofs
   fut-ff:
     collaborators:
@@ -1508,7 +1496,6 @@ repositories:
     teams:
       push:
         - Forest
-        - lotus-contributors
         - lotus-maintainers
         - Venus
   fvm-wasm-instrument:
@@ -1553,8 +1540,6 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
-      maintain:
-        - lotus-contributors
   github-exporter:
     collaborators:
       admin:
@@ -1641,7 +1626,6 @@ repositories:
         - w3dt-stewards
       push:
         - actors-committers
-        - lotus-contributors
   go-bitfield:
     collaborators:
       push:
@@ -1653,7 +1637,6 @@ repositories:
         - w3dt-stewards
       push:
         - actors-committers
-        - lotus-contributors
   go-bls-sigs:
     collaborators:
       maintain:
@@ -1702,8 +1685,6 @@ repositories:
       push:
         - web3-bot
     teams:
-      maintain:
-        - lotus-contributors
       push:
         - datasystems
         - labbers
@@ -1726,8 +1707,6 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
-      maintain:
-        - lotus-contributors
   go-data-transfer-bus:
     collaborators:
       admin:
@@ -1742,8 +1721,6 @@ repositories:
         - dkkapur
         - web3-bot
     teams:
-      maintain:
-        - lotus-contributors
       push:
         - datasystems
         - labbers
@@ -1753,9 +1730,6 @@ repositories:
         - hannahhoward
       push:
         - web3-bot
-    teams:
-      maintain:
-        - lotus-contributors
   go-fil-commcid:
     collaborators:
       admin:
@@ -1767,9 +1741,6 @@ repositories:
         - ribasushi
       push:
         - web3-bot
-    teams:
-      maintain:
-        - lotus-contributors
   go-fil-commp-hashhash:
     collaborators:
       admin:
@@ -1803,7 +1774,6 @@ repositories:
     teams:
       maintain:
         - bedrock-go
-        - lotus-contributors
       push:
         - datasystems
   go-filecoin-backup: {}
@@ -1840,7 +1810,6 @@ repositories:
         - actors-maintainers
       push:
         - actors-committers
-        - lotus-contributors
   go-http-api:
     collaborators:
       push:
@@ -1892,9 +1861,6 @@ repositories:
         - whyrusleeping
       push:
         - web3-bot
-    teams:
-      maintain:
-        - lotus-contributors
   go-padreader:
     collaborators:
       admin:
@@ -1956,8 +1922,6 @@ repositories:
     teams:
       admin:
         - actors-maintainers
-      push:
-        - lotus-contributors
   go-state-types:
     collaborators:
       push:
@@ -1969,7 +1933,6 @@ repositories:
         - lotus-maintainers
       push:
         - actors-committers
-        - lotus-contributors
   go-statemachine:
     collaborators:
       maintain:
@@ -1983,8 +1946,6 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
-      push:
-        - lotus-contributors
   go-statestore:
     collaborators:
       push:
@@ -2315,8 +2276,6 @@ repositories:
       admin:
         - infra
         - w3dt-stewards
-      push:
-        - lotus-contributors
   lotus-infra:
     collaborators:
       admin:
@@ -2389,7 +2348,6 @@ repositories:
       admin:
         - lotus-maintainers
       push:
-        - lotus-contributors
         - Lotus-TSE
   lua-filecoin:
     collaborators:
@@ -2661,10 +2619,7 @@ repositories:
     teams:
       push:
         - research
-  pubsub:
-    teams:
-      push:
-        - lotus-contributors
+  pubsub: {}
   ref-fvm-fuzz-corpora:
     collaborators:
       admin:
@@ -2703,7 +2658,6 @@ repositories:
       push:
         - Forest
         - fvm-core-devs
-        - lotus-contributors
         - lotus-maintainers
   release-metrics-gitops:
     collaborators:
@@ -3111,7 +3065,6 @@ repositories:
         - Sentinel
       push:
         - infra
-        - lotus-contributors
   sentinel:
     collaborators:
       admin:
@@ -3238,7 +3191,6 @@ repositories:
       maintain:
         - actors-committers
       push:
-        - lotus-contributors
         - w3dt-stewards
   specs-private:
     collaborators:
@@ -3364,8 +3316,6 @@ repositories:
         - w3dt-stewards
       maintain:
         - oni
-      push:
-        - lotus-contributors
   testnet-hyperspace:
     collaborators:
       admin:
@@ -4085,41 +4035,6 @@ teams:
     members:
       member:
         - jesseclay
-  lotus-contributors:
-    members:
-      maintainer:
-        - arajasek
-        - jennijuju
-        - magik6k
-        - ognots
-        - raulk
-        - Stebalien
-        - whyrusleeping
-        - ZenGround0
-      member:
-        - aarshkshah1992
-        - coryschwartz
-        - cryptonemo
-        - dirkmc
-        - frrist
-        - hannahhoward
-        - hsanjuan
-        - ianconsolata
-        - iand
-        - geoff-vball
-        - Kubuxu
-        - LexLuthr
-        - maciejwitowski
-        - marten-seemann
-        - masih
-        - momack2
-        - mriise
-        - nonsense
-        - shrenujbansal
-        - snissn
-        - travisperson
-        - vyzo
-        - ychiaoli18
   lotus-infra-core:
     members:
       maintainer:
