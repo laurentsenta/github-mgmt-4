@@ -1581,6 +1581,15 @@ repositories:
         - autonome
         - mroth
         - web3risk-admin
+    files:
+      CODEOWNERS:
+        content: |
+          # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
+          /github/filecoin-project.yml @filecoin-project/github-mgmt-stewards
+    teams:
+      # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
+      push:
+        - github-mgmt stewards
   gitops-policy-library:
     collaborators:
       admin:
@@ -3983,6 +3992,20 @@ teams:
         - magik6k
         - trruckerfling
         - vyzo
+  github-mgmt stewards:
+    # NOTE: created to capture users with push+ access to github-mgmt repository
+    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
+    create_default_maintainer: false
+    description: Users that are effectively org admins
+    members:
+      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
+      # ATTN: members are expected to:
+      #  - be familiar with GitHub Management
+      #  - be ready to triage/review org configuration change request in github-mgmt
+      maintainer:
+        - BigLep
+        - galargh
+    privacy: secret
   infra:
     members:
       maintainer:
