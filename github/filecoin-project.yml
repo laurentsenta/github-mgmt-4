@@ -303,7 +303,6 @@ repositories:
         - philwinder
         - porcuquine
         - raulk
-        - ricmk
         - simonwo
         - wdbaruni
         - wesfloyd
@@ -317,6 +316,8 @@ repositories:
         - pyropy
         - warpfork
         - wyc
+      triage:
+        - ricmk
     teams:
       admin:
         - bacalhau-team
@@ -505,12 +506,13 @@ repositories:
         - Stebalien
   chain-love-website:
     collaborators:
-      admin:
-        - coryschwartz
       push:
         - angelopez10
         - carlosdimatteo
         - nestorolivaresh
+    teams:
+      admin:
+        - infra
   chain-validation:
     collaborators:
       admin:
@@ -729,7 +731,6 @@ repositories:
         - raulk
         - willscott
       maintain:
-        - coryschwartz
         - davidd8
         - dkkapur
         - gammazero
@@ -895,7 +896,6 @@ repositories:
         - alanshaw
         - frrist
       push:
-        - placer14
         - ribasushi
         - web3-bot
         - willscott
@@ -919,7 +919,6 @@ repositories:
   events-directory:
     collaborators:
       admin:
-        - dharmapunk82
         - orvn
         - svvimming
         - timelytree
@@ -1056,7 +1055,6 @@ repositories:
   filecoin-chain-archiver:
     collaborators:
       admin:
-        - coryschwartz
         - travisperson
     teams:
       push:
@@ -1155,7 +1153,6 @@ repositories:
         - momack2
         - smagdali
         - vnessasgrt
-        - walkerlj0
       push:
         - bobdubois
         - ericronne
@@ -1168,6 +1165,7 @@ repositories:
       triage:
         - dayou5168
         - Kevin-PiKNiK
+        - walkerlj0
     teams:
       maintain:
         - product
@@ -1210,7 +1208,6 @@ repositories:
         - raulk
         - Stebalien
       push:
-        - mriise
         - vyzo
         - web3-bot
     teams:
@@ -1375,9 +1372,6 @@ repositories:
       push:
         - web3-bot
   filet:
-    collaborators:
-      maintain:
-        - davidgasquez
     teams:
       maintain:
         - data
@@ -1609,7 +1603,6 @@ repositories:
     collaborators:
       admin:
         - cmharden
-        - coryschwartz
         - GlacierWalrus
         - pl-deploy-bot
         - steve-fraser
@@ -1728,8 +1721,6 @@ repositories:
     collaborators:
       admin:
         - Kubuxu
-      maintain:
-        - jot2re
       push:
         - web3-bot
     teams:
@@ -2096,7 +2087,6 @@ repositories:
     collaborators:
       admin:
         - andyschwab
-        - dharmapunk82
         - tbenbow
       maintain:
         - nikipdia
@@ -2138,10 +2128,12 @@ repositories:
         - infra
   homebrew-lotus:
     collaborators:
-      admin:
-        - coryschwartz
       push:
         - ianconsolata
+    teams:
+      admin:
+        - infra
+        - lotus-maintainers
   hyperdrive-analysis:
     collaborators:
       admin:
@@ -2175,8 +2167,6 @@ repositories:
   jenkins: {}
   kube-infra:
     collaborators:
-      admin:
-        - coryschwartz
       pull:
         - cmharden
         - steve-fraser
@@ -2190,7 +2180,6 @@ repositories:
       admin:
         - andyschwab
         - cwaring
-        - dharmapunk82
         - ericronne
         - tbenbow
   lassie:
@@ -2227,8 +2216,6 @@ repositories:
         - davidd8
         - hannahhoward
         - honghaoq
-      push:
-        - coryschwartz
     teams:
       push:
         - datasystems
@@ -2251,14 +2238,15 @@ repositories:
         - hsanjuan
         - iand
         - kasteph
-        - placer14
       maintain:
         - olizilla
       push:
         - alanshaw
-        - coryschwartz
         - web3-bot
         - willscott
+        - placer14
+      triage:
+       - coryschwartz
     teams:
       admin:
         - Sentinel Admin
@@ -2275,10 +2263,8 @@ repositories:
   lotus-dcops:
     collaborators:
       admin:
-        - coryschwartz
-      pull:
         - cryptonemo
-        - storojs72
+      pull:
         - vvkio
       push:
         - web3-bot
@@ -2293,13 +2279,13 @@ repositories:
       admin:
         - jennijuju
         - johnnymatthews
-      maintain:
-        - yusefnapora
       push:
-        - geoff-vball
         - TMoMoreau
-        - walkerlj0
         - web3-bot
+      triage:
+        - geoff-vball
+        - walkerlj0
+        - yusefnapora
     teams:
       push:
         - docs-writers
@@ -2314,11 +2300,9 @@ repositories:
       push:
         - cryptonemo
         - DrPeterVanNostrand
-        - geoff-vball
         - honghaoq
         - irenegia
         - LexLuthr
-        - pwrepo
         - ribasushi
         - rstanberry
         - rvagg
@@ -2384,7 +2368,6 @@ repositories:
         - ZenGround0
       push:
         - cryptonemo
-        - geoff-vball
         - ychiaoli18
   lotus-testground:
     collaborators:
@@ -2423,8 +2406,6 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
-      maintain:
-        - shawnrader
       push:
         - web3-bot
     teams:
@@ -2470,7 +2451,6 @@ repositories:
       admin:
         - jsoares
         - matejpavlovic
-        - sergefdrv
       push:
         - ranchalp
         - xosmig
@@ -2669,8 +2649,6 @@ repositories:
     collaborators:
       admin:
         - galargh
-        - shawnrader
-        - storojs72
     teams:
       push:
         - proofs
@@ -2936,8 +2914,6 @@ repositories:
         - cryptonemo
         - dkkapur
         - porcuquine
-      pull:
-        - geoff-vball
       push:
         - DrPeterVanNostrand
         - magik6k
@@ -3070,9 +3046,7 @@ repositories:
   sentinel-backfill:
     collaborators:
       admin:
-        - davidgasquez
         - hsanjuan
-        - placer14
         - thattommyhall
       push:
         - web3-bot
@@ -3088,9 +3062,7 @@ repositories:
         - filecoin-helper
         - ognots
         - olizilla
-        - placer14
       push:
-        - coryschwartz
         - frrist
         - hsanjuan
         - iand
@@ -3101,15 +3073,14 @@ repositories:
         - infra
   sentinel-infra:
     collaborators:
-      admin:
-        - placer14
       push:
         - pl-deploy-bot
         - thattommyhall
         - web3-bot
     teams:
-      maintain:
+      admin:
         - infra
+      maintain:
         - Weaveworks
   sentinel-locations:
     collaborators:
@@ -3123,7 +3094,6 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
-        - placer14
       push:
         - web3-bot
     teams:
@@ -3199,7 +3169,6 @@ repositories:
         - harisbutt
         - jasonleyser
         - martinalong
-        - toastts
       pull:
         - gndclouds
         - tmytrn
@@ -3209,6 +3178,8 @@ repositories:
         - jordattebayo
         - tarafanlin
         - web3-bot
+      triage:
+       - toastts
   snapcraft-exporter:
     collaborators:
       admin:
@@ -3259,9 +3230,7 @@ repositories:
         - zixuanzh
       push:
         - frrist
-        - geoff-vball
         - laudiacay
-        - placer14
         - web3-bot
     teams:
       admin:
@@ -3292,7 +3261,6 @@ repositories:
   specs:
     collaborators:
       admin:
-        - hugomrdias
         - jimmylee
         - olizilla
         - yiannisbot
@@ -3644,8 +3612,6 @@ repositories:
         - Isabellabcj
         - taaanbrown
       push:
-        - CKMwrites
-        - dharmapunk82
         - jesseclay
         - momack2
         - smagdali
@@ -3845,7 +3811,6 @@ teams:
         - kasteph
       member:
         - birdychang
-        - davidgasquez
   datasystems:
     members:
       maintainer:
@@ -4015,8 +3980,6 @@ teams:
         - ognots
       member:
         - birdychang
-        - coryschwartz
-        - davidgasquez
         - frrist
         - GlacierWalrus
         - gmasgras
@@ -4025,8 +3988,6 @@ teams:
         - kasteph
         - nonsense
         - olizilla
-        - panksea06
-        - placer14
         - travisperson
   labbers:
     members:
@@ -4054,15 +4015,12 @@ teams:
         - bradholden
         - brendalee
         - cbrocoum
-        - coryschwartz
         - cryptonemo
         - davidd8
-        - dharmapunk82
         - DiegoRBaquero
         - dirkmc
         - dkkapur
         - dnkolegov
-        - doctorrobinson
         - emilymvaughan
         - eshon
         - frrist
@@ -4072,7 +4030,6 @@ teams:
         - guanzo
         - hannahhoward
         - honghaoq
-        - hugomrdias
         - iand
         - ischasny
         - jacobheun
@@ -4094,7 +4051,6 @@ teams:
         - matejpavlovic
         - miyazono
         - momack2
-        - mriise
         - nicola
         - nikkolasg
         - ninitrava
@@ -4103,14 +4059,12 @@ teams:
         - patrickwoodhead
         - pk-controller
         - pk13-PLF
-        - placer14
         - porcuquine
         - ribasushi
         - rosariogennaro
         - rvagg
         - sa8
         - scotthconner
-        - sergefdrv
         - Stefaan-V
         - thattommyhall
         - TorfinnOlsen
@@ -4124,7 +4078,6 @@ teams:
         - willscott
         - yiannisbot
         - yunigraham
-        - yusefnapora
         - ZakAyesh
         - ZenGround0
         - zixuanzh
@@ -4136,7 +4089,6 @@ teams:
     members:
       maintainer:
         - arajasek
-        - geoff-vball
         - jennijuju
         - magik6k
         - ognots
@@ -4154,6 +4106,7 @@ teams:
         - hsanjuan
         - ianconsolata
         - iand
+        - geoff-vball
         - Kubuxu
         - LexLuthr
         - maciejwitowski
@@ -4170,11 +4123,9 @@ teams:
   lotus-infra-core:
     members:
       maintainer:
-        - coryschwartz
         - ognots
       member:
         - GlacierWalrus
-        - panksea06
         - steve-fraser
         - travisperson
   lotus-maintainers:
@@ -4311,27 +4262,22 @@ teams:
       maintainer:
         - birdychang
         - hsanjuan
-        - placer14
       member:
         - cmharden
-        - davidgasquez
         - frrist
         - kasteph
   Sentinel Operators:
     members:
       maintainer:
-        - placer14
-      member:
         - birdychang
+      member:
         - cmharden
-        - coryschwartz
         - frrist
   Sentinel:
     members:
       maintainer:
         - birdychang
         - hsanjuan
-        - placer14
       member:
         - alanshaw
         - davidgasquez
@@ -4339,6 +4285,7 @@ teams:
         - iand
         - kasteph
         - olizilla
+        - placer14
         - ribasushi
         - thattommyhall
         - willscott
@@ -4405,8 +4352,6 @@ teams:
         - ZenGround0
   Weaveworks:
     members:
-      maintainer:
-        - placer14
       member:
         - cmharden
         - steve-fraser
@@ -4421,7 +4366,6 @@ teams:
         - andyschwab
         - angiemaguire
         - cwaring
-        - dharmapunk82
         - dkkapur
         - emilymvaughan
         - ericronne
