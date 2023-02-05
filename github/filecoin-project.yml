@@ -147,7 +147,6 @@ members:
     - noot
     - olizilla
     - ortyomka
-    - panksea06
     - parthshah1
     - patrickwoodhead
     - pk-controller
@@ -3292,6 +3291,7 @@ repositories:
         - vikstrous2
       push:
         - web3-bot
+  TPM: {}
   tweety:
     collaborators:
       admin:
