@@ -1531,6 +1531,8 @@ repositories:
         - jennijuju
         - JesseXie
         - mastrwayne-admin
+      pull:
+        - marten-seemann
       push:
         - autonome
         - mroth
