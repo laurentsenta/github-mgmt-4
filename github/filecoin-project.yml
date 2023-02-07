@@ -456,6 +456,7 @@ repositories:
         - macro-ss
         - marco-storswift
         - tyshko5
+        - vkalghatgi
     teams:
       admin:
         - actors-maintainers
@@ -545,11 +546,11 @@ repositories:
         - lazavikmaria
         - mur-me
         - protocolin
-        - witnsby
       pull:
         - pk-controller
         - ychiaoli18
       push:
+        - EvgenyNasretdinov
         - koteld
         - openworklabbot
         - web3-bot
@@ -759,7 +760,7 @@ repositories:
       maintain:
         - ErinOCon
         - eshon
-        - nikipdia
+        - figureouter
         - philippbanhardt
       push:
         - BlocksOnAChain
@@ -1435,6 +1436,7 @@ repositories:
     collaborators:
       push:
         - BlocksOnAChain
+        - eshon
         - jimmylee
     teams:
       push:
@@ -2034,7 +2036,7 @@ repositories:
         - andyschwab
         - tbenbow
       maintain:
-        - nikipdia
+        - figureouter
       push:
         - lksbrssr
         - pap1ll0n
@@ -2300,7 +2302,7 @@ repositories:
     collaborators:
       admin:
         - rjan90
-      pull:
+      push:
         - scotthconner
   lotus-priv:
     collaborators:
@@ -2319,14 +2321,11 @@ repositories:
         - datasystems
         - labbers
   lotus:
-    collaborators:
-      push:
-        - ianconsolata
-        - snissn
     teams:
       admin:
         - lotus-maintainers
       push:
+        - lotus-contributors
         - Lotus-TSE
   lua-filecoin:
     collaborators:
@@ -3966,9 +3965,11 @@ teams:
         - frrist
         - geoff-vball
         - hannahhoward
+        - hsanjuan
         - Kubuxu
         - nonsense
         - rjan90
+        - snissn
         - vyzo
         - ychiaoli18
   lotus-infra-core:
@@ -4117,6 +4118,7 @@ teams:
     members:
       maintainer:
         - birdychang
+        - ognots
       member:
         - cmharden
   Sentinel:
