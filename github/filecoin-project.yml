@@ -2180,22 +2180,27 @@ repositories:
         - Sentinel Admin
       maintain:
         - Sentinel Operators
+  lily-starter:
+    collaborators:
+      admin:
+        - birdychang
+        - kasteph
+    teams:
+      maintain:
+        - datasystems
+        - labbers
   lily:
     collaborators:
       admin:
         - frrist
         - hsanjuan
-        - iand
         - kasteph
-      maintain:
+      pull:
         - olizilla
       push:
-        - alanshaw
-        - placer14
+        - iand
+        - Terryhung
         - web3-bot
-        - willscott
-      triage:
-        - coryschwartz
     teams:
       admin:
         - Sentinel Admin
@@ -2825,13 +2830,14 @@ repositories:
         - BlocksOnAChain
         - DignifiedquireSyncBot
         - web3-bot
-      triage:
+      push:
         - porcuquine
     teams:
       pull:
         - ci
         - dev-misc
         - infra
+      push:
         - proofs
       triage:
         - research
@@ -3491,10 +3497,9 @@ repositories:
         - Isabellabcj
         - taaanbrown
       push:
-        - jesseclay
         - momack2
+        - SgtCoin
         - smagdali
-        - stan-pl
         - tbenbow
         - web3-bot
     teams:
@@ -4061,14 +4066,11 @@ teams:
         - cryptonemo
         - porcuquine
       member:
-        - dkkapur
         - DrPeterVanNostrand
         - emmorais
         - Kubuxu
         - nicola
         - nikkolasg
-        - shawnrader
-        - storojs72
         - vmx
   research:
     members:
@@ -4130,12 +4132,10 @@ teams:
         - hsanjuan
       member:
         - alanshaw
-        - davidgasquez
         - frrist
         - iand
         - kasteph
         - olizilla
-        - placer14
         - ribasushi
         - thattommyhall
         - willscott
