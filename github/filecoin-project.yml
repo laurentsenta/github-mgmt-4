@@ -301,8 +301,6 @@ repositories:
         - pyropy
         - warpfork
         - wyc
-      triage:
-        - ricmk
     teams:
       admin:
         - bacalhau-team
@@ -925,17 +923,18 @@ repositories:
     collaborators:
       admin:
         - BigLep
+        - momack2
         - parthshah1
       pull:
+        - AnomalRoil
         - aronchick
         - aschmahmann
         - DiegoRBaquero
         - jacobheun
+        - kasteph
         - lidel
         - marten-seemann
         - mxinden
-      push:
-        - kasteph
         - rvagg
     teams:
       push:
@@ -1111,37 +1110,18 @@ repositories:
         - andyschwab
         - cwaring
         - johnnymatthews
-        - ognots
         - raulk
-        - whyrusleeping
       maintain:
-        - dawnkelly09
-        - eshon
-        - hsanjuan
-        - longfeiWan9
-        - momack2
         - smagdali
-        - vnessasgrt
       push:
         - bobdubois
-        - ericronne
-        - Fatman13
-        - filecorgi
-        - nonsense
+        - ElPaisano
         - TMoMoreau
         - web3-bot
-        - zebateira
-      triage:
-        - dayou5168
-        - Kevin-PiKNiK
-        - walkerlj0
     teams:
-      maintain:
-        - product
       push:
         - advocates
         - Boost
-        - website
   filecoin-explorer-private:
     teams:
       admin:
@@ -1537,7 +1517,6 @@ repositories:
         - autonome
         - mroth
         - scotthconner
-        - web3risk-admin
     files:
       CODEOWNERS:
         content: |
@@ -2238,7 +2217,6 @@ repositories:
         - web3-bot
       triage:
         - geoff-vball
-        - walkerlj0
         - yusefnapora
     teams:
       push:
@@ -2275,6 +2253,7 @@ repositories:
     collaborators:
       admin:
         - ianconsolata
+        - pl-deploy-bot
       pull:
         - adlrocha
         - aronchick
@@ -2291,7 +2270,6 @@ repositories:
         - gammazero
         - MarcoPolo
         - masih
-        - pl-deploy-bot
         - rjan90
         - steve-fraser
         - thattommyhall
@@ -3071,8 +3049,6 @@ repositories:
         - jordattebayo
         - tarafanlin
         - web3-bot
-      triage:
-        - toastts
   snapcraft-exporter:
     collaborators:
       admin:
@@ -3430,6 +3406,8 @@ repositories:
     teams:
       admin:
         - collab-ipfs-force
+      maintain:
+        - Venus
       pull:
         - ci
         - tooling
@@ -3598,6 +3576,7 @@ teams:
         - dirkmc
         - gammazero
         - hannahhoward
+        - jacobheun
         - kylehuntsman
         - LexLuthr
         - nonsense
