@@ -189,6 +189,7 @@ members:
     - travisperson
     - trruckerfling
     - turuslan
+    - terryhung
     - vmx
     - vnessasgrt
     - vukolic
@@ -3671,6 +3672,7 @@ teams:
         - kasteph
       member:
         - birdychang
+        - terryhung
   datasystems:
     members:
       maintainer:
@@ -3843,6 +3845,7 @@ teams:
         - nonsense
         - olizilla
         - travisperson
+        - terryhung
   labbers:
     members:
       maintainer:
@@ -3924,6 +3927,7 @@ teams:
         - TorfinnOlsen
         - travisperson
         - trruckerfling
+        - terryhung
         - vmx
         - vvkio
         - warpfork
@@ -4104,6 +4108,7 @@ teams:
         - ognots
       member:
         - cmharden
+        - terryhung
   Sentinel:
     members:
       maintainer:
@@ -4118,6 +4123,7 @@ teams:
         - ribasushi
         - thattommyhall
         - willscott
+        - terryhung
   specs:
     members:
       maintainer:
