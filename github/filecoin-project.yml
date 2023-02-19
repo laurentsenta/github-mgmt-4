@@ -33,10 +33,12 @@ members:
     - androowoo
     - andyschwab
     - angiemaguire
+    - anshu93
     - aronchick
     - art-gor
     - aschmahmann
     - autonome
+    - aysmed
     - bajtos
     - birdychang
     - BlocksOnAChain
@@ -74,8 +76,10 @@ members:
     - eshon
     - expede
     - Fatman13
+    - figureouter
     - filecoin-ci
     - frank-ang
+    - fridrik01
     - frrist
     - gammazero
     - geoff-vball
@@ -85,6 +89,7 @@ members:
     - gruns
     - guanzo
     - guy-goren
+    - hammertoe
     - hannahhoward
     - honghaoq
     - hsanjuan
@@ -180,6 +185,7 @@ members:
     - steven004
     - storojs72
     - sudo-shashank
+    - terryhung
     - thattommyhall
     - TheDiscordian
     - TheDivic
@@ -189,7 +195,6 @@ members:
     - travisperson
     - trruckerfling
     - turuslan
-    - terryhung
     - vmx
     - vnessasgrt
     - vukolic
@@ -284,6 +289,7 @@ repositories:
         - DhashS
         - enricorotundo
         - fakela
+        - frrist
         - it09
         - lukemarsden
         - philwinder
@@ -300,6 +306,7 @@ repositories:
         - js-ts
         - olgibbons
         - pyropy
+        - rossjones
         - warpfork
         - wyc
     teams:
@@ -452,6 +459,7 @@ repositories:
   builtin-actors:
     collaborators:
       push:
+        - longfeiWan9
         - macro-ss
         - marco-storswift
         - tyshko5
@@ -927,15 +935,18 @@ repositories:
         - momack2
         - parthshah1
       pull:
+        - alain2sf
         - AnomalRoil
         - aronchick
         - aschmahmann
+        - cwaring
         - DiegoRBaquero
-        - jacobheun
         - kasteph
         - lidel
         - marten-seemann
         - mxinden
+      push:
+        - jacobheun
         - rvagg
     teams:
       push:
@@ -1261,6 +1272,7 @@ repositories:
         - TimWilliams00
         - Tom-OriginStorage
         - web3-bot
+        - xinaxu
         - xingjitansuo
         - XnMatrixSV
   filecoin-plus-large-datasets:
@@ -1317,7 +1329,7 @@ repositories:
         - web3-bot
   filet:
     teams:
-      maintain:
+      admin:
         - data
         - Sentinel
   FIPs:
@@ -1419,6 +1431,7 @@ repositories:
         - BlocksOnAChain
         - eshon
         - jimmylee
+        - longfeiWan9
     teams:
       push:
         - datasystems
@@ -2287,8 +2300,19 @@ repositories:
   Lotus-Miner-V2:
     collaborators:
       admin:
+        - jennijuju
         - rjan90
+      pull:
+        - brendalee
+        - davidd8
+        - dirkmc
+        - jacobheun
+        - masih
+        - momack2
+        - nonsense
       push:
+        - LaurenSpiegel
+        - magik6k
         - scotthconner
   lotus-priv:
     collaborators:
@@ -3123,6 +3147,7 @@ repositories:
   specs:
     collaborators:
       admin:
+        - cwaring
         - jimmylee
         - olizilla
         - yiannisbot
@@ -3130,6 +3155,7 @@ repositories:
         - nonsense
       push:
         - nikkolasg
+        - smagdali
         - sternhenri
         - web3-bot
     teams:
@@ -3399,6 +3425,7 @@ repositories:
         - "0x5459"
         - Fatman13
         - simlecode
+        - zhiqiangxu
       push:
         - Joss-Hua
         - LinZexiao
@@ -3787,6 +3814,7 @@ teams:
       member:
         - aakoshh
         - cryptonemo
+        - fridrik01
         - Kubuxu
         - maciejwitowski
         - magik6k
@@ -3813,6 +3841,7 @@ teams:
         - Stebalien
       member:
         - aashidham
+        - fridrik01
         - magik6k
         - trruckerfling
         - vyzo
@@ -3844,8 +3873,8 @@ teams:
         - kasteph
         - nonsense
         - olizilla
-        - travisperson
         - terryhung
+        - travisperson
   labbers:
     members:
       maintainer:
@@ -3867,8 +3896,10 @@ teams:
         - androowoo
         - andyschwab
         - angiemaguire
+        - anshu93
         - aschmahmann
         - autonome
+        - aysmed
         - bradholden
         - brendalee
         - cbrocoum
@@ -3880,11 +3911,14 @@ teams:
         - dnkolegov
         - emilymvaughan
         - eshon
+        - figureouter
+        - fridrik01
         - frrist
         - gammazero
         - gmasgras
         - gruns
         - guanzo
+        - hammertoe
         - hannahhoward
         - honghaoq
         - iand
@@ -3923,11 +3957,11 @@ teams:
         - sa8
         - scotthconner
         - Stefaan-V
+        - terryhung
         - thattommyhall
         - TorfinnOlsen
         - travisperson
         - trruckerfling
-        - terryhung
         - vmx
         - vvkio
         - warpfork
@@ -3956,9 +3990,14 @@ teams:
         - geoff-vball
         - hannahhoward
         - hsanjuan
+        - iand
+        - jacobheun
         - Kubuxu
+        - maciejwitowski
+        - masih
         - nonsense
         - rjan90
+        - rvagg
         - snissn
         - vyzo
         - ychiaoli18
@@ -4121,9 +4160,9 @@ teams:
         - kasteph
         - olizilla
         - ribasushi
+        - terryhung
         - thattommyhall
         - willscott
-        - terryhung
   specs:
     members:
       maintainer:
