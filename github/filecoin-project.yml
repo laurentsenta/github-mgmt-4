@@ -1432,6 +1432,7 @@ repositories:
         - eshon
         - jimmylee
         - longfeiWan9
+        - snissn
     teams:
       push:
         - datasystems
@@ -1874,6 +1875,10 @@ repositories:
     collaborators:
       push:
         - web3-bot
+  go-retrieval-types:
+    collaborators:
+      admin:
+        - hannahhoward
   go-sectorbuilder-rpc:
     collaborators:
       push:
@@ -2173,15 +2178,6 @@ repositories:
         - Sentinel Admin
       maintain:
         - Sentinel Operators
-  lily-starter:
-    collaborators:
-      admin:
-        - birdychang
-        - kasteph
-    teams:
-      maintain:
-        - datasystems
-        - labbers
   lily:
     collaborators:
       admin:
@@ -3240,6 +3236,15 @@ repositories:
       pull:
         - proofs
         - research
+  terraform-google-lily-starter:
+    collaborators:
+      admin:
+        - birdychang
+        - kasteph
+    teams:
+      maintain:
+        - datasystems
+        - labbers
   test-vectors:
     collaborators:
       admin:
