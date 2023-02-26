@@ -281,37 +281,6 @@ repositories:
     collaborators:
       admin:
         - LesnyRumcajs
-  bacalhau:
-    collaborators:
-      admin:
-        - aronchick
-        - binocarlos
-        - DhashS
-        - enricorotundo
-        - fakela
-        - frrist
-        - it09
-        - lukemarsden
-        - philwinder
-        - porcuquine
-        - raulk
-        - simonwo
-        - wdbaruni
-        - wesfloyd
-        - whyrusleeping
-      maintain:
-        - DeveloperAlly
-        - wjam
-      push:
-        - js-ts
-        - olgibbons
-        - pyropy
-        - rossjones
-        - warpfork
-        - wyc
-    teams:
-      admin:
-        - bacalhau-team
   batching-snarks:
     collaborators:
       admin:
@@ -2210,6 +2179,7 @@ repositories:
       pull:
         - vvkio
       push:
+        - schreck23
         - web3-bot
     teams:
       pull:
@@ -2268,6 +2238,7 @@ repositories:
         - adlrocha
         - aronchick
         - autonome
+        - cewood
         - eshon
         - jimmylee
         - jsoares
@@ -2280,6 +2251,7 @@ repositories:
         - gammazero
         - MarcoPolo
         - masih
+        - ns4plabs
         - rjan90
         - steve-fraser
         - thattommyhall
@@ -2877,9 +2849,10 @@ repositories:
       pull:
         - web3-bot
     teams:
+      maintain:
+        - proofs
       pull:
         - ci
-        - proofs
   rust-gpu-tools:
     collaborators:
       admin:
@@ -3657,8 +3630,6 @@ teams:
         - dnkolegov
         - guy-goren
         - matejpavlovic
-        - sa8
-        - sergefdrv
   cpp-filecoin-team:
     members:
       member:
@@ -3991,6 +3962,7 @@ teams:
         - whyrusleeping
       member:
         - dirkmc
+        - fridrik01
         - frrist
         - geoff-vball
         - hannahhoward
