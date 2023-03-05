@@ -389,6 +389,7 @@ repositories:
         - rvagg
       push:
         - kylehuntsman
+        - shrenujbansal
         - vyzo
     teams:
       push:
@@ -415,6 +416,7 @@ repositories:
   builtin-actor-priv:
     collaborators:
       push:
+        - Kubuxu
         - momack2
     teams:
       push:
@@ -428,6 +430,7 @@ repositories:
   builtin-actors:
     collaborators:
       push:
+        - alexytsu
         - longfeiWan9
         - macro-ss
         - marco-storswift
@@ -897,6 +900,9 @@ repositories:
         - ZakAyesh
       maintain:
         - ychiaoli18
+    teams:
+      push:
+        - lotus-maintainers
   ff-bounties:
     collaborators:
       admin:
@@ -1662,6 +1668,8 @@ repositories:
         - dirkmc
         - hannahhoward
         - mishmosh
+      maintain:
+        - marten-seemann
       push:
         - dkkapur
         - web3-bot
@@ -2098,6 +2106,19 @@ repositories:
         - cwaring
         - ericronne
         - tbenbow
+  lassie-event-recorder:
+    collaborators:
+      admin:
+        - hannahhoward
+        - kylehuntsman
+        - masih
+        - rvagg
+        - willscott
+      push:
+        - web3-bot
+    teams:
+      push:
+        - bedrock-go
   lassie:
     collaborators:
       admin:
@@ -3085,6 +3106,8 @@ repositories:
         - brendalee
         - honghaoq
         - Stefaan-V
+      triage:
+        - ChrisGarciaPL
   specs-actors:
     collaborators:
       pull:
@@ -3403,6 +3426,7 @@ repositories:
         - "0x5459"
         - Fatman13
         - simlecode
+        - YiRuiLiher
         - zhiqiangxu
       push:
         - Joss-Hua
@@ -3976,6 +4000,7 @@ teams:
         - rjan90
         - rvagg
         - snissn
+        - Terryhung
         - vyzo
         - ychiaoli18
   lotus-infra-core:
