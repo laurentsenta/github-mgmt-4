@@ -29,11 +29,13 @@ members:
     - alanshaw
     - alexandrumatei36
     - Alexey-N-Chernyshov
+    - alimbuyuguen
     - AmeanAsad
     - androowoo
     - andyschwab
     - angiemaguire
     - anshu93
+    - APiligrim
     - aronchick
     - art-gor
     - aschmahmann
@@ -69,6 +71,7 @@ members:
     - DrPeterVanNostrand
     - ec2
     - elmattic
+    - ElPaisano
     - emilymvaughan
     - emmorais
     - ericronne
@@ -150,6 +153,7 @@ members:
     - ninitrava
     - nonsense
     - noot
+    - ns4plabs
     - olizilla
     - ortyomka
     - parthshah1
@@ -175,7 +179,6 @@ members:
     - sergefdrv
     - sergkaprovich
     - SgtCoin
-    - shawnrader
     - sheriflouis-FF
     - shrenujbansal
     - smooth-operator
@@ -662,6 +665,12 @@ repositories:
         - bedrock-go
         - datasystems
         - lotus-contributors
+  data-prep-tools:
+    collaborators:
+      admin:
+        - willscott
+      maintain:
+        - anjor
   data-transfer-benchmark:
     collaborators:
       admin:
@@ -918,10 +927,10 @@ repositories:
         - DiegoRBaquero
         - kasteph
         - lidel
-        - marten-seemann
         - mxinden
       push:
         - jacobheun
+        - marten-seemann
         - rvagg
     teams:
       push:
@@ -985,6 +994,10 @@ repositories:
     teams:
       push:
         - proofs
+  fil-sppark:
+    collaborators:
+      admin:
+        - vmx
   filcryo:
     collaborators:
       admin:
@@ -1099,16 +1112,19 @@ repositories:
         - johnnymatthews
         - raulk
       maintain:
+        - ElPaisano
         - smagdali
       push:
         - bobdubois
-        - ElPaisano
         - TMoMoreau
         - web3-bot
+        - xBalbinus
     teams:
       push:
         - advocates
         - Boost
+        - datasystems
+        - labbers
   filecoin-explorer-private:
     teams:
       admin:
@@ -1404,6 +1420,7 @@ repositories:
     collaborators:
       push:
         - BlocksOnAChain
+        - cwaring
         - eshon
         - jimmylee
         - longfeiWan9
@@ -1424,10 +1441,8 @@ repositories:
         - cwaring
         - honghaoq
         - raulk
-      maintain:
-        - tbenbow
     teams:
-      maintain:
+      push:
         - FVM Web
   fvm-specs:
     collaborators:
@@ -1439,6 +1454,20 @@ repositories:
       push:
         - fvm-core-devs
         - fvm-team
+  fvm-starter-kit-deal-making:
+    collaborators:
+      admin:
+        - aashidham
+      push:
+        - snissn
+        - xBalbinus
+    teams:
+      maintain:
+        - fvm-core-devs
+        - fvm-team
+        - lotus-maintainers
+      push:
+        - docs-writers
   fvm-test-vectors:
     teams:
       push:
@@ -1468,12 +1497,11 @@ repositories:
         - johnnymatthews
         - momack2
         - patrickwoodhead
-        - suzannaaltman
-        - tbenbow
         - trruckerfling
     teams:
       push:
         - datasystems
+        - FVM Web
         - labbers
   geodns-server:
     collaborators:
@@ -1705,6 +1733,8 @@ repositories:
     collaborators:
       admin:
         - ribasushi
+      maintain:
+        - anjor
       push:
         - web3-bot
   go-fil-filestore:
@@ -2254,6 +2284,7 @@ repositories:
     collaborators:
       admin:
         - ianconsolata
+        - ns4plabs
         - pl-deploy-bot
       pull:
         - adlrocha
@@ -2272,7 +2303,6 @@ repositories:
         - gammazero
         - MarcoPolo
         - masih
-        - ns4plabs
         - rjan90
         - steve-fraser
         - thattommyhall
@@ -2308,6 +2338,13 @@ repositories:
       admin:
         - arajasek
         - jennijuju
+      maintain:
+        - ychiaoli18
+      push:
+        - Kubuxu
+    teams:
+      push:
+        - lotus-maintainers
   lotus-testground:
     collaborators:
       admin:
@@ -2757,6 +2794,10 @@ repositories:
     teams:
       pull:
         - Retrieval Market Builders
+  rhea-load-testing:
+    collaborators:
+      admin:
+        - hannahhoward
   rust-cad-cad:
     collaborators:
       maintain:
@@ -3742,6 +3783,8 @@ teams:
     members:
       maintainer:
         - johnnymatthews
+      member:
+        - ElPaisano
   fips-contributors:
     members:
       maintainer:
@@ -3842,9 +3885,12 @@ teams:
       member:
         - aashidham
         - fridrik01
+        - hammertoe
+        - honghaoq
         - magik6k
         - trruckerfling
         - vyzo
+        - ZakAyesh
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
@@ -3872,6 +3918,7 @@ teams:
         - iand
         - kasteph
         - nonsense
+        - ns4plabs
         - olizilla
         - terryhung
         - travisperson
@@ -3892,11 +3939,13 @@ teams:
         - aashidham
         - akrych
         - alanshaw
+        - alimbuyuguen
         - AmeanAsad
         - androowoo
         - andyschwab
         - angiemaguire
         - anshu93
+        - APiligrim
         - aschmahmann
         - autonome
         - aysmed
@@ -3909,6 +3958,7 @@ teams:
         - dirkmc
         - dkkapur
         - dnkolegov
+        - ElPaisano
         - emilymvaughan
         - eshon
         - figureouter
@@ -3995,6 +4045,7 @@ teams:
         - jacobheun
         - Kubuxu
         - maciejwitowski
+        - marten-seemann
         - masih
         - nonsense
         - rjan90
@@ -4009,6 +4060,7 @@ teams:
         - ognots
       member:
         - GlacierWalrus
+        - ns4plabs
   lotus-maintainers:
     members:
       maintainer:
