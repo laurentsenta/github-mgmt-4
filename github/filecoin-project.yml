@@ -532,9 +532,9 @@ repositories:
         - pk-controller
         - ychiaoli18
       push:
-        - EvgenyNasretdinov
         - koteld
         - openworklabbot
+        - plcgi1
         - web3-bot
   communications:
     collaborators:
@@ -668,9 +668,8 @@ repositories:
   data-prep-tools:
     collaborators:
       admin:
-        - willscott
-      maintain:
         - anjor
+        - willscott
   data-transfer-benchmark:
     collaborators:
       admin:
@@ -1116,7 +1115,6 @@ repositories:
         - smagdali
       push:
         - bobdubois
-        - TMoMoreau
         - web3-bot
         - xBalbinus
     teams:
@@ -1318,6 +1316,10 @@ repositories:
     collaborators:
       push:
         - web3-bot
+  filecoinverymagic:
+    collaborators:
+      admin:
+        - hammertoe
   filet:
     teams:
       admin:
@@ -1488,6 +1490,7 @@ repositories:
     collaborators:
       admin:
         - cwaring
+        - mishmosh
         - raulk
       push:
         - aronchick
@@ -2149,6 +2152,10 @@ repositories:
     teams:
       push:
         - bedrock-go
+  lassie-k6:
+    collaborators:
+      admin:
+        - hannahhoward
   lassie:
     collaborators:
       admin:
@@ -2454,6 +2461,8 @@ repositories:
     collaborators:
       admin:
         - porcuquine
+      maintain:
+        - huitseeker
       push:
         - web3-bot
     teams:
@@ -2727,7 +2736,11 @@ repositories:
       push:
         - cryptoeconomics
         - product-biz
-  research-private: {}
+  research-private:
+    collaborators:
+      admin:
+        - anorth
+        - nicola
   research-retreats:
     collaborators:
       push:
@@ -3125,6 +3138,10 @@ repositories:
         - ci
       push:
         - dev-misc
+  solidity-data-segment:
+    collaborators:
+      admin:
+        - ychiaoli18
   sp-infographic:
     collaborators:
       admin:
@@ -3470,6 +3487,7 @@ repositories:
         - YiRuiLiher
         - zhiqiangxu
       push:
+        - elvin-du
         - Joss-Hua
         - LinZexiao
         - StefanGajic
@@ -4039,6 +4057,7 @@ teams:
         - fridrik01
         - frrist
         - geoff-vball
+        - GlacierWalrus
         - hannahhoward
         - hsanjuan
         - iand
