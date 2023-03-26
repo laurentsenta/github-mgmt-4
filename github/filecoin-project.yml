@@ -57,6 +57,7 @@ members:
     - cryptoAtwill
     - cryptonemo
     - cwaring
+    - damedoteth
     - davidad
     - davidd8
     - davidgasquez
@@ -198,6 +199,7 @@ members:
     - travisperson
     - trruckerfling
     - turuslan
+    - vesahc
     - vmx
     - vnessasgrt
     - vukolic
@@ -373,6 +375,14 @@ repositories:
       maintain:
         - brendalee
         - hannahhoward
+  boost-gfm:
+    collaborators:
+      admin:
+        - dirkmc
+  boost-graphsync:
+    collaborators:
+      admin:
+        - dirkmc
   boost:
     collaborators:
       admin:
@@ -389,6 +399,7 @@ repositories:
         - davidd8
         - LaurenSpiegel
         - LexLuthr
+        - magik6k
         - rvagg
       push:
         - kylehuntsman
@@ -1364,15 +1375,6 @@ repositories:
         - proofs
       push:
         - lotus-contributors
-  fut-ff:
-    collaborators:
-      admin:
-        - porcuquine
-      push:
-        - web3-bot
-    teams:
-      push:
-        - proofs
   Fuzzing-FVM:
     collaborators:
       admin:
@@ -2147,6 +2149,8 @@ repositories:
         - masih
         - rvagg
         - willscott
+      maintain:
+        - davidd8
       push:
         - web3-bot
     teams:
@@ -2184,6 +2188,14 @@ repositories:
         - porcuquine
       push:
         - web3-bot
+  lid-benchmarks:
+    collaborators:
+      admin:
+        - magik6k
+        - nonsense
+    teams:
+      admin:
+        - Boost
   lightning-planning:
     collaborators:
       admin:
@@ -2448,26 +2460,6 @@ repositories:
     collaborators:
       admin:
         - mriise
-  neptune-triton:
-    collaborators:
-      admin:
-        - porcuquine
-      push:
-        - web3-bot
-    teams:
-      push:
-        - proofs
-  neptune:
-    collaborators:
-      admin:
-        - porcuquine
-      maintain:
-        - huitseeker
-      push:
-        - web3-bot
-    teams:
-      push:
-        - proofs
   network-info:
     collaborators:
       admin:
@@ -2741,6 +2733,9 @@ repositories:
       admin:
         - anorth
         - nicola
+      push:
+        - irenegia
+        - lucaniz
   research-retreats:
     collaborators:
       push:
@@ -3342,6 +3337,10 @@ repositories:
         - jnthnvctr
       push:
         - web3-bot
+  TODOnotes:
+    collaborators:
+      admin:
+        - SgtCoin
   token-distribution-procedures:
     collaborators:
       admin:
@@ -3571,11 +3570,11 @@ repositories:
         - web3-bot
     teams:
       push:
+        - datasystems
+        - labbers
         - website
       triage:
-        - datasystems
         - infra
-        - labbers
         - product-biz
         - research
   website-security.filecoin.io:
@@ -3971,6 +3970,7 @@ teams:
         - brendalee
         - cbrocoum
         - cryptonemo
+        - damedoteth
         - davidd8
         - DiegoRBaquero
         - dirkmc
@@ -4030,6 +4030,7 @@ teams:
         - TorfinnOlsen
         - travisperson
         - trruckerfling
+        - vesahc
         - vmx
         - vvkio
         - warpfork
@@ -4320,3 +4321,4 @@ teams:
         - jnthnvctr
         - momack2
         - nicola
+        - vesahc
