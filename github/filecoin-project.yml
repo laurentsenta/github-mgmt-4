@@ -50,6 +50,7 @@ members:
     - BulatSaif
     - carolynjlee
     - cbrocoum
+    - ClarePinkert
     - cmharden
     - connormullett
     - coryschwartz
@@ -148,6 +149,7 @@ members:
     - Mingela
     - miyazono
     - momack2
+    - monicaortel
     - mriise
     - nicola
     - nikkolasg
@@ -208,6 +210,7 @@ members:
     - warpfork
     - wdbaruni
     - web3-bot
+    - web3risk
     - wheresaddie
     - willscott
     - xmcai2016
@@ -564,8 +567,8 @@ repositories:
         - jennijuju
       maintain:
         - ksaynice
+        - maxvint
         - NewMai
-        - yuwenhui
       push:
         - web3-bot
   community:
@@ -913,6 +916,12 @@ repositories:
     teams:
       push:
         - fvm-core-devs
+  fevm-foundry-kit:
+    collaborators:
+      admin:
+        - ZakAyesh
+      push:
+        - xBalbinus
   fevm-hardhat-kit:
     collaborators:
       admin:
@@ -1462,6 +1471,8 @@ repositories:
     collaborators:
       admin:
         - aashidham
+        - truckerfling
+        - ZakAyesh
       push:
         - snissn
         - xBalbinus
@@ -2154,7 +2165,7 @@ repositories:
       push:
         - web3-bot
     teams:
-      push:
+      maintain:
         - bedrock-go
   lassie-k6:
     collaborators:
@@ -2165,6 +2176,7 @@ repositories:
       admin:
         - hannahhoward
       maintain:
+        - davidd8
         - web3-bot
     teams:
       maintain:
@@ -2193,6 +2205,8 @@ repositories:
       admin:
         - magik6k
         - nonsense
+      push:
+        - rjan90
     teams:
       admin:
         - Boost
@@ -2527,6 +2541,8 @@ repositories:
       push:
         - web3-bot
     teams:
+      admin:
+        - CERT
       pull:
         - datasystems
         - labbers
@@ -3563,10 +3579,12 @@ repositories:
         - Isabellabcj
         - taaanbrown
       push:
+        - damedoteth
         - momack2
         - SgtCoin
         - smagdali
         - tbenbow
+        - ValenCarrizo
         - web3-bot
     teams:
       push:
@@ -3661,6 +3679,7 @@ teams:
         - willscott
       member:
         - aarshkshah1992
+        - davidd8
         - dirkmc
         - gammazero
         - hannahhoward
@@ -3687,6 +3706,14 @@ teams:
         - nonsense
       member:
         - ischasny
+  CERT:
+    members:
+      maintainer:
+        - mastrwayne-admin
+      member:
+        - ClarePinkert
+        - monicaortel
+        - web3risk
   ci:
     members:
       member:
