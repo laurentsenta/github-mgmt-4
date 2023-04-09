@@ -50,7 +50,6 @@ members:
     - BulatSaif
     - carolynjlee
     - cbrocoum
-    - ClarePinkert
     - cmharden
     - connormullett
     - coryschwartz
@@ -184,6 +183,7 @@ members:
     - SgtCoin
     - sheriflouis-FF
     - shrenujbansal
+    - smagdali
     - smooth-operator
     - snissn
     - Stefaan-V
@@ -210,7 +210,6 @@ members:
     - warpfork
     - wdbaruni
     - web3-bot
-    - web3risk
     - wheresaddie
     - willscott
     - xmcai2016
@@ -757,15 +756,15 @@ repositories:
   devgrants:
     collaborators:
       admin:
-        - realChainLife
-      maintain:
         - ErinOCon
+        - realChainLife
+        - smagdali
+      maintain:
         - eshon
         - figureouter
         - philippbanhardt
       push:
         - BlocksOnAChain
-        - duckie-han
         - pap1ll0n
         - SeedingTrees
         - web3-bot
@@ -1123,26 +1122,30 @@ repositories:
         - ribasushi
       push:
         - web3-bot
+  filecoin-docs-CAT:
+    collaborators:
+      admin:
+        - SgtCoin
   filecoin-docs:
     collaborators:
       admin:
         - andyschwab
         - cwaring
-        - johnnymatthews
         - raulk
-      maintain:
-        - ElPaisano
-        - smagdali
       push:
+        - Angelo-gh3990
         - bobdubois
+        - ivanka
         - web3-bot
-        - xBalbinus
     teams:
+      admin:
+        - docs-admins
+      maintain:
+        - docs-writers
       push:
         - advocates
         - Boost
-        - datasystems
-        - labbers
+        - docs-storage-provider
   filecoin-explorer-private:
     teams:
       admin:
@@ -1431,15 +1434,16 @@ repositories:
         - ZakAyesh
   fvm-pm:
     collaborators:
-      push:
+      admin:
+        - lksbrssr
+      maintain:
         - BlocksOnAChain
         - cwaring
         - eshon
-        - jimmylee
         - longfeiWan9
         - snissn
     teams:
-      push:
+      maintain:
         - datasystems
         - fvm-core-devs
         - labbers
@@ -1471,7 +1475,6 @@ repositories:
     collaborators:
       admin:
         - aashidham
-        - truckerfling
         - ZakAyesh
       push:
         - snissn
@@ -2371,8 +2374,6 @@ repositories:
       admin:
         - arajasek
         - jennijuju
-      maintain:
-        - ychiaoli18
       push:
         - Kubuxu
     teams:
@@ -3213,6 +3214,7 @@ repositories:
         - olizilla
         - yiannisbot
       maintain:
+        - ianconsolata
         - nonsense
       push:
         - nikkolasg
@@ -3574,7 +3576,6 @@ repositories:
       admin:
         - andyschwab
         - cwaring
-        - jennijuju
       pull:
         - Isabellabcj
         - taaanbrown
@@ -3584,7 +3585,6 @@ repositories:
         - SgtCoin
         - smagdali
         - tbenbow
-        - ValenCarrizo
         - web3-bot
     teams:
       push:
@@ -3711,9 +3711,7 @@ teams:
       maintainer:
         - mastrwayne-admin
       member:
-        - ClarePinkert
         - monicaortel
-        - web3risk
   ci:
     members:
       member:
@@ -3823,6 +3821,13 @@ teams:
     members:
       maintainer:
         - johnnymatthews
+  docs-storage-provider:
+    members:
+      maintainer:
+        - johnnymatthews
+      member:
+        - SgtCoin
+        - smagdali
   docs-writers:
     members:
       maintainer:
@@ -3878,6 +3883,7 @@ teams:
         - realChainLife
       member:
         - SeedingTrees
+        - smagdali
         - vnessasgrt
   FVM Web:
     members:
@@ -4117,7 +4123,6 @@ teams:
       member:
         - magik6k
         - shrenujbansal
-        - travisperson
         - ZenGround0
   Lotus-TSE:
     members:
@@ -4305,6 +4310,10 @@ teams:
         - frrist
         - jnthnvctr
         - travisperson
+  UXimprovement team:
+    members:
+      maintainer:
+        - smagdali
   Venus:
     members:
       maintainer:
