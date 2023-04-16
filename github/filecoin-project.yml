@@ -1126,15 +1126,19 @@ repositories:
     collaborators:
       admin:
         - SgtCoin
+  filecoin-docs-stefnotes:
+    collaborators:
+      admin:
+        - SgtCoin
   filecoin-docs:
     collaborators:
       admin:
         - andyschwab
         - cwaring
         - raulk
-      push:
-        - Angelo-gh3990
+      maintain:
         - bobdubois
+      push:
         - ivanka
         - web3-bot
     teams:
@@ -1182,6 +1186,10 @@ repositories:
         - lotus-maintainers
       maintain:
         - proofs
+  filecoin-fvm-localnet:
+    collaborators:
+      push:
+        - hammertoe
   filecoin-http-api:
     collaborators:
       push:
@@ -1234,16 +1242,17 @@ repositories:
         - dkkapur
         - galen-mcandrew
         - Kevin-FF-USA
+        - simonkim0515
       maintain:
         - fabriziogianni7
         - huseyincansoylu
         - ialberquilla
         - panges2
         - raghavrmadya
-        - simonkim0515
       push:
         - aaitor
         - dannyob
+        - data-programs
         - filecoin-plus-bot
       triage:
         - 1475Notary
@@ -1295,16 +1304,18 @@ repositories:
         - galen-mcandrew
         - Kevin-FF-USA
         - raghavrmadya
+        - simonkim0515
       maintain:
         - huseyincansoylu
         - kevzak
         - nicole-code
         - orvn
         - panges2
-        - simonkim0515
         - timelytree
       pull:
         - smooth-operator
+      push:
+        - data-programs
       triage:
         - Sunnyiscoming
   filecoin-plus-leaderboard-data:
@@ -2375,7 +2386,9 @@ repositories:
         - arajasek
         - jennijuju
       push:
+        - adlrocha
         - Kubuxu
+        - pl-kevin
     teams:
       push:
         - lotus-maintainers
@@ -3393,6 +3406,7 @@ repositories:
     collaborators:
       admin:
         - diwufeiwen
+        - elvin-du
         - hunjixin
       maintain:
         - Fatman13
@@ -3410,6 +3424,7 @@ repositories:
       admin:
         - arajasek
         - diwufeiwen
+        - elvin-du
         - eshon
         - filecoin-helper
         - hunjixin
@@ -3428,6 +3443,7 @@ repositories:
   venus-market:
     collaborators:
       admin:
+        - elvin-du
         - hunjixin
       maintain:
         - Fatman13
@@ -3442,6 +3458,7 @@ repositories:
   venus-messager:
     collaborators:
       admin:
+        - elvin-du
         - hunjixin
       maintain:
         - diwufeiwen
@@ -3456,6 +3473,7 @@ repositories:
       admin:
         - arajasek
         - diwufeiwen
+        - elvin-du
         - hunjixin
         - steven004
       maintain:
@@ -3463,7 +3481,6 @@ repositories:
         - simlecode
       push:
         - LinZexiao
-        - ShuaoZhang
         - web3-bot
   venus-sealer:
     collaborators:
@@ -3483,6 +3500,7 @@ repositories:
     collaborators:
       admin:
         - diwufeiwen
+        - elvin-du
         - hunjixin
         - simlecode
       maintain:
