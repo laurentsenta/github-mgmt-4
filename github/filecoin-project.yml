@@ -18,6 +18,7 @@ members:
     - protocolin
     - raulk
     - Stebalien
+    - vesahc
     - whyrusleeping
   member:
     - aakoshh
@@ -39,6 +40,7 @@ members:
     - aronchick
     - art-gor
     - aschmahmann
+    - ashwanth-eth
     - autonome
     - aysmed
     - bajtos
@@ -201,7 +203,6 @@ members:
     - travisperson
     - trruckerfling
     - turuslan
-    - vesahc
     - vmx
     - vnessasgrt
     - vukolic
@@ -915,6 +916,10 @@ repositories:
     teams:
       push:
         - fvm-core-devs
+  fevm-data-dao-kit:
+    collaborators:
+      admin:
+        - ZakAyesh
   fevm-foundry-kit:
     collaborators:
       admin:
@@ -924,6 +929,7 @@ repositories:
   fevm-hardhat-kit:
     collaborators:
       admin:
+        - hammertoe
         - ZakAyesh
       maintain:
         - ychiaoli18
@@ -1136,9 +1142,9 @@ repositories:
         - andyschwab
         - cwaring
         - raulk
-      maintain:
-        - bobdubois
       push:
+        - Angelo-gh3990
+        - bobdubois
         - ivanka
         - web3-bot
     teams:
@@ -1252,8 +1258,8 @@ repositories:
       push:
         - aaitor
         - dannyob
-        - data-programs
         - filecoin-plus-bot
+        - orvn
       triage:
         - 1475Notary
         - 1ane-1
@@ -1262,6 +1268,7 @@ repositories:
         - bmcnabb25
         - cryptowhizzard
         - DarnellWashington
+        - destor2023
         - Fatman13
         - Fenbushi-Filecoin
         - fireflyHZ
@@ -1283,12 +1290,10 @@ repositories:
         - neogeweb3
         - newwebgroup
         - nicole-code
-        - orvn
         - PluskitOfficial
         - rayshitou
         - s0nik42
         - steven004
-        - swatchliu
         - timelytree
         - TimWilliams00
         - Tom-OriginStorage
@@ -1314,8 +1319,6 @@ repositories:
         - timelytree
       pull:
         - smooth-operator
-      push:
-        - data-programs
       triage:
         - Sunnyiscoming
   filecoin-plus-leaderboard-data:
@@ -1346,6 +1349,30 @@ repositories:
     teams:
       pull:
         - website
+  filecoin.io:
+    collaborators:
+      admin:
+        - andyschwab
+        - cwaring
+      pull:
+        - Isabellabcj
+        - taaanbrown
+      push:
+        - damedoteth
+        - momack2
+        - SgtCoin
+        - smagdali
+        - tbenbow
+        - web3-bot
+    teams:
+      push:
+        - datasystems
+        - labbers
+        - website
+      triage:
+        - infra
+        - product-biz
+        - research
   filecoin:
     collaborators:
       push:
@@ -1359,6 +1386,10 @@ repositories:
       admin:
         - data
         - Sentinel
+  FIPs-1:
+    collaborators:
+      admin:
+        - jenks-guo-filecoin
   FIPs:
     collaborators:
       admin:
@@ -2387,6 +2418,7 @@ repositories:
         - jennijuju
       push:
         - adlrocha
+        - guy-goren
         - Kubuxu
         - pl-kevin
     teams:
@@ -2583,6 +2615,10 @@ repositories:
         - dev-misc
         - research
   parity-wasm: {}
+  pc2_cuda:
+    collaborators:
+      admin:
+        - vmx
   PebblingAndDepthReductionAttacks:
     collaborators:
       push:
@@ -3189,8 +3225,6 @@ repositories:
         - brendalee
         - honghaoq
         - Stefaan-V
-      triage:
-        - ChrisGarciaPL
   specs-actors:
     collaborators:
       pull:
@@ -3589,30 +3623,6 @@ repositories:
     teams:
       admin:
         - website
-  website-new:
-    collaborators:
-      admin:
-        - andyschwab
-        - cwaring
-      pull:
-        - Isabellabcj
-        - taaanbrown
-      push:
-        - damedoteth
-        - momack2
-        - SgtCoin
-        - smagdali
-        - tbenbow
-        - web3-bot
-    teams:
-      push:
-        - datasystems
-        - labbers
-        - website
-      triage:
-        - infra
-        - product-biz
-        - research
   website-security.filecoin.io:
     collaborators:
       admin:
@@ -3839,6 +3849,8 @@ teams:
     members:
       maintainer:
         - johnnymatthews
+      member:
+        - ElPaisano
   docs-storage-provider:
     members:
       maintainer:
@@ -4002,6 +4014,7 @@ teams:
         - protocolin
         - raulk
         - Stebalien
+        - vesahc
         - whyrusleeping
       member:
         - aashidham
@@ -4015,6 +4028,7 @@ teams:
         - anshu93
         - APiligrim
         - aschmahmann
+        - ashwanth-eth
         - autonome
         - aysmed
         - bradholden
@@ -4081,7 +4095,6 @@ teams:
         - TorfinnOlsen
         - travisperson
         - trruckerfling
-        - vesahc
         - vmx
         - vvkio
         - warpfork
@@ -4124,6 +4137,7 @@ teams:
         - snissn
         - Terryhung
         - vyzo
+        - willscott
         - ychiaoli18
   lotus-infra-core:
     members:
@@ -4364,6 +4378,7 @@ teams:
         - filecoin-helper
         - jesseclay
         - mishmosh
+        - vesahc
       member:
         - andyschwab
         - angiemaguire
@@ -4375,4 +4390,3 @@ teams:
         - jnthnvctr
         - momack2
         - nicola
-        - vesahc
