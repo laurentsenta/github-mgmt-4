@@ -1194,7 +1194,7 @@ repositories:
         - proofs
   filecoin-fvm-localnet:
     collaborators:
-      push:
+      admin:
         - hammertoe
   filecoin-http-api:
     collaborators:
