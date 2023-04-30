@@ -72,6 +72,7 @@ members:
     - dnkolegov
     - doctorrobinson
     - DrPeterVanNostrand
+    - duckie-han
     - ec2
     - elmattic
     - ElPaisano
@@ -225,6 +226,8 @@ members:
 repositories:
   actors-private:
     collaborators:
+      admin:
+        - ZenGround0
       maintain:
         - momack2
     teams:
@@ -378,6 +381,9 @@ repositories:
       maintain:
         - brendalee
         - hannahhoward
+    teams:
+      maintain:
+        - Boost
   boost-gfm:
     collaborators:
       admin:
@@ -432,10 +438,16 @@ repositories:
         - web3-bot
   builtin-actor-priv:
     collaborators:
+      admin:
+        - ZenGround0
+      pull:
+        - snissn
       push:
         - Kubuxu
         - momack2
     teams:
+      pull:
+        - lotus-maintainers
       push:
         - actors-maintainers
   builtin-actors-bundler:
@@ -1026,6 +1038,10 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
+    teams:
+      admin:
+        - data
+        - Sentinel
   filecoin-actor-utils:
     collaborators:
       admin:
@@ -1258,6 +1274,7 @@ repositories:
       push:
         - aaitor
         - dannyob
+        - data-programs
         - filecoin-plus-bot
         - orvn
       triage:
@@ -1319,6 +1336,8 @@ repositories:
         - timelytree
       pull:
         - smooth-operator
+      push:
+        - data-programs
       triage:
         - Sunnyiscoming
   filecoin-plus-leaderboard-data:
@@ -1478,12 +1497,16 @@ repositories:
     collaborators:
       admin:
         - lksbrssr
+        - trruckerfling
       maintain:
         - BlocksOnAChain
         - cwaring
         - eshon
         - longfeiWan9
         - snissn
+      push:
+        - dawnkelly09
+        - robertagora
     teams:
       maintain:
         - datasystems
@@ -2373,6 +2396,7 @@ repositories:
         - jimmylee
         - jsoares
         - liviudm
+        - maciejwitowski
         - mcamou
         - momack2
         - yiannisbot
@@ -3684,6 +3708,8 @@ teams:
         - raulk
         - Stebalien
         - ZenGround0
+      member:
+        - scotthconner
   advocates:
     members:
       maintainer:
@@ -4041,6 +4067,7 @@ teams:
         - dirkmc
         - dkkapur
         - dnkolegov
+        - duckie-han
         - ElPaisano
         - emilymvaughan
         - eshon
@@ -4299,7 +4326,6 @@ teams:
         - olizilla
         - ribasushi
         - terryhung
-        - thattommyhall
         - willscott
   specs:
     members:
