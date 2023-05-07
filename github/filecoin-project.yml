@@ -188,6 +188,7 @@ members:
     - shrenujbansal
     - smagdali
     - smooth-operator
+    - snadrus
     - snissn
     - Stefaan-V
     - steve-fraser
@@ -388,10 +389,19 @@ repositories:
     collaborators:
       admin:
         - dirkmc
+        - jacobheun
+        - LexLuthr
+        - nonsense
+    teams:
+      admin:
+        - Boost
   boost-graphsync:
     collaborators:
       admin:
         - dirkmc
+    teams:
+      admin:
+        - Boost
   boost:
     collaborators:
       admin:
@@ -440,6 +450,8 @@ repositories:
     collaborators:
       admin:
         - ZenGround0
+      maintain:
+        - LaurenSpiegel
       pull:
         - snissn
       push:
@@ -562,6 +574,10 @@ repositories:
         - openworklabbot
         - plcgi1
         - web3-bot
+  cod-starter-kit:
+    collaborators:
+      admin:
+        - ZakAyesh
   communications:
     collaborators:
       push:
@@ -769,6 +785,7 @@ repositories:
   devgrants:
     collaborators:
       admin:
+        - BlocksOnAChain
         - ErinOCon
         - realChainLife
         - smagdali
@@ -777,7 +794,6 @@ repositories:
         - figureouter
         - philippbanhardt
       push:
-        - BlocksOnAChain
         - pap1ll0n
         - SeedingTrees
         - web3-bot
@@ -1307,6 +1323,7 @@ repositories:
         - neogeweb3
         - newwebgroup
         - nicole-code
+        - NiwanDao
         - PluskitOfficial
         - rayshitou
         - s0nik42
@@ -1316,7 +1333,6 @@ repositories:
         - Tom-OriginStorage
         - web3-bot
         - xinaxu
-        - xingjitansuo
         - XnMatrixSV
   filecoin-plus-large-datasets:
     collaborators:
@@ -2345,6 +2361,7 @@ repositories:
         - jennijuju
         - johnnymatthews
       push:
+        - snadrus
         - TMoMoreau
         - web3-bot
       triage:
@@ -3716,10 +3733,13 @@ teams:
         - mishmosh
       member:
         - dawnkelly09
+        - hammertoe
         - jenks-guo-filecoin
         - lksbrssr
         - longfeiWan9
         - TheDiscordian
+        - trruckerfling
+        - ZakAyesh
   Alumni:
     create_default_maintainer: false
   bacalhau-team:
@@ -3754,6 +3774,7 @@ teams:
     members:
       maintainer:
         - brendalee
+        - davidd8
         - dirkmc
         - jacobheun
         - LexLuthr
@@ -4182,6 +4203,7 @@ teams:
       member:
         - magik6k
         - shrenujbansal
+        - snadrus
         - ZenGround0
   Lotus-TSE:
     members:
