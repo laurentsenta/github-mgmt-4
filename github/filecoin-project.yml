@@ -1520,6 +1520,9 @@ repositories:
         - eshon
         - longfeiWan9
         - snissn
+      pull:
+        - jenks-guo-filecoin
+        - WhiteFlamingo
       push:
         - dawnkelly09
         - robertagora
@@ -2595,6 +2598,7 @@ repositories:
         - philippbanhardt
         - simonkim0515
       push:
+        - filplus-bot
         - web3-bot
   oni:
     collaborators:
