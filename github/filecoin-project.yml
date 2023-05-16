@@ -283,6 +283,8 @@ repositories:
       admin:
         - hannahhoward
         - jacobheun
+        - masih
+        - willscott
       maintain:
         - rvagg
         - sti-bot
