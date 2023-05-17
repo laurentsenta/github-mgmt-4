@@ -226,20 +226,34 @@ members:
     - zuiris
 repositories:
   actors-private:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ZenGround0
       maintain:
         - momack2
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - actors-maintainers
   aq:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - raulk
       push:
         - davidad
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - research
@@ -249,6 +263,8 @@ repositories:
       push:
         - product-biz
   armadillo:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Stebalien
@@ -261,24 +277,51 @@ repositories:
       push:
         - momack2
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - proofs
         - research
   assets:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - tooling
       push:
         - website
   athena:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - aronchick
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   autoretrieve-deploy:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
@@ -288,41 +331,102 @@ repositories:
       maintain:
         - rvagg
         - sti-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - bedrock-go
   awesome-filecoin:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - LesnyRumcajs
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   batching-snarks:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - nicola
       push:
         - lucaniz
         - web3-bot
-  bellperson-gadgets: {}
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+  bellperson-gadgets:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   bellperson-private:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   bellperson:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
       push:
         - nikkolasg
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - proofs
   benchmark-service:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jnthnvctr
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
@@ -330,26 +434,53 @@ repositories:
         - proofs
         - research
   benchmarks:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jennijuju
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   bitsets:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - dev-misc
         - labbers
   bls-signatures:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - ci
@@ -358,21 +489,41 @@ repositories:
         - proofs
         - research
   blst:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - travisperson
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   blstrs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - proofs
   boost-docs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - aarshkshah1992
@@ -384,27 +535,54 @@ repositories:
       maintain:
         - brendalee
         - hannahhoward
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - Boost
   boost-gfm:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - dirkmc
         - jacobheun
         - LexLuthr
         - nonsense
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Boost
   boost-graphsync:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - dirkmc
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Boost
   boost:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - aarshkshah1992
@@ -426,12 +604,21 @@ repositories:
         - kylehuntsman
         - shrenujbansal
         - vyzo
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - Boost
       triage:
         - Lotus-TSE
   bsci-collab:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jbenet
@@ -448,7 +635,16 @@ repositories:
         - mzargham
         - tmellan
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   builtin-actor-priv:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ZenGround0
@@ -459,18 +655,36 @@ repositories:
       push:
         - Kubuxu
         - momack2
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - lotus-maintainers
       push:
         - actors-maintainers
   builtin-actors-bundler:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - fvm-crate-owners
       push:
         - fvm-core-devs
   builtin-actors:
+    advanced_security: false
+    allow_update_branch: true
     collaborators:
       push:
         - alexytsu
@@ -479,6 +693,13 @@ repositories:
         - marco-storswift
         - tyshko5
         - vkalghatgi
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - actors-maintainers
@@ -491,29 +712,67 @@ repositories:
         - lotus-contributors
         - Venus
   c-bls-sigs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - sergkaprovich
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   cache-action:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - mriise
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   cgo-blockstore:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Stebalien
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   chain-love-website:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - angelopez10
         - carlosdimatteo
         - nestorolivaresh
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
   chain-validation:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - anorth
@@ -521,6 +780,9 @@ repositories:
         - magik6k
         - raulk
         - whyrusleeping
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - actors-maintainers
@@ -529,6 +791,8 @@ repositories:
       push:
         - actors-committers
   chung_scripts:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - irenegia
@@ -536,27 +800,63 @@ repositories:
       push:
         - lucaniz
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - proofs
   circleci-exporter:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ianconsolata
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
   client-growth-analytics:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Data Programs
   client-growth:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - Data Programs
   cmc-circulating-supply-fil-addresses:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - arajasek
@@ -576,14 +876,39 @@ repositories:
         - openworklabbot
         - plcgi1
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   cod-starter-kit:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ZakAyesh
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   communications:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - datasystems
@@ -591,6 +916,8 @@ repositories:
       push:
         - product-biz
   community-china:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - eshon
@@ -601,7 +928,16 @@ repositories:
         - NewMai
       push:
         - web3-bot
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   community:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jennijuju
@@ -619,30 +955,62 @@ repositories:
         - haochizzle
         - rjan90
         - timguo-ipfs
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - advocates
         - datasystems
         - labbers
   conformance-tools:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - raulk
       push:
         - web3-bot
-  consensus-dep: {}
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+  consensus-dep:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   consensus:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - nikkolasg
         - sa8
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - dev-misc
         - research
   core-devs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - arajasek
@@ -654,7 +1022,16 @@ repositories:
         - luckyparadise
       push:
         - web3-bot
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   cpp-filecoin:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - zuiris
@@ -666,64 +1043,154 @@ repositories:
         - Mingela
         - web3-bot
         - wer1st
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - cpp-filecoin-team
   cryptoecon-sim-david:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - cryptoeconomics
   cryptoeconomics-sim:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - cryptoeconomics
   cryptoeconomics:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
         - yunigraham
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - cryptoeconomics
       push:
         - research
-  cryptolab-private: {}
+  cryptolab-private:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   cryptolab:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - porcuquine
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - research
   dagstore:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - bedrock-go
         - datasystems
         - lotus-contributors
   data-prep-tools:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - anjor
         - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   data-transfer-benchmark:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   data:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - AlexxNica
         - dkkapur
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   dealbot:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - nonsense
@@ -737,12 +1204,21 @@ repositories:
         - rvagg
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - w3dt-stewards
       push:
         - lotus-contributors
   depr-notary-governance:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jbenet
@@ -754,37 +1230,78 @@ repositories:
         - miyazono
         - momack2
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   deprecated-cryptoeconomics-simulator:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - protocolin
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       push:
         - research
   designdocs-internal:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - product-biz
       push:
         - proj-mgmt
   designdocs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - proj-mgmt
   dev-vendor-hack:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - dev-misc
   devgrants:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - BlocksOnAChain
@@ -799,62 +1316,118 @@ repositories:
         - pap1ll0n
         - SeedingTrees
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - foundation
         - labbers
   docker-hub-exporter:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ianconsolata
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
   drg-attacks-deprecated:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - nicola
       push:
         - nikkolasg
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - dev-misc
   drg-attacks:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - nikkolasg
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - proofs
         - research
   ec_collab:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - sa8
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - datasystems
         - labbers
   ec-gpu:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
         - porcuquine
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - proofs
   ecodash:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
+        - ashwanth-eth
+        - lksbrssr
         - mishmosh
         - orvn
         - timelytree
@@ -864,26 +1437,56 @@ repositories:
       push:
         - cwaring
         - splumms
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   ecosystem-dashboard:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cwaring
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   ecsim2:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - whyrusleeping
       push:
         - nikkolasg
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - research
   engine:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       push:
         - datasystems
@@ -891,6 +1494,8 @@ repositories:
         - product-biz
         - proj-mgmt
   ent:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - alanshaw
@@ -899,12 +1504,21 @@ repositories:
         - ribasushi
         - web3-bot
         - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - actors-maintainers
       push:
         - actors-committers
   eudico:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - adlrocha
@@ -913,10 +1527,15 @@ repositories:
       push:
         - quema
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       maintain:
         - consensuslab
   events-directory:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - orvn
@@ -927,46 +1546,109 @@ repositories:
       push:
         - joannaong
         - nicole-code
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   fc-cap-sim:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   fcnr:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - frrist
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   fevm-contract-tests:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ychiaoli18
       push:
         - maciejwitowski
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - fvm-core-devs
   fevm-data-dao-kit:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ZakAyesh
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   fevm-foundry-kit:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ZakAyesh
       push:
         - xBalbinus
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   fevm-hardhat-kit:
+    advanced_security: false
+    allow_update_branch: true
     collaborators:
       admin:
         - hammertoe
         - ZakAyesh
       maintain:
         - ychiaoli18
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - lotus-maintainers
   ff-bounties:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - BigLep
@@ -986,19 +1668,33 @@ repositories:
         - jacobheun
         - marten-seemann
         - rvagg
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - lotus-contributors
   fff:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
       push:
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       push:
         - proofs
   ffi-stub:
+    advanced_security: false
+    allow_update_branch: true
     collaborators:
       admin:
         - iand
@@ -1007,104 +1703,237 @@ repositories:
       push:
         - hsanjuan
         - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - lotus-contributors
   fil_pasta_curves:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
         - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - proofs
   fil-blst:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - porcuquine
       push:
         - simonatsn
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - proofs
   fil-calculations:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - porcuquine
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   fil-ocl:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - proofs
   fil-rustacuda:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - proofs
   fil-sppark:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filcryo:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hsanjuan
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - data
         - Sentinel
   filecoin-actor-utils:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Stebalien
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - actors-maintainers
   filecoin-aggregator:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - frrist
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - tooling
       push:
         - dev-misc
   filecoin-chain-archiver:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - travisperson
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - infra
   filecoin-client-tutorial:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jimmylee
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-contributors:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - alanshaw
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-cred:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-dashboard:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - datasystems
@@ -1114,6 +1943,8 @@ repositories:
         - ci
         - tooling
   filecoin-datasets-discovery-ui:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jnthnvctr
@@ -1122,7 +1953,16 @@ repositories:
         - web3-bot
         - zamith
         - ZePedroResende
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-datasets:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jnthnvctr
@@ -1134,11 +1974,25 @@ repositories:
         - rvagg
         - web3-bot
         - zamith
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-discover-dealer:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ribasushi
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   filecoin-discover-go-services:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - andyschwab
@@ -1147,7 +2001,16 @@ repositories:
         - ZePedroResende
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-discover-onboarding:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - andyschwab
@@ -1156,21 +2019,53 @@ repositories:
         - ZePedroResende
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-discover-validator:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ribasushi
       push:
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   filecoin-docs-CAT:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - SgtCoin
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-docs-stefnotes:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - SgtCoin
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-docs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - andyschwab
@@ -1181,6 +2076,13 @@ repositories:
         - bobdubois
         - ivanka
         - web3-bot
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - docs-admins
@@ -1191,6 +2093,11 @@ repositories:
         - Boost
         - docs-storage-provider
   filecoin-explorer-private:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - dev-misc
@@ -1201,19 +2108,39 @@ repositories:
         - research
         - tooling
   filecoin-explorer:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - dev-misc
         - labbers
   filecoin-ffi-private:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-ffi:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - raulk
@@ -1221,23 +2148,53 @@ repositories:
       push:
         - vyzo
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - lotus-maintainers
       maintain:
         - proofs
   filecoin-fvm-localnet:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hammertoe
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-http-api:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   filecoin-network-sim:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - datasystems
@@ -1247,9 +2204,18 @@ repositories:
         - research
         - tooling
   filecoin-network-viz:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - tooling
@@ -1260,9 +2226,18 @@ repositories:
         - dev-misc
         - research
   filecoin-params:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - research
@@ -1270,13 +2245,24 @@ repositories:
         - dev-misc
         - product-biz
   filecoin-phase2:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
       push:
         - DrPeterVanNostrand
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-plus-client-onboarding:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - dkkapur
@@ -1336,7 +2322,16 @@ repositories:
         - web3-bot
         - xinaxu
         - XnMatrixSV
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-plus-large-datasets:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - dkkapur
@@ -1358,23 +2353,55 @@ repositories:
         - data-programs
       triage:
         - Sunnyiscoming
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-plus-leaderboard-data:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - dkkapur
       maintain:
         - AlexxNica
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-plus-leaderboard-deprecated:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - dkkapur
       maintain:
         - AlexxNica
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   filecoin-plus-leaderboard:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - AlexxNica
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoin-retrieval-market-website:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - abelsoares
@@ -1383,10 +2410,19 @@ repositories:
         - claudiorodr
         - rafaelcruzazevedo
         - tiago258
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - website
   filecoin.io:
+    advanced_security: false
+    allow_update_branch: true
     collaborators:
       admin:
         - andyschwab
@@ -1401,6 +2437,13 @@ repositories:
         - smagdali
         - tbenbow
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: BLANK
+    squash_merge_commit_title: PR_TITLE
     teams:
       push:
         - datasystems
@@ -1411,23 +2454,61 @@ repositories:
         - product-biz
         - research
   filecoin:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filecoinverymagic:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hammertoe
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   filet:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - data
         - Sentinel
   FIPs-1:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jenks-guo-filecoin
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   FIPs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - kaitlin-beegle
@@ -1435,6 +2516,13 @@ repositories:
         - andyschwab
         - luckyparadise
         - web3-bot
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - fips-editors
@@ -1445,20 +2533,34 @@ repositories:
         - lotus-maintainers
         - research
   foundation-website:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - momack2
       push:
         - akrych
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       push:
         - website
   fungi:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - whyrusleeping
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - cryptoeconomics
@@ -1467,31 +2569,65 @@ repositories:
       push:
         - lotus-contributors
   Fuzzing-FVM:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - BlocksOnAChain
         - Jacarte
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - fvm-core-devs
   fuzzing-lotus:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Kubuxu
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   fvm-bench:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - vyzo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - fvm-core-devs
   fvm-docs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - johnnymatthews
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   fvm-evm:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - raulk
@@ -1500,18 +2636,32 @@ repositories:
         - tchataigner
       push:
         - momack2
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       pull:
         - lotus-maintainers
       push:
         - fvm-core-devs
   fvm-example-actors:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - johnnymatthews
       maintain:
         - ZakAyesh
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   fvm-pm:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - lksbrssr
@@ -1524,10 +2674,18 @@ repositories:
         - snissn
       pull:
         - jenks-guo-filecoin
+        - LaurenSpiegel
         - WhiteFlamingo
       push:
         - dawnkelly09
         - robertagora
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - datasystems
@@ -1535,29 +2693,54 @@ repositories:
         - labbers
         - lotus-maintainers
   fvm-runtime-experiment:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Stebalien
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   fvm-spacewarp:
+    advanced_security: false
+    allow_update_branch: true
     collaborators:
       admin:
         - cwaring
         - honghaoq
         - raulk
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - FVM Web
   fvm-specs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Stebalien
       push:
         - expede
+    has_discussions: true
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       push:
         - fvm-core-devs
         - fvm-team
   fvm-starter-kit-deal-making:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - aashidham
@@ -1565,6 +2748,13 @@ repositories:
       push:
         - snissn
         - xBalbinus
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - fvm-core-devs
@@ -1573,6 +2763,15 @@ repositories:
       push:
         - docs-writers
   fvm-test-vectors:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - Forest
@@ -1580,15 +2779,26 @@ repositories:
         - lotus-maintainers
         - Venus
   fvm-wasm-instrument:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - magik6k
       push:
         - Jacarte
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - lotus-maintainers
   fvm-website:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cwaring
@@ -1603,29 +2813,65 @@ repositories:
         - momack2
         - patrickwoodhead
         - trruckerfling
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - FVM Web
         - labbers
   geodns-server:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - DiegoRBaquero
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   gfm-priv:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - lotus-maintainers
   github-exporter:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ianconsolata
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
   github-mgmt:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - andyschwab-admin
@@ -1645,15 +2891,33 @@ repositories:
         content: |
           # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
           /github/filecoin-project.yml @filecoin-project/github-mgmt-stewards
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       push:
         - github-mgmt stewards
   gitops-policy-library:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - steve-fraser
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   gitops-profile-catalog:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ianconsolata
@@ -1661,10 +2925,19 @@ repositories:
       maintain:
         - cmharden
         - steve-fraser
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
   gitops-root:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cmharden
@@ -1679,6 +2952,13 @@ repositories:
         - MarcoPolo
         - masih
         - ns4plabs
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - datasystems
@@ -1686,20 +2966,38 @@ repositories:
       push:
         - infra
   go-address:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Stebalien
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Strike Team
   go-amt-ipld:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - frrist
         - rvagg
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - actors-maintainers
@@ -1707,10 +3005,19 @@ repositories:
       push:
         - actors-committers
   go-bitfield:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - frrist
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - actors-maintainers
@@ -1719,83 +3026,171 @@ repositories:
         - actors-committers
         - lotus-contributors
   go-bls-sigs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - Kubuxu
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - proofs
   go-bs-lmdb:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - raulk
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - datasystems
         - labbers
   go-bs-postgres-chainnotated:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ribasushi
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - labbers
   go-cbor-util:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Strike Team
   go-cid-tools:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - vyzo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   go-commp-utils:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
         - magik6k
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - labbers
         - lotus-contributors
   go-crypto:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   go-dagaggregator-unixfs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ribasushi
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   go-data-segment:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Kubuxu
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - lotus-maintainers
       push:
         - lotus-contributors
   go-data-transfer-bus:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   go-data-transfer:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - dirkmc
@@ -1806,21 +3201,39 @@ repositories:
       push:
         - dkkapur
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - labbers
         - lotus-contributors
   go-ds-versioning:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - lotus-contributors
   go-fil-commcid:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - arajasek
@@ -1831,10 +3244,19 @@ repositories:
         - ribasushi
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - lotus-contributors
   go-fil-commp-hashhash:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ribasushi
@@ -1842,13 +3264,31 @@ repositories:
         - anjor
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   go-fil-filestore:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   go-fil-markets:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - aarshkshah1992
@@ -1866,55 +3306,106 @@ repositories:
         - web3-bot
       triage:
         - dkkapur
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - bedrock-go
       push:
         - datasystems
         - lotus-contributors
-  go-filecoin-backup: {}
+  go-filecoin-backup:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   go-filecoin-badges:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - filecoin-helper
         - ognots
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
   go-filecoin-infra:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       pull:
         - jnthnvctr
       push:
         - eshon
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
       pull:
         - proofs
   go-hamt-ipld:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - frrist
         - rvagg
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - actors-maintainers
       push:
         - actors-committers
   go-http-api:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   go-ipld-cbor:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - dev-misc
   go-jsonrpc:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - magik6k
@@ -1922,18 +3413,41 @@ repositories:
         - frrist
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - lotus-maintainers
-  go-leb128-backup: {}
+  go-leb128-backup:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   go-leb128:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - dev-misc
   go-legs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - gammazero
@@ -1944,12 +3458,21 @@ repositories:
         - web3-bot
       push:
         - adlrocha
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - w3dt-stewards
       push:
         - datasystems
   go-multistore:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
@@ -1957,70 +3480,159 @@ repositories:
         - whyrusleeping
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - lotus-contributors
   go-padreader:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Kubuxu
         - magik6k
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - Strike Team
   go-paramfetch:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - proofs
   go-proofs:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       pull:
         - ci
       push:
         - research
   go-retrieval-market-project:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   go-retrieval-types:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   go-sectorbuilder-rpc:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   go-sectorbuilder:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - magik6k
       push:
         - frrist
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - proofs
   go-shared-types:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - frrist
         - hannahhoward
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       push:
         - Strike Team
   go-state-types-private:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - momack2
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   go-state-types:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - actors-maintainers
@@ -2030,6 +3642,8 @@ repositories:
         - actors-committers
         - lotus-contributors
   go-statemachine:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - hannahhoward
@@ -2039,25 +3653,48 @@ repositories:
         - jacobheun
         - rvagg
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
       push:
         - lotus-contributors
   go-statestore:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   go-storage-market:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
         - mishmosh
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       pull:
         - datasystems
         - labbers
   go-storage-miner:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - whyrusleeping
@@ -2066,42 +3703,96 @@ repositories:
         - magik6k
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - proofs
   go-storedcounter:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
       push:
         - web3-bot
-  go-ulimit: {}
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+  go-ulimit:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   gov_docs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - johnnymatthews
         - kaitlin-beegle
         - luckyparadise
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   grafana-lotus-theme:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - eshon
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - infra
   graphsync-chainsync-sprint:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
         - mishmosh
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - datasystems
         - labbers
   green.filecoin.io:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - orvn
@@ -2117,19 +3808,37 @@ repositories:
         - redransil
       triage:
         - emilymariahh
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - website
   group:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - proofs
   hackathons-forestry-legacy:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - lksbrssr
@@ -2139,10 +3848,19 @@ repositories:
       maintain:
         - jameshuggett
         - stan-pl
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - website
   hackathons-microgen-legacy:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - andyschwab
@@ -2153,17 +3871,35 @@ repositories:
         - lksbrssr
         - pap1ll0n
         - raquelic
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - website
   halo2:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - proofs
   helm-charts:
+    advanced_security: false
+    allow_update_branch: true
     collaborators:
       admin:
         - filecoin-helper
@@ -2173,75 +3909,157 @@ repositories:
         - andrestorresGL
         - masih
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
   homebrew-exporter:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ianconsolata
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
   homebrew-lotus:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ianconsolata
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
         - lotus-maintainers
   hyperdrive-analysis:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Stebalien
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - labbers
   infra:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
   iptb:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - mishmosh
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - dev-misc
         - proj-mgmt
   jbenet-market-sim:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - cryptoeconomics
-  jenkins: {}
+  jenkins:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   kube-infra:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       pull:
         - cmharden
         - steve-fraser
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
   large-data.filecoin.io:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - andyschwab
         - cwaring
         - ericronne
         - tbenbow
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   lassie-event-recorder:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
@@ -2253,30 +4071,64 @@ repositories:
         - davidd8
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
     teams:
       maintain:
         - bedrock-go
   lassie-k6:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   lassie:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
       maintain:
         - davidd8
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - bedrock-go
   launch:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jbenet
         - protocolin
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - datasystems
@@ -2284,43 +4136,81 @@ repositories:
       push:
         - proj-mgmt
   learn-math:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - porcuquine
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   lid-benchmarks:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - magik6k
         - nonsense
       push:
         - rjan90
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Boost
   lightning-planning:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - davidd8
         - hannahhoward
         - honghaoq
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - labbers
   lily-archiver:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - iand
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Sentinel Admin
       maintain:
         - Sentinel Operators
   lily:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - frrist
@@ -2332,20 +4222,47 @@ repositories:
         - iand
         - Terryhung
         - web3-bot
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Sentinel Admin
   lotus-archived:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Kubuxu
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   lotus-badges:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   lotus-dcops:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
@@ -2354,6 +4271,13 @@ repositories:
       push:
         - schreck23
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - Lotus-TSE
@@ -2361,6 +4285,8 @@ repositories:
       push:
         - infra
   lotus-docs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jennijuju
@@ -2372,11 +4298,20 @@ repositories:
       triage:
         - geoff-vball
         - yusefnapora
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - docs-writers
         - Lotus-TSE
   lotus-infra-dev:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - filecoin-helper
@@ -2397,6 +4332,13 @@ repositories:
         - TheDiscordian
         - vmx
         - ychiaoli18
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
@@ -2404,6 +4346,8 @@ repositories:
       push:
         - lotus-contributors
   lotus-infra:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ianconsolata
@@ -2418,13 +4362,13 @@ repositories:
         - jimmylee
         - jsoares
         - liviudm
-        - maciejwitowski
         - mcamou
         - momack2
         - yiannisbot
       push:
         - cmharden
         - gammazero
+        - maciejwitowski
         - MarcoPolo
         - masih
         - rjan90
@@ -2432,6 +4376,13 @@ repositories:
         - thattommyhall
         - web3-bot
         - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
@@ -2441,6 +4392,8 @@ repositories:
         - actors-maintainers
         - proofs
   Lotus-Miner-V2:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jennijuju
@@ -2457,7 +4410,12 @@ repositories:
         - LaurenSpiegel
         - magik6k
         - scotthconner
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   lotus-priv:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - arajasek
@@ -2467,21 +4425,42 @@ repositories:
         - guy-goren
         - Kubuxu
         - pl-kevin
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - lotus-maintainers
   lotus-testground:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jimpick
         - raulk
       push:
         - nonsense
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       push:
         - datasystems
         - labbers
   lotus:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - lotus-maintainers
@@ -2489,22 +4468,64 @@ repositories:
         - lotus-contributors
         - Lotus-TSE
   lua-filecoin:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
-  main-backup: {}
-  main: {}
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+  main-backup:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
+  main:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   mapr:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
-  merkle_light-backup: {}
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+  merkle_light-backup:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   merkletree:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - proofs
@@ -2514,6 +4535,8 @@ repositories:
         - datasystems
         - labbers
   metadocs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - arajasek
@@ -2524,15 +4547,29 @@ repositories:
         - jimpick
       pull:
         - ericronne
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   metamodel:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - labbers
   metaverse.filecoin.io:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - orvn
@@ -2540,10 +4577,19 @@ repositories:
         - emilymariahh
         - svvimming
         - timelytree
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - website
   mir:
+    advanced_security: false
+    allow_update_branch: true
     collaborators:
       admin:
         - jsoares
@@ -2551,22 +4597,45 @@ repositories:
       push:
         - ranchalp
         - xosmig
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - consensuslab
   motivation:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       push:
         - datasystems
         - labbers
   near-blake2:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - mriise
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   network-info:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - travisperson
@@ -2577,11 +4646,16 @@ repositories:
         - timelytree
       push:
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       push:
         - datasystems
         - labbers
   notary-governance:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - dkkapur
@@ -2602,10 +4676,22 @@ repositories:
       push:
         - filplus-bot
         - web3-bot
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   oni:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - raulk
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       maintain:
         - oni
@@ -2613,10 +4699,21 @@ repositories:
         - datasystems
         - labbers
   openzeppelin-contracts:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ychiaoli18
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   orbit.filecoin.io:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - andyschwab
@@ -2624,15 +4721,31 @@ repositories:
         - tbenbow
       maintain:
         - jameshuggett
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - website
   orient:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - porcuquine
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - CERT
@@ -2643,40 +4756,96 @@ repositories:
         - proofs
         - research
   paired:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - proofs
   paper-porep-drg:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - nicola
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - dev-misc
         - research
-  parity-wasm: {}
+  parity-wasm:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   pc2_cuda:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - vmx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   PebblingAndDepthReductionAttacks:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   phase2-attestations-internal-verification:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - porcuquine
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   phase2-attestations:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - porcuquine
@@ -2688,21 +4857,51 @@ repositories:
         - jnthnvctr
         - vmx
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   phase2:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       push:
         - proofs
   playground:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   pm:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - datasystems
@@ -2711,47 +4910,103 @@ repositories:
         - product-biz
         - proj-mgmt
   powersoftau:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - proofs
   product-biz:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - product-biz
   product:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - product
   proofs-buildbot:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - galargh
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - proofs
   proofs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - nicola
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - research
   pubsub:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - lotus-contributors
   ref-fvm-fuzz-corpora:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - filecoin-helper
@@ -2759,14 +5014,32 @@ repositories:
         - Kubuxu
       push:
         - Jacarte
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - lotus-maintainers
   ref-fvm-priv:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Stebalien
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   ref-fvm:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - galargh
@@ -2780,6 +5053,13 @@ repositories:
         - Jacarte
       triage:
         - BlocksOnAChain
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - Forest
@@ -2787,38 +5067,74 @@ repositories:
         - lotus-contributors
         - lotus-maintainers
   release-metrics-gitops:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ianconsolata
       push:
         - cmharden
         - steve-fraser
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
   replication-game-infra:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ognots
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   replication-game-leaderboard:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - alanshaw
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - dev-misc
         - labbers
   replication-game:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - nicola
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - ci
@@ -2828,20 +5144,40 @@ repositories:
         - labbers
         - research
   research-FC-calculator:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   research-network:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - protocolin
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - cryptoeconomics
         - product-biz
   research-private:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - anorth
@@ -2849,35 +5185,78 @@ repositories:
       push:
         - irenegia
         - lucaniz
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   research-retreats:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - research
   research-simpleCalc:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - labbers
   research-website:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - parthshah1
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - research
         - website
   research:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - research
@@ -2887,13 +5266,24 @@ repositories:
       push:
         - dev-misc
   retrieval-load-testing:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - bedrock-go
   retrieval-market-spec:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
@@ -2902,6 +5292,13 @@ repositories:
       push:
         - web3-bot
         - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - Retrieval Market Builders
@@ -2909,17 +5306,37 @@ repositories:
         - datasystems
         - labbers
   retrieval-market:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - patrickwoodhead
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - Retrieval Market Builders
   rhea-load-testing:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   rust-cad-cad:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - zixuanzh
@@ -2932,50 +5349,96 @@ repositories:
         - web3-bot
       triage:
         - tmellan
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - infra
       push:
         - cryptoeconomics
   rust-fil-ffi-toolkit:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
       push:
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       maintain:
         - proofs
   rust-fil-logger:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - vmx
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - proofs
       pull:
         - dev-misc
   rust-fil-nse-gpu:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - porcuquine
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   rust-fil-proofs-ffi:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - vmx
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       push:
         - proofs
   rust-fil-proofs-private:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   rust-fil-proofs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
@@ -2986,6 +5449,13 @@ repositories:
         - web3-bot
       push:
         - porcuquine
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - ci
@@ -2996,15 +5466,29 @@ repositories:
       triage:
         - research
   rust-fil-secp256k1:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   rust-fil-sector-builder:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       maintain:
         - vmx
       push:
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       maintain:
         - proofs
@@ -3013,30 +5497,55 @@ repositories:
       triage:
         - research
   rust-filbase:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       pull:
         - ci
       push:
         - proofs
   rust-filecoin-proofs-api-private:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   rust-filecoin-proofs-api:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
       pull:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - proofs
       pull:
         - ci
   rust-gpu-tools:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
@@ -3044,16 +5553,37 @@ repositories:
         - vmx
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - proofs
-  rust-proofs-backup: {}
+  rust-proofs-backup:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   rust-proofs-infra:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - filecoin-helper
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
@@ -3063,43 +5593,93 @@ repositories:
       push:
         - cryptoeconomics
   rust-sha2ni:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   sample-data:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - dev-misc
   sapling-crypto:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cryptonemo
         - porcuquine
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - proofs
   sector-storage:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - magik6k
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   security-analysis:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - nicola
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   sentinel-backfill:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hsanjuan
         - thattommyhall
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - data
@@ -3107,6 +5687,8 @@ repositories:
       maintain:
         - infra
   sentinel-drone:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - filecoin-helper
@@ -3118,41 +5700,80 @@ repositories:
         - iand
         - web3-bot
         - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - infra
   sentinel-infra:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - pl-deploy-bot
         - thattommyhall
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
       maintain:
         - Weaveworks
   sentinel-locations:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hsanjuan
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - data
         - Sentinel
   sentinel-private:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       maintain:
         - infra
   sentinel-tick:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hsanjuan
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - data
@@ -3161,6 +5782,8 @@ repositories:
         - infra
         - lotus-contributors
   sentinel:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - daviddias
@@ -3175,6 +5798,13 @@ repositories:
         - zixuanzh
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - data
@@ -3183,28 +5813,62 @@ repositories:
         - oni
         - research
   serialization-vectors:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   shared-shell-scripts:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   slate-react-system:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jasonleyser
         - jimmylee
       push:
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   slate-stats:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jimmylee
         - uonai
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   slate:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Aminejvm
@@ -3226,42 +5890,96 @@ repositories:
         - jordattebayo
         - tarafanlin
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   snapcraft-exporter:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ianconsolata
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - infra
   snark-circuits:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - nicola
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - ci
       push:
         - dev-misc
   solidity-data-segment:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ychiaoli18
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   sp-infographic:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cwaring
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   sp-mentorship-grants:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ribasushi
         - Stefaan-V
       push:
         - ashwanth-eth
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   sp.filecoin.io:
+    advanced_security: false
+    allow_update_branch: true
     collaborators:
       admin:
         - cwaring
@@ -3272,7 +5990,16 @@ repositories:
         - brendalee
         - honghaoq
         - Stefaan-V
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   specs-actors:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       pull:
         - zixuanzh
@@ -3281,6 +6008,13 @@ repositories:
         - laudiacay
         - vyzo
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - actors-maintainers
@@ -3290,17 +6024,33 @@ repositories:
         - lotus-contributors
         - w3dt-stewards
   specs-private:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - specs
   specs-storage:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - actors-maintainers
   specs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cwaring
@@ -3315,6 +6065,13 @@ repositories:
         - smagdali
         - sternhenri
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -3325,19 +6082,35 @@ repositories:
       triage:
         - research
   SPWG:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - ashwanth-eth
         - Fatman13
         - vnessasgrt
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   starling:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - starling-storage
   statediff:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - frrist
@@ -3346,32 +6119,73 @@ repositories:
         - iand
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - oni
       push:
         - actors-maintainers
   storage-fsm:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Kubuxu
         - magik6k
         - raulk
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   storage-team:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   storage.filecoin.io:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jimmylee
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   sturdy-journey:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - travisperson
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   system-test-matrix:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - BlocksOnAChain
@@ -3389,29 +6203,63 @@ repositories:
         - mstojanovicbloxico
         - StefanGajic
         - Vojimirovich
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   taupipp:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - nikkolasg
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - proofs
         - research
   terraform-google-lily-starter:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - birdychang
         - kasteph
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - datasystems
         - labbers
   test-vectors:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - raulk
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - actors-maintainers
@@ -3421,6 +6269,8 @@ repositories:
       push:
         - lotus-contributors
   testnet-hyperspace:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - eshon
@@ -3430,10 +6280,19 @@ repositories:
         - ribasushi
       maintain:
         - f8-fil-ops
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - Lotus-TSE
   testnet-wallaby:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - eshon
@@ -3443,17 +6302,44 @@ repositories:
       maintain:
         - f8-fil-ops
         - maciejwitowski
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   time-capsule-app:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - jnthnvctr
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   TODOnotes:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - SgtCoin
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   token-distribution-procedures:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - daviddias
@@ -3471,19 +6357,46 @@ repositories:
         - vikstrous2
       push:
         - web3-bot
-  TPM: {}
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+  TPM:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   tweety:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - nonsense
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - datasystems
         - infra
         - labbers
   venus-auth:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - diwufeiwen
@@ -3493,14 +6406,32 @@ repositories:
         - Fatman13
         - LinZexiao
         - simlecode
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - Venus
   venus-common-types:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - hunjixin
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   venus-docs:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - arajasek
@@ -3521,7 +6452,16 @@ repositories:
         - cloudxin
         - LinZexiao
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   venus-market:
+    advanced_security: false
+    allow_update_branch: true
     collaborators:
       admin:
         - elvin-du
@@ -3533,10 +6473,19 @@ repositories:
         - diwufeiwen
         - LinZexiao
         - simlecode
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - Venus
   venus-messager:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - elvin-du
@@ -3546,10 +6495,19 @@ repositories:
         - GFZRZK
         - LinZexiao
         - simlecode
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Venus
   venus-miner:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - arajasek
@@ -3563,7 +6521,16 @@ repositories:
       push:
         - LinZexiao
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   venus-sealer:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - arajasek
@@ -3577,7 +6544,12 @@ repositories:
         - LinZexiao
         - ShuaoZhang
         - web3-bot
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
   venus-wallet:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - diwufeiwen
@@ -3588,10 +6560,19 @@ repositories:
         - Fatman13
       push:
         - LinZexiao
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - Venus
   venus:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - diwufeiwen
@@ -3608,6 +6589,13 @@ repositories:
         - LinZexiao
         - StefanGajic
         - web3-bot
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - collab-ipfs-force
@@ -3621,18 +6609,47 @@ repositories:
         - infra
         - labbers
   wasm-tools:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - Jacarte
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   wasmtime:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - Stebalien
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   website-archive.discuss.filecoin.io:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - andyschwab
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   website-bounty.filecoin.io:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - alanshaw
@@ -3641,10 +6658,26 @@ repositories:
         - eshon
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   website-grants:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - website
@@ -3656,6 +6689,8 @@ repositories:
         - product-biz
         - research
   website-liftoff:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - andyschwab
@@ -3667,10 +6702,19 @@ repositories:
       push:
         - suzannaaltman
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - website
   website-security.filecoin.io:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - alanshaw
@@ -3682,7 +6726,19 @@ repositories:
       push:
         - parthshah1
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   website:
+    advanced_security: false
+    allow_update_branch: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - website
@@ -3693,23 +6749,50 @@ repositories:
         - product-biz
         - research
   wge-post-deployment-template-renderer:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - cmharden
         - pl-deploy-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
   why-market-sim:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - cryptoeconomics
   zexe:
+    advanced_security: false
+    allow_update_branch: false
     collaborators:
       admin:
         - porcuquine
       push:
         - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - proofs
