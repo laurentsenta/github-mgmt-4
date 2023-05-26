@@ -1,12 +1,20 @@
 import 'reflect-metadata'
+import {Repository} from '../resources/repository'
+import {format} from './shared/format'
+import {setPropertyInAllRepos} from './shared/set-property-in-all-repos'
 
-/*
-Put `github/*.yml` transform rules that you want executed during `Fix` workflow runs here.
+function isPublic(repository: Repository) {
+  return repository.visibility === 'public'
+}
 
-*Example*
-```ts
-import {protectDefaultBranches} from './shared/protect-default-branches'
-
-protectDefaultBranches()
-```
-*/
+setPropertyInAllRepos(
+  'secret_scanning',
+  true,
+  r => isPublic(r)
+)
+setPropertyInAllRepos(
+  'secret_scanning_push_protection',
+  true,
+  r => isPublic(r)
+)
+format()
