@@ -243,6 +243,7 @@ repositories:
     teams:
       push:
         - actors-maintainers
+    visibility: private
   aq:
     advanced_security: false
     allow_update_branch: false
@@ -266,6 +267,7 @@ repositories:
         - labbers
       push:
         - product-biz
+    visibility: private
   armadillo:
     advanced_security: false
     allow_update_branch: false
@@ -292,6 +294,7 @@ repositories:
       pull:
         - proofs
         - research
+    visibility: private
   assets:
     advanced_security: false
     allow_update_branch: false
@@ -310,6 +313,7 @@ repositories:
         - tooling
       push:
         - website
+    visibility: public
   athena:
     advanced_security: false
     allow_update_branch: false
@@ -323,6 +327,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   autoretrieve-deploy:
     advanced_security: false
     allow_update_branch: false
@@ -345,6 +350,7 @@ repositories:
     teams:
       maintain:
         - bedrock-go
+    visibility: public
   awesome-filecoin:
     advanced_security: false
     allow_update_branch: false
@@ -358,6 +364,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   batching-snarks:
     advanced_security: false
     allow_update_branch: false
@@ -374,6 +381,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   bellperson-gadgets:
     advanced_security: false
     allow_update_branch: false
@@ -384,6 +392,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   bellperson-private:
     advanced_security: false
     allow_update_branch: false
@@ -397,6 +406,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   bellperson:
     advanced_security: false
     allow_update_branch: false
@@ -416,6 +426,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   benchmark-service:
     advanced_security: false
     allow_update_branch: false
@@ -437,6 +448,7 @@ repositories:
       push:
         - proofs
         - research
+    visibility: private
   benchmarks:
     advanced_security: false
     allow_update_branch: false
@@ -452,6 +464,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   bitsets:
     advanced_security: false
     allow_update_branch: false
@@ -470,6 +483,7 @@ repositories:
         - datasystems
         - dev-misc
         - labbers
+    visibility: public
   bls-signatures:
     advanced_security: false
     allow_update_branch: false
@@ -492,6 +506,7 @@ repositories:
         - dev-misc
         - proofs
         - research
+    visibility: public
   blst:
     advanced_security: false
     allow_update_branch: false
@@ -507,6 +522,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   blstrs:
     advanced_security: false
     allow_update_branch: false
@@ -525,6 +541,7 @@ repositories:
     teams:
       maintain:
         - proofs
+    visibility: public
   boost-docs:
     advanced_security: false
     allow_update_branch: false
@@ -549,6 +566,7 @@ repositories:
     teams:
       maintain:
         - Boost
+    visibility: public
   boost-gfm:
     advanced_security: false
     allow_update_branch: false
@@ -568,6 +586,7 @@ repositories:
     teams:
       admin:
         - Boost
+    visibility: public
   boost-graphsync:
     advanced_security: false
     allow_update_branch: false
@@ -584,6 +603,7 @@ repositories:
     teams:
       admin:
         - Boost
+    visibility: public
   boost:
     advanced_security: false
     allow_update_branch: false
@@ -620,6 +640,7 @@ repositories:
         - Boost
       triage:
         - Lotus-TSE
+    visibility: public
   bsci-collab:
     advanced_security: false
     allow_update_branch: false
@@ -646,6 +667,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   builtin-actor-priv:
     advanced_security: false
     allow_update_branch: false
@@ -671,6 +693,7 @@ repositories:
         - lotus-maintainers
       push:
         - actors-maintainers
+    visibility: private
   builtin-actors-bundler:
     advanced_security: false
     allow_update_branch: false
@@ -686,6 +709,7 @@ repositories:
         - fvm-crate-owners
       push:
         - fvm-core-devs
+    visibility: public
   builtin-actors:
     advanced_security: false
     allow_update_branch: true
@@ -715,6 +739,7 @@ repositories:
         - fvm-core-devs
         - lotus-contributors
         - Venus
+    visibility: public
   c-bls-sigs:
     advanced_security: false
     allow_update_branch: false
@@ -730,6 +755,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   cache-action:
     advanced_security: false
     allow_update_branch: false
@@ -743,6 +769,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   cgo-blockstore:
     advanced_security: false
     allow_update_branch: false
@@ -756,6 +783,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   chain-love-website:
     advanced_security: false
     allow_update_branch: false
@@ -774,6 +802,7 @@ repositories:
     teams:
       admin:
         - infra
+    visibility: public
   chain-validation:
     advanced_security: false
     allow_update_branch: false
@@ -798,6 +827,7 @@ repositories:
         - oni
       push:
         - actors-committers
+    visibility: public
   chung_scripts:
     advanced_security: false
     allow_update_branch: false
@@ -818,6 +848,7 @@ repositories:
     teams:
       pull:
         - proofs
+    visibility: private
   circleci-exporter:
     advanced_security: false
     allow_update_branch: false
@@ -836,6 +867,7 @@ repositories:
     teams:
       admin:
         - infra
+    visibility: public
   client-growth-analytics:
     advanced_security: false
     allow_update_branch: false
@@ -849,6 +881,7 @@ repositories:
     teams:
       admin:
         - Data Programs
+    visibility: private
   client-growth:
     advanced_security: false
     allow_update_branch: false
@@ -862,6 +895,7 @@ repositories:
     teams:
       maintain:
         - Data Programs
+    visibility: public
   cmc-circulating-supply-fil-addresses:
     advanced_security: false
     allow_update_branch: false
@@ -891,6 +925,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   cod-starter-kit:
     advanced_security: false
     allow_update_branch: false
@@ -904,6 +939,7 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   communications:
     advanced_security: false
     allow_update_branch: false
@@ -923,6 +959,7 @@ repositories:
         - labbers
       push:
         - product-biz
+    visibility: private
   community-china:
     advanced_security: false
     allow_update_branch: false
@@ -943,6 +980,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   community:
     advanced_security: false
     allow_update_branch: false
@@ -975,6 +1013,7 @@ repositories:
         - advocates
         - datasystems
         - labbers
+    visibility: public
   conformance-tools:
     advanced_security: false
     allow_update_branch: false
@@ -990,6 +1029,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   consensus-dep:
     advanced_security: false
     allow_update_branch: false
@@ -1000,6 +1040,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   consensus:
     advanced_security: false
     allow_update_branch: false
@@ -1020,6 +1061,7 @@ repositories:
       push:
         - dev-misc
         - research
+    visibility: public
   core-devs:
     advanced_security: false
     allow_update_branch: false
@@ -1041,6 +1083,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   cpp-filecoin:
     advanced_security: false
     allow_update_branch: false
@@ -1065,6 +1108,7 @@ repositories:
     teams:
       push:
         - cpp-filecoin-team
+    visibility: public
   cryptoecon-sim-david:
     advanced_security: false
     allow_update_branch: false
@@ -1081,6 +1125,7 @@ repositories:
     teams:
       admin:
         - cryptoeconomics
+    visibility: private
   cryptoeconomics-sim:
     advanced_security: false
     allow_update_branch: false
@@ -1097,6 +1142,7 @@ repositories:
     teams:
       admin:
         - cryptoeconomics
+    visibility: private
   cryptoeconomics:
     advanced_security: false
     allow_update_branch: false
@@ -1116,6 +1162,7 @@ repositories:
         - cryptoeconomics
       push:
         - research
+    visibility: private
   cryptolab-private:
     advanced_security: false
     allow_update_branch: false
@@ -1126,6 +1173,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   cryptolab:
     advanced_security: false
     allow_update_branch: false
@@ -1144,6 +1192,7 @@ repositories:
     teams:
       pull:
         - research
+    visibility: public
   dagstore:
     advanced_security: false
     allow_update_branch: false
@@ -1159,6 +1208,7 @@ repositories:
         - bedrock-go
         - datasystems
         - lotus-contributors
+    visibility: public
   data-prep-tools:
     advanced_security: false
     allow_update_branch: false
@@ -1173,6 +1223,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   data-transfer-benchmark:
     advanced_security: false
     allow_update_branch: false
@@ -1186,6 +1237,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   data:
     advanced_security: false
     allow_update_branch: false
@@ -1200,6 +1252,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   dealbot:
     advanced_security: false
     allow_update_branch: false
@@ -1228,6 +1281,7 @@ repositories:
         - w3dt-stewards
       push:
         - lotus-contributors
+    visibility: public
   depr-notary-governance:
     advanced_security: false
     allow_update_branch: false
@@ -1249,6 +1303,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   deprecated-cryptoeconomics-simulator:
     advanced_security: false
     allow_update_branch: false
@@ -1265,6 +1320,7 @@ repositories:
     teams:
       push:
         - research
+    visibility: private
   designdocs-internal:
     advanced_security: false
     allow_update_branch: false
@@ -1283,6 +1339,7 @@ repositories:
         - product-biz
       push:
         - proj-mgmt
+    visibility: private
   designdocs:
     advanced_security: false
     allow_update_branch: false
@@ -1299,6 +1356,7 @@ repositories:
     teams:
       push:
         - proj-mgmt
+    visibility: public
   dev-vendor-hack:
     advanced_security: false
     allow_update_branch: false
@@ -1315,6 +1373,7 @@ repositories:
     teams:
       push:
         - dev-misc
+    visibility: private
   devgrants:
     advanced_security: false
     allow_update_branch: false
@@ -1344,6 +1403,7 @@ repositories:
         - datasystems
         - foundation
         - labbers
+    visibility: public
   docker-hub-exporter:
     advanced_security: false
     allow_update_branch: false
@@ -1362,6 +1422,7 @@ repositories:
     teams:
       admin:
         - infra
+    visibility: public
   drg-attacks-deprecated:
     advanced_security: false
     allow_update_branch: false
@@ -1381,6 +1442,7 @@ repositories:
     teams:
       pull:
         - dev-misc
+    visibility: private
   drg-attacks:
     advanced_security: false
     allow_update_branch: false
@@ -1400,6 +1462,7 @@ repositories:
       maintain:
         - proofs
         - research
+    visibility: public
   ec_collab:
     advanced_security: false
     allow_update_branch: false
@@ -1418,6 +1481,7 @@ repositories:
       pull:
         - datasystems
         - labbers
+    visibility: private
   ec-gpu:
     advanced_security: false
     allow_update_branch: false
@@ -1437,6 +1501,7 @@ repositories:
     teams:
       maintain:
         - proofs
+    visibility: public
   ecodash:
     advanced_security: false
     allow_update_branch: false
@@ -1460,6 +1525,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   ecosystem-dashboard:
     advanced_security: false
     allow_update_branch: false
@@ -1475,6 +1541,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   ecsim2:
     advanced_security: false
     allow_update_branch: false
@@ -1494,6 +1561,7 @@ repositories:
     teams:
       push:
         - research
+    visibility: private
   engine:
     advanced_security: false
     allow_update_branch: false
@@ -1513,6 +1581,7 @@ repositories:
         - labbers
         - product-biz
         - proj-mgmt
+    visibility: private
   ent:
     advanced_security: false
     allow_update_branch: false
@@ -1536,6 +1605,7 @@ repositories:
         - actors-maintainers
       push:
         - actors-committers
+    visibility: public
   eudico:
     advanced_security: false
     allow_update_branch: false
@@ -1557,6 +1627,7 @@ repositories:
     teams:
       maintain:
         - consensuslab
+    visibility: public
   events-directory:
     advanced_security: false
     allow_update_branch: false
@@ -1577,6 +1648,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   fc-cap-sim:
     advanced_security: false
     allow_update_branch: false
@@ -1590,6 +1662,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   fcnr:
     advanced_security: false
     allow_update_branch: false
@@ -1605,6 +1678,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   fevm-contract-tests:
     advanced_security: false
     allow_update_branch: false
@@ -1623,6 +1697,7 @@ repositories:
     teams:
       push:
         - fvm-core-devs
+    visibility: public
   fevm-data-dao-kit:
     advanced_security: false
     allow_update_branch: false
@@ -1636,6 +1711,7 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   fevm-foundry-kit:
     advanced_security: false
     allow_update_branch: false
@@ -1651,6 +1727,7 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   fevm-hardhat-kit:
     advanced_security: false
     allow_update_branch: true
@@ -1670,6 +1747,7 @@ repositories:
     teams:
       push:
         - lotus-maintainers
+    visibility: public
   ff-bounties:
     advanced_security: false
     allow_update_branch: false
@@ -1701,6 +1779,7 @@ repositories:
     teams:
       push:
         - lotus-contributors
+    visibility: private
   fff:
     advanced_security: false
     allow_update_branch: false
@@ -1719,6 +1798,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   ffi-stub:
     advanced_security: false
     allow_update_branch: true
@@ -1740,6 +1820,7 @@ repositories:
     teams:
       push:
         - lotus-contributors
+    visibility: public
   fil_pasta_curves:
     advanced_security: false
     allow_update_branch: false
@@ -1757,6 +1838,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   fil-blst:
     advanced_security: false
     allow_update_branch: false
@@ -1776,6 +1858,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   fil-calculations:
     advanced_security: false
     allow_update_branch: false
@@ -1791,6 +1874,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   fil-ocl:
     advanced_security: false
     allow_update_branch: false
@@ -1807,6 +1891,7 @@ repositories:
     teams:
       maintain:
         - proofs
+    visibility: public
   fil-rustacuda:
     advanced_security: false
     allow_update_branch: false
@@ -1823,6 +1908,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   fil-sppark:
     advanced_security: false
     allow_update_branch: false
@@ -1836,6 +1922,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filcryo:
     advanced_security: false
     allow_update_branch: false
@@ -1853,6 +1940,7 @@ repositories:
       admin:
         - data
         - Sentinel
+    visibility: public
   filecoin-actor-utils:
     advanced_security: false
     allow_update_branch: false
@@ -1869,6 +1957,7 @@ repositories:
     teams:
       pull:
         - actors-maintainers
+    visibility: public
   filecoin-aggregator:
     advanced_security: false
     allow_update_branch: false
@@ -1889,6 +1978,7 @@ repositories:
         - tooling
       push:
         - dev-misc
+    visibility: private
   filecoin-chain-archiver:
     advanced_security: false
     allow_update_branch: false
@@ -1905,6 +1995,7 @@ repositories:
     teams:
       push:
         - infra
+    visibility: public
   filecoin-client-tutorial:
     advanced_security: false
     allow_update_branch: false
@@ -1920,6 +2011,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-contributors:
     advanced_security: false
     allow_update_branch: false
@@ -1935,6 +2027,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-cred:
     advanced_security: false
     allow_update_branch: false
@@ -1948,6 +2041,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filecoin-dashboard:
     advanced_security: false
     allow_update_branch: false
@@ -1969,6 +2063,7 @@ repositories:
       push:
         - ci
         - tooling
+    visibility: private
   filecoin-datasets-discovery-ui:
     advanced_security: false
     allow_update_branch: false
@@ -1987,6 +2082,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filecoin-datasets:
     advanced_security: false
     allow_update_branch: false
@@ -2008,6 +2104,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filecoin-discover-dealer:
     advanced_security: false
     allow_update_branch: false
@@ -2021,6 +2118,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-discover-go-services:
     advanced_security: false
     allow_update_branch: false
@@ -2039,6 +2137,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filecoin-discover-onboarding:
     advanced_security: false
     allow_update_branch: false
@@ -2057,6 +2156,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filecoin-discover-validator:
     advanced_security: false
     allow_update_branch: false
@@ -2072,6 +2172,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-docs-CAT:
     advanced_security: false
     allow_update_branch: false
@@ -2085,6 +2186,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-docs-stefnotes:
     advanced_security: false
     allow_update_branch: false
@@ -2098,6 +2200,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-docs:
     advanced_security: false
     allow_update_branch: false
@@ -2127,6 +2230,7 @@ repositories:
         - advocates
         - Boost
         - docs-storage-provider
+    visibility: public
   filecoin-explorer-private:
     advanced_security: false
     allow_update_branch: false
@@ -2146,6 +2250,7 @@ repositories:
       push:
         - research
         - tooling
+    visibility: private
   filecoin-explorer:
     advanced_security: false
     allow_update_branch: false
@@ -2164,6 +2269,7 @@ repositories:
         - datasystems
         - dev-misc
         - labbers
+    visibility: public
   filecoin-ffi-private:
     advanced_security: false
     allow_update_branch: false
@@ -2177,6 +2283,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filecoin-ffi:
     advanced_security: false
     allow_update_branch: false
@@ -2199,6 +2306,7 @@ repositories:
         - lotus-maintainers
       maintain:
         - proofs
+    visibility: public
   filecoin-fvm-localnet:
     advanced_security: false
     allow_update_branch: false
@@ -2212,6 +2320,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-http-api:
     advanced_security: false
     allow_update_branch: false
@@ -2225,6 +2334,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-network-sim:
     advanced_security: false
     allow_update_branch: false
@@ -2246,6 +2356,7 @@ repositories:
         - dev-misc
         - research
         - tooling
+    visibility: public
   filecoin-network-viz:
     advanced_security: false
     allow_update_branch: false
@@ -2268,6 +2379,7 @@ repositories:
       push:
         - dev-misc
         - research
+    visibility: public
   filecoin-params:
     advanced_security: false
     allow_update_branch: false
@@ -2287,6 +2399,7 @@ repositories:
       push:
         - dev-misc
         - product-biz
+    visibility: private
   filecoin-phase2:
     advanced_security: false
     allow_update_branch: false
@@ -2303,6 +2416,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-plus-client-onboarding:
     advanced_security: false
     allow_update_branch: false
@@ -2371,6 +2485,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-plus-large-datasets:
     advanced_security: false
     allow_update_branch: false
@@ -2402,6 +2517,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-plus-leaderboard-data:
     advanced_security: false
     allow_update_branch: false
@@ -2417,6 +2533,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-plus-leaderboard-deprecated:
     advanced_security: false
     allow_update_branch: false
@@ -2432,6 +2549,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filecoin-plus-leaderboard:
     advanced_security: false
     allow_update_branch: false
@@ -2445,6 +2563,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-retrieval-market-website:
     advanced_security: false
     allow_update_branch: false
@@ -2466,6 +2585,7 @@ repositories:
     teams:
       pull:
         - website
+    visibility: public
   filecoin.io:
     advanced_security: false
     allow_update_branch: true
@@ -2499,6 +2619,7 @@ repositories:
         - infra
         - product-biz
         - research
+    visibility: private
   filecoin:
     advanced_security: false
     allow_update_branch: false
@@ -2512,6 +2633,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoinverymagic:
     advanced_security: false
     allow_update_branch: false
@@ -2525,6 +2647,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filet:
     advanced_security: false
     allow_update_branch: false
@@ -2539,6 +2662,7 @@ repositories:
       admin:
         - data
         - Sentinel
+    visibility: public
   FIPs-1:
     advanced_security: false
     allow_update_branch: false
@@ -2552,6 +2676,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   FIPs:
     advanced_security: false
     allow_update_branch: false
@@ -2578,6 +2703,7 @@ repositories:
         - Forest
         - lotus-maintainers
         - research
+    visibility: public
   foundation-website:
     advanced_security: false
     allow_update_branch: false
@@ -2596,6 +2722,7 @@ repositories:
     teams:
       push:
         - website
+    visibility: private
   fungi:
     advanced_security: false
     allow_update_branch: false
@@ -2618,6 +2745,7 @@ repositories:
         - proofs
       push:
         - lotus-contributors
+    visibility: public
   Fuzzing-FVM:
     advanced_security: false
     allow_update_branch: false
@@ -2635,6 +2763,7 @@ repositories:
     teams:
       maintain:
         - fvm-core-devs
+    visibility: private
   fuzzing-lotus:
     advanced_security: false
     allow_update_branch: false
@@ -2650,6 +2779,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   fvm-bench:
     advanced_security: false
     allow_update_branch: false
@@ -2666,6 +2796,7 @@ repositories:
     teams:
       push:
         - fvm-core-devs
+    visibility: public
   fvm-docs:
     advanced_security: false
     allow_update_branch: false
@@ -2679,6 +2810,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   fvm-evm:
     advanced_security: false
     allow_update_branch: false
@@ -2702,6 +2834,7 @@ repositories:
         - lotus-maintainers
       push:
         - fvm-core-devs
+    visibility: public
   fvm-example-actors:
     advanced_security: false
     allow_update_branch: false
@@ -2717,6 +2850,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   fvm-pm:
     advanced_security: false
     allow_update_branch: false
@@ -2751,6 +2885,7 @@ repositories:
         - fvm-core-devs
         - labbers
         - lotus-maintainers
+    visibility: private
   fvm-runtime-experiment:
     advanced_security: false
     allow_update_branch: false
@@ -2764,6 +2899,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   fvm-spacewarp:
     advanced_security: false
     allow_update_branch: true
@@ -2782,6 +2918,7 @@ repositories:
     teams:
       push:
         - FVM Web
+    visibility: private
   fvm-specs:
     advanced_security: false
     allow_update_branch: false
@@ -2801,6 +2938,7 @@ repositories:
       push:
         - fvm-core-devs
         - fvm-team
+    visibility: public
   fvm-starter-kit-deal-making:
     advanced_security: false
     allow_update_branch: false
@@ -2825,6 +2963,7 @@ repositories:
         - lotus-maintainers
       push:
         - docs-writers
+    visibility: public
   fvm-test-vectors:
     advanced_security: false
     allow_update_branch: false
@@ -2841,6 +2980,7 @@ repositories:
         - lotus-contributors
         - lotus-maintainers
         - Venus
+    visibility: public
   fvm-wasm-instrument:
     advanced_security: false
     allow_update_branch: false
@@ -2859,6 +2999,7 @@ repositories:
     teams:
       maintain:
         - lotus-maintainers
+    visibility: public
   fvm-website:
     advanced_security: false
     allow_update_branch: false
@@ -2888,6 +3029,7 @@ repositories:
         - datasystems
         - FVM Web
         - labbers
+    visibility: private
   geodns-server:
     advanced_security: false
     allow_update_branch: false
@@ -2901,6 +3043,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   gfm-priv:
     advanced_security: false
     allow_update_branch: false
@@ -2914,6 +3057,7 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
+    visibility: private
   github-exporter:
     advanced_security: false
     allow_update_branch: false
@@ -2932,6 +3076,7 @@ repositories:
     teams:
       admin:
         - infra
+    visibility: public
   github-mgmt:
     advanced_security: false
     allow_update_branch: false
@@ -2965,6 +3110,7 @@ repositories:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       push:
         - github-mgmt stewards
+    visibility: private
   gitops-policy-library:
     advanced_security: false
     allow_update_branch: false
@@ -2978,6 +3124,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   gitops-profile-catalog:
     advanced_security: false
     allow_update_branch: false
@@ -2998,6 +3145,7 @@ repositories:
     teams:
       admin:
         - infra
+    visibility: public
   gitops-root:
     advanced_security: false
     allow_update_branch: false
@@ -3028,6 +3176,7 @@ repositories:
         - labbers
       push:
         - infra
+    visibility: private
   go-address:
     advanced_security: false
     allow_update_branch: false
@@ -3046,6 +3195,7 @@ repositories:
     teams:
       admin:
         - Strike Team
+    visibility: public
   go-amt-ipld:
     advanced_security: false
     allow_update_branch: false
@@ -3067,6 +3217,7 @@ repositories:
         - w3dt-stewards
       push:
         - actors-committers
+    visibility: public
   go-bitfield:
     advanced_security: false
     allow_update_branch: false
@@ -3088,6 +3239,7 @@ repositories:
       push:
         - actors-committers
         - lotus-contributors
+    visibility: public
   go-bls-sigs:
     advanced_security: false
     allow_update_branch: false
@@ -3106,6 +3258,7 @@ repositories:
     teams:
       maintain:
         - proofs
+    visibility: public
   go-bs-lmdb:
     advanced_security: false
     allow_update_branch: false
@@ -3125,6 +3278,7 @@ repositories:
       pull:
         - datasystems
         - labbers
+    visibility: public
   go-bs-postgres-chainnotated:
     advanced_security: false
     allow_update_branch: false
@@ -3144,6 +3298,7 @@ repositories:
       push:
         - datasystems
         - labbers
+    visibility: public
   go-cbor-util:
     advanced_security: false
     allow_update_branch: false
@@ -3160,6 +3315,7 @@ repositories:
     teams:
       admin:
         - Strike Team
+    visibility: public
   go-cid-tools:
     advanced_security: false
     allow_update_branch: false
@@ -3173,6 +3329,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   go-commp-utils:
     advanced_security: false
     allow_update_branch: false
@@ -3194,6 +3351,7 @@ repositories:
         - datasystems
         - labbers
         - lotus-contributors
+    visibility: public
   go-crypto:
     advanced_security: false
     allow_update_branch: false
@@ -3209,6 +3367,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   go-dagaggregator-unixfs:
     advanced_security: false
     allow_update_branch: false
@@ -3222,6 +3381,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   go-data-segment:
     advanced_security: false
     allow_update_branch: false
@@ -3242,6 +3402,7 @@ repositories:
         - lotus-maintainers
       push:
         - lotus-contributors
+    visibility: public
   go-data-transfer-bus:
     advanced_security: false
     allow_update_branch: false
@@ -3255,6 +3416,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   go-data-transfer:
     advanced_security: false
     allow_update_branch: false
@@ -3280,6 +3442,7 @@ repositories:
         - datasystems
         - labbers
         - lotus-contributors
+    visibility: public
   go-ds-versioning:
     advanced_security: false
     allow_update_branch: false
@@ -3298,6 +3461,7 @@ repositories:
     teams:
       push:
         - lotus-contributors
+    visibility: public
   go-fil-commcid:
     advanced_security: false
     allow_update_branch: false
@@ -3321,6 +3485,7 @@ repositories:
     teams:
       push:
         - lotus-contributors
+    visibility: public
   go-fil-commp-hashhash:
     advanced_security: false
     allow_update_branch: false
@@ -3338,6 +3503,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   go-fil-filestore:
     advanced_security: false
     allow_update_branch: false
@@ -3353,6 +3519,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   go-fil-markets:
     advanced_security: false
     allow_update_branch: false
@@ -3386,6 +3553,7 @@ repositories:
       push:
         - datasystems
         - lotus-contributors
+    visibility: public
   go-filecoin-backup:
     advanced_security: false
     allow_update_branch: false
@@ -3396,6 +3564,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   go-filecoin-badges:
     advanced_security: false
     allow_update_branch: false
@@ -3415,6 +3584,7 @@ repositories:
     teams:
       admin:
         - infra
+    visibility: public
   go-filecoin-infra:
     advanced_security: false
     allow_update_branch: false
@@ -3436,6 +3606,7 @@ repositories:
         - infra
       pull:
         - proofs
+    visibility: private
   go-hamt-ipld:
     advanced_security: false
     allow_update_branch: false
@@ -3456,6 +3627,7 @@ repositories:
         - actors-maintainers
       push:
         - actors-committers
+    visibility: public
   go-http-api:
     advanced_security: false
     allow_update_branch: false
@@ -3469,6 +3641,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   go-ipld-cbor:
     advanced_security: false
     allow_update_branch: false
@@ -3482,6 +3655,7 @@ repositories:
     teams:
       admin:
         - dev-misc
+    visibility: public
   go-jsonrpc:
     advanced_security: false
     allow_update_branch: false
@@ -3502,6 +3676,7 @@ repositories:
     teams:
       maintain:
         - lotus-maintainers
+    visibility: public
   go-leb128-backup:
     advanced_security: false
     allow_update_branch: false
@@ -3512,6 +3687,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   go-leb128:
     advanced_security: false
     allow_update_branch: false
@@ -3528,6 +3704,7 @@ repositories:
     teams:
       pull:
         - dev-misc
+    visibility: public
   go-legs:
     advanced_security: false
     allow_update_branch: false
@@ -3553,6 +3730,7 @@ repositories:
         - w3dt-stewards
       push:
         - datasystems
+    visibility: public
   go-multistore:
     advanced_security: false
     allow_update_branch: false
@@ -3573,6 +3751,7 @@ repositories:
     teams:
       push:
         - lotus-contributors
+    visibility: public
   go-padreader:
     advanced_security: false
     allow_update_branch: false
@@ -3592,6 +3771,7 @@ repositories:
     teams:
       push:
         - Strike Team
+    visibility: public
   go-paramfetch:
     advanced_security: false
     allow_update_branch: false
@@ -3608,6 +3788,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   go-proofs:
     advanced_security: false
     allow_update_branch: false
@@ -3623,6 +3804,7 @@ repositories:
         - ci
       push:
         - research
+    visibility: private
   go-retrieval-market-project:
     advanced_security: false
     allow_update_branch: false
@@ -3636,6 +3818,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   go-retrieval-types:
     advanced_security: false
     allow_update_branch: false
@@ -3649,6 +3832,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   go-sectorbuilder-rpc:
     advanced_security: false
     allow_update_branch: false
@@ -3662,6 +3846,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   go-sectorbuilder:
     advanced_security: false
     allow_update_branch: false
@@ -3681,6 +3866,7 @@ repositories:
     teams:
       maintain:
         - proofs
+    visibility: public
   go-shared-types:
     advanced_security: false
     allow_update_branch: false
@@ -3698,6 +3884,7 @@ repositories:
     teams:
       push:
         - Strike Team
+    visibility: public
   go-state-types-private:
     advanced_security: false
     allow_update_branch: false
@@ -3711,6 +3898,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   go-state-types:
     advanced_security: false
     allow_update_branch: false
@@ -3732,6 +3920,7 @@ repositories:
       push:
         - actors-committers
         - lotus-contributors
+    visibility: public
   go-statemachine:
     advanced_security: false
     allow_update_branch: false
@@ -3756,6 +3945,7 @@ repositories:
         - w3dt-stewards
       push:
         - lotus-contributors
+    visibility: public
   go-statestore:
     advanced_security: false
     allow_update_branch: false
@@ -3769,6 +3959,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   go-storage-market:
     advanced_security: false
     allow_update_branch: false
@@ -3787,6 +3978,7 @@ repositories:
       pull:
         - datasystems
         - labbers
+    visibility: private
   go-storage-miner:
     advanced_security: false
     allow_update_branch: false
@@ -3808,6 +4000,7 @@ repositories:
     teams:
       maintain:
         - proofs
+    visibility: public
   go-storedcounter:
     advanced_security: false
     allow_update_branch: false
@@ -3823,6 +4016,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   go-ulimit:
     advanced_security: false
     allow_update_branch: false
@@ -3833,6 +4027,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   gov_docs:
     advanced_security: false
     allow_update_branch: false
@@ -3848,6 +4043,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   grafana-lotus-theme:
     advanced_security: false
     allow_update_branch: false
@@ -3865,6 +4061,7 @@ repositories:
     teams:
       push:
         - infra
+    visibility: private
   graphsync-chainsync-sprint:
     advanced_security: false
     allow_update_branch: false
@@ -3885,6 +4082,7 @@ repositories:
       pull:
         - datasystems
         - labbers
+    visibility: private
   green.filecoin.io:
     advanced_security: false
     allow_update_branch: false
@@ -3913,6 +4111,7 @@ repositories:
     teams:
       admin:
         - website
+    visibility: private
   group:
     advanced_security: false
     allow_update_branch: false
@@ -3931,6 +4130,7 @@ repositories:
     teams:
       maintain:
         - proofs
+    visibility: public
   hackathons-forestry-legacy:
     advanced_security: false
     allow_update_branch: false
@@ -3953,6 +4153,7 @@ repositories:
     teams:
       admin:
         - website
+    visibility: private
   hackathons-microgen-legacy:
     advanced_security: false
     allow_update_branch: false
@@ -3976,6 +4177,7 @@ repositories:
     teams:
       push:
         - website
+    visibility: private
   halo2:
     advanced_security: false
     allow_update_branch: false
@@ -3992,6 +4194,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   helm-charts:
     advanced_security: false
     allow_update_branch: true
@@ -4014,6 +4217,7 @@ repositories:
     teams:
       admin:
         - infra
+    visibility: public
   homebrew-exporter:
     advanced_security: false
     allow_update_branch: false
@@ -4032,6 +4236,7 @@ repositories:
     teams:
       admin:
         - infra
+    visibility: public
   homebrew-lotus:
     advanced_security: false
     allow_update_branch: false
@@ -4049,6 +4254,7 @@ repositories:
       admin:
         - infra
         - lotus-maintainers
+    visibility: public
   hyperdrive-analysis:
     advanced_security: false
     allow_update_branch: false
@@ -4066,6 +4272,7 @@ repositories:
       push:
         - datasystems
         - labbers
+    visibility: private
   infra:
     advanced_security: false
     allow_update_branch: false
@@ -4082,6 +4289,7 @@ repositories:
     teams:
       admin:
         - infra
+    visibility: public
   iptb:
     advanced_security: false
     allow_update_branch: false
@@ -4099,6 +4307,7 @@ repositories:
       admin:
         - dev-misc
         - proj-mgmt
+    visibility: private
   jbenet-market-sim:
     advanced_security: false
     allow_update_branch: false
@@ -4115,6 +4324,7 @@ repositories:
     teams:
       admin:
         - cryptoeconomics
+    visibility: private
   jenkins:
     advanced_security: false
     allow_update_branch: false
@@ -4125,6 +4335,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   kube-infra:
     advanced_security: false
     allow_update_branch: false
@@ -4144,6 +4355,7 @@ repositories:
     teams:
       admin:
         - infra
+    visibility: private
   large-data.filecoin.io:
     advanced_security: false
     allow_update_branch: false
@@ -4160,6 +4372,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   lassie-event-recorder:
     advanced_security: false
     allow_update_branch: false
@@ -4184,6 +4397,7 @@ repositories:
     teams:
       maintain:
         - bedrock-go
+    visibility: public
   lassie-k6:
     advanced_security: false
     allow_update_branch: false
@@ -4197,6 +4411,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   lassie:
     advanced_security: false
     allow_update_branch: false
@@ -4216,6 +4431,7 @@ repositories:
     teams:
       maintain:
         - bedrock-go
+    visibility: public
   launch:
     advanced_security: false
     allow_update_branch: false
@@ -4238,6 +4454,7 @@ repositories:
         - labbers
       push:
         - proj-mgmt
+    visibility: private
   learn-math:
     advanced_security: false
     allow_update_branch: false
@@ -4253,6 +4470,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   lid-benchmarks:
     advanced_security: false
     allow_update_branch: false
@@ -4272,6 +4490,7 @@ repositories:
     teams:
       admin:
         - Boost
+    visibility: private
   lightning-planning:
     advanced_security: false
     allow_update_branch: false
@@ -4291,6 +4510,7 @@ repositories:
       push:
         - datasystems
         - labbers
+    visibility: public
   lily-archiver:
     advanced_security: false
     allow_update_branch: false
@@ -4311,6 +4531,7 @@ repositories:
         - Sentinel Admin
       maintain:
         - Sentinel Operators
+    visibility: public
   lily:
     advanced_security: false
     allow_update_branch: false
@@ -4335,6 +4556,7 @@ repositories:
     teams:
       admin:
         - Sentinel Admin
+    visibility: public
   lotus-archived:
     advanced_security: false
     allow_update_branch: false
@@ -4350,6 +4572,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   lotus-badges:
     advanced_security: false
     allow_update_branch: false
@@ -4363,6 +4586,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   lotus-dcops:
     advanced_security: false
     allow_update_branch: false
@@ -4388,6 +4612,7 @@ repositories:
         - proofs
       push:
         - infra
+    visibility: private
   lotus-docs:
     advanced_security: false
     allow_update_branch: false
@@ -4413,6 +4638,7 @@ repositories:
       push:
         - docs-writers
         - Lotus-TSE
+    visibility: public
   lotus-infra-dev:
     advanced_security: false
     allow_update_branch: false
@@ -4449,6 +4675,7 @@ repositories:
         - w3dt-stewards
       push:
         - lotus-contributors
+    visibility: private
   lotus-infra:
     advanced_security: false
     allow_update_branch: false
@@ -4495,6 +4722,7 @@ repositories:
       pull:
         - actors-maintainers
         - proofs
+    visibility: private
   Lotus-Miner-V2:
     advanced_security: false
     allow_update_branch: false
@@ -4521,6 +4749,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   lotus-priv:
     advanced_security: false
     allow_update_branch: false
@@ -4543,6 +4772,7 @@ repositories:
     teams:
       push:
         - lotus-maintainers
+    visibility: private
   lotus-testground:
     advanced_security: false
     allow_update_branch: false
@@ -4563,6 +4793,7 @@ repositories:
       push:
         - datasystems
         - labbers
+    visibility: private
   lotus:
     advanced_security: false
     allow_update_branch: false
@@ -4579,6 +4810,7 @@ repositories:
       push:
         - lotus-contributors
         - Lotus-TSE
+    visibility: public
   lua-filecoin:
     advanced_security: false
     allow_update_branch: false
@@ -4592,6 +4824,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   main-backup:
     advanced_security: false
     allow_update_branch: false
@@ -4602,6 +4835,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   main:
     advanced_security: false
     allow_update_branch: false
@@ -4612,6 +4846,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   mapr:
     advanced_security: false
     allow_update_branch: false
@@ -4625,6 +4860,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   merkle_light-backup:
     advanced_security: false
     allow_update_branch: false
@@ -4635,6 +4871,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   merkletree:
     advanced_security: false
     allow_update_branch: false
@@ -4658,6 +4895,7 @@ repositories:
       push:
         - datasystems
         - labbers
+    visibility: public
   metadocs:
     advanced_security: false
     allow_update_branch: false
@@ -4678,6 +4916,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   metamodel:
     advanced_security: false
     allow_update_branch: false
@@ -4695,6 +4934,7 @@ repositories:
       push:
         - datasystems
         - labbers
+    visibility: private
   metaverse.filecoin.io:
     advanced_security: false
     allow_update_branch: false
@@ -4715,6 +4955,7 @@ repositories:
     teams:
       admin:
         - website
+    visibility: private
   mir:
     advanced_security: false
     allow_update_branch: true
@@ -4735,6 +4976,7 @@ repositories:
     teams:
       maintain:
         - consensuslab
+    visibility: public
   motivation:
     advanced_security: false
     allow_update_branch: false
@@ -4752,6 +4994,7 @@ repositories:
       push:
         - datasystems
         - labbers
+    visibility: private
   near-blake2:
     advanced_security: false
     allow_update_branch: false
@@ -4765,6 +5008,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   network-growth-data:
     advanced_security: false
     allow_update_branch: false
@@ -4778,6 +5022,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   network-info:
     advanced_security: false
     allow_update_branch: false
@@ -4802,6 +5047,7 @@ repositories:
       push:
         - datasystems
         - labbers
+    visibility: public
   notary-governance:
     advanced_security: false
     allow_update_branch: false
@@ -4832,6 +5078,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   oni:
     advanced_security: false
     allow_update_branch: false
@@ -4851,6 +5098,7 @@ repositories:
       push:
         - datasystems
         - labbers
+    visibility: public
   openzeppelin-contracts:
     advanced_security: false
     allow_update_branch: false
@@ -4864,6 +5112,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   orbit.filecoin.io:
     advanced_security: false
     allow_update_branch: false
@@ -4884,6 +5133,7 @@ repositories:
     teams:
       admin:
         - website
+    visibility: private
   orient:
     advanced_security: false
     allow_update_branch: false
@@ -4908,6 +5158,7 @@ repositories:
       push:
         - proofs
         - research
+    visibility: public
   paired:
     advanced_security: false
     allow_update_branch: false
@@ -4926,6 +5177,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   paper-porep-drg:
     advanced_security: false
     allow_update_branch: false
@@ -4945,6 +5197,7 @@ repositories:
       push:
         - dev-misc
         - research
+    visibility: private
   parity-wasm:
     advanced_security: false
     allow_update_branch: false
@@ -4955,6 +5208,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   pc2_cuda:
     advanced_security: false
     allow_update_branch: false
@@ -4968,6 +5222,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   PebblingAndDepthReductionAttacks:
     advanced_security: false
     allow_update_branch: false
@@ -4981,6 +5236,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   phase2-attestations-internal-verification:
     advanced_security: false
     allow_update_branch: false
@@ -4996,6 +5252,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   phase2-attestations:
     advanced_security: false
     allow_update_branch: false
@@ -5017,6 +5274,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   phase2:
     advanced_security: false
     allow_update_branch: false
@@ -5033,6 +5291,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   playground:
     advanced_security: false
     allow_update_branch: false
@@ -5046,6 +5305,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   pm:
     advanced_security: false
     allow_update_branch: false
@@ -5066,6 +5326,7 @@ repositories:
       push:
         - product-biz
         - proj-mgmt
+    visibility: private
   powersoftau:
     advanced_security: false
     allow_update_branch: false
@@ -5082,6 +5343,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   product-biz:
     advanced_security: false
     allow_update_branch: false
@@ -5098,6 +5360,7 @@ repositories:
     teams:
       admin:
         - product-biz
+    visibility: private
   product:
     advanced_security: false
     allow_update_branch: false
@@ -5114,6 +5377,7 @@ repositories:
     teams:
       maintain:
         - product
+    visibility: public
   proofs-buildbot:
     advanced_security: false
     allow_update_branch: false
@@ -5130,6 +5394,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: private
   proofs:
     advanced_security: false
     allow_update_branch: false
@@ -5148,6 +5413,7 @@ repositories:
     teams:
       push:
         - research
+    visibility: private
   pubsub:
     advanced_security: false
     allow_update_branch: false
@@ -5161,6 +5427,7 @@ repositories:
     teams:
       push:
         - lotus-contributors
+    visibility: public
   ref-fvm-fuzz-corpora:
     advanced_security: false
     allow_update_branch: false
@@ -5181,6 +5448,7 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
+    visibility: public
   ref-fvm-priv:
     advanced_security: false
     allow_update_branch: false
@@ -5194,6 +5462,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   ref-fvm:
     advanced_security: false
     allow_update_branch: false
@@ -5223,6 +5492,7 @@ repositories:
         - fvm-core-devs
         - lotus-contributors
         - lotus-maintainers
+    visibility: public
   release-metrics-gitops:
     advanced_security: false
     allow_update_branch: false
@@ -5242,6 +5512,7 @@ repositories:
     teams:
       admin:
         - infra
+    visibility: public
   replication-game-infra:
     advanced_security: false
     allow_update_branch: false
@@ -5257,6 +5528,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   replication-game-leaderboard:
     advanced_security: false
     allow_update_branch: false
@@ -5277,6 +5549,7 @@ repositories:
         - datasystems
         - dev-misc
         - labbers
+    visibility: public
   replication-game:
     advanced_security: false
     allow_update_branch: false
@@ -5300,6 +5573,7 @@ repositories:
         - dev-misc
         - labbers
         - research
+    visibility: public
   research-FC-calculator:
     advanced_security: false
     allow_update_branch: false
@@ -5313,6 +5587,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   research-network:
     advanced_security: false
     allow_update_branch: false
@@ -5332,6 +5607,7 @@ repositories:
       push:
         - cryptoeconomics
         - product-biz
+    visibility: private
   research-private:
     advanced_security: false
     allow_update_branch: false
@@ -5349,6 +5625,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   research-retreats:
     advanced_security: false
     allow_update_branch: false
@@ -5365,6 +5642,7 @@ repositories:
     teams:
       admin:
         - research
+    visibility: private
   research-simpleCalc:
     advanced_security: false
     allow_update_branch: false
@@ -5382,6 +5660,7 @@ repositories:
       push:
         - datasystems
         - labbers
+    visibility: private
   research-website:
     advanced_security: false
     allow_update_branch: false
@@ -5401,6 +5680,7 @@ repositories:
       admin:
         - research
         - website
+    visibility: private
   research:
     advanced_security: false
     allow_update_branch: false
@@ -5422,6 +5702,7 @@ repositories:
         - labbers
       push:
         - dev-misc
+    visibility: public
   retrieval-load-testing:
     advanced_security: false
     allow_update_branch: false
@@ -5438,6 +5719,7 @@ repositories:
     teams:
       maintain:
         - bedrock-go
+    visibility: public
   retrieval-market-spec:
     advanced_security: false
     allow_update_branch: false
@@ -5462,6 +5744,7 @@ repositories:
       push:
         - datasystems
         - labbers
+    visibility: public
   retrieval-market:
     advanced_security: false
     allow_update_branch: false
@@ -5478,6 +5761,7 @@ repositories:
     teams:
       pull:
         - Retrieval Market Builders
+    visibility: public
   rhea-load-testing:
     advanced_security: false
     allow_update_branch: false
@@ -5491,6 +5775,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   rust-cad-cad:
     advanced_security: false
     allow_update_branch: false
@@ -5518,6 +5803,7 @@ repositories:
         - infra
       push:
         - cryptoeconomics
+    visibility: private
   rust-fil-ffi-toolkit:
     advanced_security: false
     allow_update_branch: false
@@ -5536,6 +5822,7 @@ repositories:
     teams:
       maintain:
         - proofs
+    visibility: public
   rust-fil-logger:
     advanced_security: false
     allow_update_branch: false
@@ -5556,6 +5843,7 @@ repositories:
         - proofs
       pull:
         - dev-misc
+    visibility: public
   rust-fil-nse-gpu:
     advanced_security: false
     allow_update_branch: false
@@ -5571,6 +5859,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   rust-fil-proofs-ffi:
     advanced_security: false
     allow_update_branch: false
@@ -5588,6 +5877,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   rust-fil-proofs-private:
     advanced_security: false
     allow_update_branch: false
@@ -5601,6 +5891,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   rust-fil-proofs:
     advanced_security: false
     allow_update_branch: false
@@ -5630,6 +5921,7 @@ repositories:
         - proofs
       triage:
         - research
+    visibility: public
   rust-fil-secp256k1:
     advanced_security: false
     allow_update_branch: false
@@ -5643,6 +5935,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   rust-fil-sector-builder:
     advanced_security: false
     allow_update_branch: false
@@ -5665,6 +5958,7 @@ repositories:
         - ci
       triage:
         - research
+    visibility: public
   rust-filbase:
     advanced_security: false
     allow_update_branch: false
@@ -5683,6 +5977,7 @@ repositories:
         - ci
       push:
         - proofs
+    visibility: public
   rust-filecoin-proofs-api-private:
     advanced_security: false
     allow_update_branch: false
@@ -5696,6 +5991,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   rust-filecoin-proofs-api:
     advanced_security: false
     allow_update_branch: false
@@ -5716,6 +6012,7 @@ repositories:
         - proofs
       pull:
         - ci
+    visibility: public
   rust-gpu-tools:
     advanced_security: false
     allow_update_branch: false
@@ -5736,6 +6033,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   rust-proofs-backup:
     advanced_security: false
     allow_update_branch: false
@@ -5746,6 +6044,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   rust-proofs-infra:
     advanced_security: false
     allow_update_branch: false
@@ -5769,6 +6068,7 @@ repositories:
         - dev-misc
       push:
         - cryptoeconomics
+    visibility: private
   rust-sha2ni:
     advanced_security: false
     allow_update_branch: false
@@ -5782,6 +6082,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   sample-data:
     advanced_security: false
     allow_update_branch: false
@@ -5798,6 +6099,7 @@ repositories:
     teams:
       admin:
         - dev-misc
+    visibility: public
   sapling-crypto:
     advanced_security: false
     allow_update_branch: false
@@ -5817,6 +6119,7 @@ repositories:
     teams:
       push:
         - proofs
+    visibility: public
   sector-storage:
     advanced_security: false
     allow_update_branch: false
@@ -5830,6 +6133,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   security-analysis:
     advanced_security: false
     allow_update_branch: false
@@ -5845,6 +6149,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   sentinel-backfill:
     advanced_security: false
     allow_update_branch: false
@@ -5867,6 +6172,7 @@ repositories:
         - Sentinel
       maintain:
         - infra
+    visibility: private
   sentinel-drone:
     advanced_security: false
     allow_update_branch: false
@@ -5891,6 +6197,7 @@ repositories:
     teams:
       pull:
         - infra
+    visibility: public
   sentinel-infra:
     advanced_security: false
     allow_update_branch: false
@@ -5911,6 +6218,7 @@ repositories:
         - infra
       maintain:
         - Weaveworks
+    visibility: private
   sentinel-locations:
     advanced_security: false
     allow_update_branch: false
@@ -5928,6 +6236,7 @@ repositories:
       admin:
         - data
         - Sentinel
+    visibility: public
   sentinel-private:
     advanced_security: false
     allow_update_branch: false
@@ -5944,6 +6253,7 @@ repositories:
     teams:
       maintain:
         - infra
+    visibility: private
   sentinel-tick:
     advanced_security: false
     allow_update_branch: false
@@ -5966,6 +6276,7 @@ repositories:
       push:
         - infra
         - lotus-contributors
+    visibility: public
   sentinel:
     advanced_security: false
     allow_update_branch: false
@@ -5997,6 +6308,7 @@ repositories:
       pull:
         - oni
         - research
+    visibility: public
   serialization-vectors:
     advanced_security: false
     allow_update_branch: false
@@ -6010,6 +6322,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   shared-shell-scripts:
     advanced_security: false
     allow_update_branch: false
@@ -6023,6 +6336,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   slate-react-system:
     advanced_security: false
     allow_update_branch: false
@@ -6039,6 +6353,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   slate-stats:
     advanced_security: false
     allow_update_branch: false
@@ -6055,6 +6370,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   slate:
     advanced_security: false
     allow_update_branch: false
@@ -6086,6 +6402,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   snapcraft-exporter:
     advanced_security: false
     allow_update_branch: false
@@ -6104,6 +6421,7 @@ repositories:
     teams:
       admin:
         - infra
+    visibility: public
   snark-circuits:
     advanced_security: false
     allow_update_branch: false
@@ -6124,6 +6442,7 @@ repositories:
         - ci
       push:
         - dev-misc
+    visibility: private
   solidity-data-segment:
     advanced_security: false
     allow_update_branch: false
@@ -6137,6 +6456,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   sp-infographic:
     advanced_security: false
     allow_update_branch: false
@@ -6150,6 +6470,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   sp-mentorship-grants:
     advanced_security: false
     allow_update_branch: false
@@ -6166,6 +6487,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   sp.filecoin.io:
     advanced_security: false
     allow_update_branch: true
@@ -6186,6 +6508,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   specs-actors:
     advanced_security: false
     allow_update_branch: false
@@ -6212,6 +6535,7 @@ repositories:
       push:
         - lotus-contributors
         - w3dt-stewards
+    visibility: public
   specs-private:
     advanced_security: false
     allow_update_branch: false
@@ -6225,6 +6549,7 @@ repositories:
     teams:
       admin:
         - specs
+    visibility: private
   specs-storage:
     advanced_security: false
     allow_update_branch: false
@@ -6241,6 +6566,7 @@ repositories:
     teams:
       admin:
         - actors-maintainers
+    visibility: public
   specs:
     advanced_security: false
     allow_update_branch: false
@@ -6274,6 +6600,7 @@ repositories:
         - dev-misc
       triage:
         - research
+    visibility: public
   SPWG:
     advanced_security: false
     allow_update_branch: false
@@ -6289,6 +6616,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   starling:
     advanced_security: false
     allow_update_branch: false
@@ -6305,6 +6633,7 @@ repositories:
     teams:
       admin:
         - starling-storage
+    visibility: public
   statediff:
     advanced_security: false
     allow_update_branch: false
@@ -6328,6 +6657,7 @@ repositories:
         - oni
       push:
         - actors-maintainers
+    visibility: public
   storage-fsm:
     advanced_security: false
     allow_update_branch: false
@@ -6343,6 +6673,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   storage-team:
     advanced_security: false
     allow_update_branch: false
@@ -6356,6 +6687,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   storage.filecoin.io:
     advanced_security: false
     allow_update_branch: false
@@ -6371,6 +6703,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   sturdy-journey:
     advanced_security: false
     allow_update_branch: false
@@ -6384,6 +6717,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   system-test-matrix:
     advanced_security: false
     allow_update_branch: false
@@ -6411,6 +6745,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   taupipp:
     advanced_security: false
     allow_update_branch: false
@@ -6428,6 +6763,7 @@ repositories:
       pull:
         - proofs
         - research
+    visibility: public
   terraform-google-lily-starter:
     advanced_security: false
     allow_update_branch: false
@@ -6446,6 +6782,7 @@ repositories:
       maintain:
         - datasystems
         - labbers
+    visibility: public
   test-vectors:
     advanced_security: false
     allow_update_branch: false
@@ -6469,6 +6806,7 @@ repositories:
         - oni
       push:
         - lotus-contributors
+    visibility: public
   testnet-hyperspace:
     advanced_security: false
     allow_update_branch: false
@@ -6491,6 +6829,7 @@ repositories:
     teams:
       maintain:
         - Lotus-TSE
+    visibility: public
   testnet-wallaby:
     advanced_security: false
     allow_update_branch: false
@@ -6510,6 +6849,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   time-capsule-app:
     advanced_security: false
     allow_update_branch: false
@@ -6525,6 +6865,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   TODOnotes:
     advanced_security: false
     allow_update_branch: false
@@ -6538,6 +6879,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   token-distribution-procedures:
     advanced_security: false
     allow_update_branch: false
@@ -6565,6 +6907,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   TPM:
     advanced_security: false
     allow_update_branch: false
@@ -6575,6 +6918,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   tweety:
     advanced_security: false
     allow_update_branch: false
@@ -6595,6 +6939,7 @@ repositories:
         - datasystems
         - infra
         - labbers
+    visibility: private
   venus-auth:
     advanced_security: false
     allow_update_branch: false
@@ -6617,6 +6962,7 @@ repositories:
     teams:
       pull:
         - Venus
+    visibility: public
   venus-common-types:
     advanced_security: false
     allow_update_branch: false
@@ -6630,6 +6976,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   venus-docs:
     advanced_security: false
     allow_update_branch: false
@@ -6660,6 +7007,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   venus-market:
     advanced_security: false
     allow_update_branch: true
@@ -6684,6 +7032,7 @@ repositories:
     teams:
       pull:
         - Venus
+    visibility: public
   venus-messager:
     advanced_security: false
     allow_update_branch: false
@@ -6706,6 +7055,7 @@ repositories:
     teams:
       admin:
         - Venus
+    visibility: public
   venus-miner:
     advanced_security: false
     allow_update_branch: false
@@ -6729,6 +7079,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   venus-sealer:
     advanced_security: false
     allow_update_branch: false
@@ -6752,6 +7103,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   venus-wallet:
     advanced_security: false
     allow_update_branch: false
@@ -6775,6 +7127,7 @@ repositories:
     teams:
       pull:
         - Venus
+    visibility: public
   venus:
     advanced_security: false
     allow_update_branch: false
@@ -6813,6 +7166,7 @@ repositories:
         - datasystems
         - infra
         - labbers
+    visibility: public
   wasm-tools:
     advanced_security: false
     allow_update_branch: false
@@ -6826,6 +7180,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   wasmtime:
     advanced_security: false
     allow_update_branch: false
@@ -6839,6 +7194,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   website-archive.discuss.filecoin.io:
     advanced_security: false
     allow_update_branch: false
@@ -6852,6 +7208,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   website-bounty.filecoin.io:
     advanced_security: false
     allow_update_branch: false
@@ -6870,6 +7227,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   website-grants:
     advanced_security: false
     allow_update_branch: false
@@ -6893,6 +7251,7 @@ repositories:
         - labbers
         - product-biz
         - research
+    visibility: private
   website-liftoff:
     advanced_security: false
     allow_update_branch: false
@@ -6917,6 +7276,7 @@ repositories:
     teams:
       admin:
         - website
+    visibility: private
   website-security.filecoin.io:
     advanced_security: false
     allow_update_branch: false
@@ -6938,6 +7298,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   website:
     advanced_security: false
     allow_update_branch: false
@@ -6957,6 +7318,7 @@ repositories:
         - labbers
         - product-biz
         - research
+    visibility: private
   wge-post-deployment-template-renderer:
     advanced_security: false
     allow_update_branch: false
@@ -6971,6 +7333,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   why-market-sim:
     advanced_security: false
     allow_update_branch: false
@@ -6987,6 +7350,7 @@ repositories:
     teams:
       pull:
         - cryptoeconomics
+    visibility: private
   zexe:
     advanced_security: false
     allow_update_branch: false
@@ -7007,6 +7371,7 @@ repositories:
         - proofs
       triage:
         - research
+    visibility: public
 teams:
   actors-committers:
     members:
