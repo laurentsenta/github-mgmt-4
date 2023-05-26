@@ -23,7 +23,6 @@ resource "github_repository" "this" {
       pages,
       template,
       topics,
-      visibility,
       vulnerability_alerts
     ]
   }
