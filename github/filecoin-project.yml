@@ -147,7 +147,6 @@ members:
     - masterjedy
     - matejpavlovic
     - maxscience
-    - mikeal
     - Mingela
     - miyazono
     - momack2
@@ -565,15 +564,16 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - aarshkshah1992
         - andyschwab
         - dirkmc
-        - jacobheun
         - LexLuthr
         - nonsense
       maintain:
         - brendalee
         - hannahhoward
+        - jacobheun
+      push:
+        - aarshkshah1992
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2190,7 +2190,6 @@ repositories:
         - eshon
       push:
         - frm
-        - mikeal
         - rvagg
         - web3-bot
         - zamith
