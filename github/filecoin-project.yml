@@ -3002,6 +3002,7 @@ repositories:
         - gaganp
         - jenks-guo-filecoin
         - LaurenSpiegel
+        - RubenAmen
         - WhiteFlamingo
       push:
         - dawnkelly09
@@ -4931,7 +4932,6 @@ repositories:
         - masih
         - rjan90
         - steve-fraser
-        - thattommyhall
         - web3-bot
         - willscott
     has_discussions: false
@@ -5308,11 +5308,10 @@ repositories:
         - jnthnvctr
         - Kevin-FF-USA
         - raghavrmadya
-        - zixuanzh
       maintain:
         - brossetti1
+        - kevzak
         - panges2
-        - philippbanhardt
         - simonkim0515
       push:
         - filplus-bot
@@ -5693,6 +5692,24 @@ repositories:
     teams:
       push:
         - lotus-contributors
+    visibility: public
+  raas-starter-kit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ychiaoli18
+      push:
+        - lordshashank
+        - xBalbinus
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   ref-fvm-fuzz-corpora:
     advanced_security: false
@@ -7144,6 +7161,21 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+  testnet-calibration:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - eshon
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   testnet-hyperspace:
     advanced_security: false
     allow_update_branch: false
@@ -7155,8 +7187,6 @@ repositories:
         - maciejwitowski
         - raulk
         - ribasushi
-      maintain:
-        - f8-fil-ops
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7179,7 +7209,6 @@ repositories:
         - raulk
         - ribasushi
       maintain:
-        - f8-fil-ops
         - maciejwitowski
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -7284,30 +7313,6 @@ repositories:
         - infra
         - labbers
     visibility: private
-  venus-auth:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - diwufeiwen
-        - elvin-du
-        - hunjixin
-      maintain:
-        - Fatman13
-        - LinZexiao
-        - simlecode
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - Venus
-    visibility: public
   venus-common-types:
     advanced_security: false
     allow_update_branch: false
@@ -7345,81 +7350,6 @@ repositories:
         - simlecode
       push:
         - cloudxin
-        - LinZexiao
-        - web3-bot
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
-  venus-market:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    collaborators:
-      admin:
-        - elvin-du
-        - hunjixin
-      maintain:
-        - Fatman13
-        - remakeZK
-      push:
-        - diwufeiwen
-        - LinZexiao
-        - simlecode
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - Venus
-    visibility: public
-  venus-messager:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - elvin-du
-        - hunjixin
-      maintain:
-        - diwufeiwen
-        - GFZRZK
-        - LinZexiao
-        - simlecode
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Venus
-    visibility: public
-  venus-miner:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - arajasek
-        - diwufeiwen
-        - elvin-du
-        - hunjixin
-        - steven004
-      maintain:
-        - Fatman13
-        - simlecode
-      push:
         - LinZexiao
         - web3-bot
     has_discussions: false
