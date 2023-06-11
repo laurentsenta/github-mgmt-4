@@ -646,6 +646,7 @@ repositories:
         - magik6k
         - rvagg
       push:
+        - aschmahmann
         - kylehuntsman
         - shrenujbansal
         - vyzo
@@ -1584,6 +1585,8 @@ repositories:
       push:
         - cwaring
         - splumms
+      triage:
+        - dorohedor0
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2027,6 +2030,7 @@ repositories:
     teams:
       admin:
         - data
+        - Sentinel Admin
         - Sentinel
     visibility: public
   filecoin-actor-utils:
@@ -2614,6 +2618,7 @@ repositories:
         - simonkim0515
       maintain:
         - huseyincansoylu
+        - jbesraa
         - kevzak
         - nicole-code
         - orvn
@@ -3002,7 +3007,6 @@ repositories:
         - gaganp
         - jenks-guo-filecoin
         - LaurenSpiegel
-        - RubenAmen
         - WhiteFlamingo
       push:
         - dawnkelly09
@@ -3626,6 +3630,27 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
+  go-fil-commcid-priv:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - aschmahmann
+        - davidd8
+        - ribasushi
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - bedrock-go
+        - lotus-maintainers
+    visibility: private
   go-fil-commcid:
     advanced_security: false
     allow_update_branch: false
@@ -4762,11 +4787,11 @@ repositories:
         - frrist
         - hsanjuan
         - kasteph
+        - Terryhung
       pull:
         - olizilla
       push:
         - iand
-        - Terryhung
         - web3-bot
     has_discussions: true
     merge_commit_message: PR_TITLE
@@ -6491,6 +6516,7 @@ repositories:
     teams:
       admin:
         - data
+        - Sentinel Admin
         - Sentinel
       maintain:
         - infra
@@ -6540,6 +6566,7 @@ repositories:
     teams:
       admin:
         - infra
+        - Sentinel Admin
       maintain:
         - Weaveworks
     visibility: private
@@ -6560,6 +6587,7 @@ repositories:
     teams:
       admin:
         - data
+        - Sentinel Admin
         - Sentinel
     visibility: public
   sentinel-private:
@@ -6599,6 +6627,7 @@ repositories:
     teams:
       admin:
         - data
+        - Sentinel Admin
         - Sentinel
       push:
         - infra
@@ -6611,14 +6640,11 @@ repositories:
     collaborators:
       admin:
         - daviddias
-        - frrist
         - hsanjuan
-        - iand
-        - olizilla
       pull:
-        - jimpick
         - momack2
         - nicola
+        - olizilla
         - zixuanzh
       push:
         - web3-bot
@@ -6631,8 +6657,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - data
-        - Sentinel
+        - Sentinel Admin
       pull:
         - oni
         - research
@@ -6851,7 +6876,7 @@ repositories:
   specs-actors:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       pull:
         - zixuanzh
@@ -6863,7 +6888,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -8281,9 +8306,10 @@ teams:
       maintainer:
         - birdychang
         - hsanjuan
+        - JesseXie
       member:
-        - frrist
         - kasteph
+        - Terryhung
   Sentinel Operators:
     members:
       maintainer:
@@ -8298,14 +8324,8 @@ teams:
         - birdychang
         - hsanjuan
       member:
-        - alanshaw
-        - frrist
-        - iand
         - kasteph
-        - olizilla
-        - ribasushi
         - terryhung
-        - willscott
   specs:
     members:
       maintainer:
