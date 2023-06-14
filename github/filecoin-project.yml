@@ -2355,7 +2355,11 @@ repositories:
             - package-ecosystem: "npm" # See documentation for possible values
               directory: "/" # Location of package manifests
               schedule:
-                interval: "daily"
+                interval: "daily"            
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "weekly"
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3193,14 +3197,18 @@ repositories:
         - Jacarte
     files:
       .github/dependabot.yml:
-        content: |+
+        content: |
           version: 2
           updates:
             - package-ecosystem: cargo
               directory: "/"
               labels: []
               schedule:
-                interval: "daily"
+                interval: "daily"            
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "weekly"
 
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -7146,7 +7154,11 @@ repositories:
             - package-ecosystem: "npm"
               directory: "/npm/app"
               schedule:
-                interval: "daily"
+                interval: "daily"            
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "weekly"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7255,7 +7267,12 @@ repositories:
 
           version: 2
 
-          updates:
+          updates:            
+            - package-ecosystem: "github-actions"
+              directory: "/"
+              schedule:
+                interval: "weekly"
+
             - package-ecosystem: 'npm'
               directory: 'frontend/apps/web/'
               schedule:
