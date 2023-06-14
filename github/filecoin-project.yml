@@ -1146,9 +1146,6 @@ repositories:
         - Mingela
         - web3-bot
         - wer1st
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2341,7 +2338,24 @@ repositories:
         - web3-bot
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: >
+          # To get started with Dependabot version updates, you'll need to
+          specify which
+
+          # package ecosystems to update and where the package manifests are located.
+
+          # Please see the documentation for all configuration options:
+
+          # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+
+          version: 2
+
+          updates:
+            - package-ecosystem: "npm" # See documentation for possible values
+              directory: "/" # Location of package manifests
+              schedule:
+                interval: "daily"
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2818,6 +2832,21 @@ repositories:
         - data
         - Sentinel
     visibility: public
+  filsnap:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - hugomrdias
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   FIPs-1:
     advanced_security: false
     allow_update_branch: false
@@ -3116,8 +3145,9 @@ repositories:
       admin:
         - aashidham
         - ZakAyesh
-      push:
+      maintain:
         - snissn
+      push:
         - xBalbinus
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3163,7 +3193,15 @@ repositories:
         - Jacarte
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |+
+          version: 2
+          updates:
+            - package-ecosystem: cargo
+              directory: "/"
+              labels: []
+              schedule:
+                interval: "daily"
+
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4453,7 +4491,21 @@ repositories:
         - vmx
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+          - package-ecosystem: github-actions
+            directory: "/"
+            schedule:
+              interval: daily
+              timezone: Etc/UTC
+            open-pull-requests-limit: 10
+            reviewers:
+            - str4d
+            assignees:
+            - str4d
+            labels:
+            - "A-CI"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4828,7 +4880,7 @@ repositories:
     visibility: public
   lily:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -7084,7 +7136,17 @@ repositories:
         - web3-bot
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: |
+          version: 2
+          updates:
+            - package-ecosystem: "gomod"
+              directory: "/"
+              schedule:
+                interval: "daily"
+            - package-ecosystem: "npm"
+              directory: "/npm/app"
+              schedule:
+                interval: "daily"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7185,7 +7247,79 @@ repositories:
         - Vojimirovich
     files:
       .github/dependabot.yml:
-        content: .github/dependabot.yml
+        content: >
+          # Please see the documentation for all configuration options:
+
+          # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+
+          version: 2
+
+          updates:
+            - package-ecosystem: 'npm'
+              directory: 'frontend/apps/web/'
+              schedule:
+                interval: 'weekly'
+              open-pull-requests-limit: 30
+              target-branch: main
+              versioning-strategy: increase-if-necessary
+              ignore:
+                - dependency-name: '@filecoin/ui'
+                - dependency-name: '@filecoin/core'
+                - dependency-name: '@filecoin/build'
+
+            - package-ecosystem: 'npm'
+              directory: 'frontend/packages/ui'
+              schedule:
+                interval: 'weekly'
+              open-pull-requests-limit: 30
+              versioning-strategy: increase-if-necessary
+              target-branch: main
+
+            - package-ecosystem: 'npm'
+              directory: 'frontend/packages/build'
+              schedule:
+                interval: 'weekly'
+              open-pull-requests-limit: 30
+              versioning-strategy: increase-if-necessary
+              target-branch: main
+
+            - package-ecosystem: 'npm'
+              directory: 'frontend/packages/types'
+              schedule:
+                interval: 'weekly'
+              open-pull-requests-limit: 30
+              versioning-strategy: increase-if-necessary
+              target-branch: main
+
+            - package-ecosystem: 'npm'
+              directory: 'frontend/packages/core'
+              schedule:
+                interval: 'weekly'
+              open-pull-requests-limit: 30
+              versioning-strategy: increase-if-necessary
+              target-branch: main
+
+            - package-ecosystem: 'npm'
+              directory: '/'
+              schedule:
+                interval: 'weekly'
+              open-pull-requests-limit: 30
+              versioning-strategy: increase-if-necessary
+              target-branch: main
+
+            - package-ecosystem: 'npm'
+              directory: 'frontend/'
+              schedule:
+                interval: 'weekly'
+              open-pull-requests-limit: 30
+              versioning-strategy: increase-if-necessary
+              target-branch: main
+              ignore:
+                - dependency-name: 'react'
+                  versions: ['17.x']
+                - dependency-name: 'react-dom'
+                  versions: ['17.x']
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7444,6 +7578,7 @@ repositories:
         - mishmosh
         - steven004
       maintain:
+        - "0x5459"
         - Fatman13
         - jimmylee
         - Joss-Hua
@@ -7452,9 +7587,6 @@ repositories:
         - cloudxin
         - LinZexiao
         - web3-bot
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7533,9 +7665,6 @@ repositories:
         - LinZexiao
         - StefanGajic
         - web3-bot
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -8270,6 +8399,7 @@ teams:
         - magik6k
         - shrenujbansal
         - snadrus
+        - snissn
         - ZenGround0
   Lotus-TSE:
     members:
