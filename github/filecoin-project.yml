@@ -598,6 +598,8 @@ repositories:
         - jacobheun
         - LexLuthr
         - nonsense
+      push:
+        - hannahhoward
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5036,6 +5038,8 @@ repositories:
       admin:
         - infra
         - w3dt-stewards
+      maintain:
+        - lotus-maintainers
       push:
         - lotus-contributors
     visibility: private
@@ -8169,10 +8173,11 @@ teams:
   foundation:
     members:
       maintainer:
+        - ianconsolata
         - realChainLife
+        - smagdali
       member:
         - SeedingTrees
-        - smagdali
         - vnessasgrt
   FVM Web:
     members:
@@ -8413,6 +8418,7 @@ teams:
         - jennijuju
         - Stebalien
       member:
+        - fridrik01
         - magik6k
         - shrenujbansal
         - snadrus
