@@ -361,7 +361,7 @@ repositories:
     visibility: public
   awesome-filecoin:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -1976,6 +1976,21 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+  fil-docs-bot:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ElPaisano
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   fil-ocl:
     advanced_security: false
     allow_update_branch: false
@@ -2575,6 +2590,26 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+  filecoin-plus-application-json-restructure:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dkkapur
+        - fabriziogianni7
+        - galen-mcandrew
+        - jbesraa
+        - panges2
+        - ssallam
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filecoin-plus-client-onboarding:
     advanced_security: false
     allow_update_branch: false
@@ -2589,14 +2624,15 @@ repositories:
         - fabriziogianni7
         - huseyincansoylu
         - ialberquilla
+        - orvn
         - panges2
         - raghavrmadya
+        - timelytree
       push:
         - aaitor
         - dannyob
         - data-programs
         - filecoin-plus-bot
-        - orvn
       triage:
         - 1475Notary
         - 1ane-1
@@ -2631,7 +2667,6 @@ repositories:
         - rayshitou
         - s0nik42
         - steven004
-        - timelytree
         - TimWilliams00
         - Tom-OriginStorage
         - web3-bot
@@ -2654,12 +2689,12 @@ repositories:
         - dkkapur
         - fabriziogianni7
         - galen-mcandrew
+        - jbesraa
         - Kevin-FF-USA
         - raghavrmadya
         - simonkim0515
       maintain:
         - huseyincansoylu
-        - jbesraa
         - kevzak
         - nicole-code
         - orvn
@@ -3059,6 +3094,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - honghaoq
         - lksbrssr
         - trruckerfling
       maintain:
@@ -4707,6 +4743,8 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4714,6 +4752,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - lotus-maintainers
     visibility: public
   large-data.filecoin.io:
     advanced_security: false
@@ -5375,6 +5416,29 @@ repositories:
     teams:
       maintain:
         - consensuslab
+    visibility: public
+  motion:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - davidd8
+        - hannahhoward
+        - kylehuntsman
+        - LaurenSpiegel
+        - masih
+        - TorfinnOlsen
+        - willscott
+      push:
+        - web3-bot
+    has_discussions: true
+    merge_commit_message: PR_BODY
+    merge_commit_title: PR_TITLE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
     visibility: public
   motivation:
     advanced_security: false
@@ -7608,7 +7672,6 @@ repositories:
     collaborators:
       admin:
         - arajasek
-        - diwufeiwen
         - elvin-du
         - eshon
         - filecoin-helper
@@ -7641,7 +7704,6 @@ repositories:
     collaborators:
       admin:
         - arajasek
-        - diwufeiwen
         - hunjixin
         - steven004
       maintain:
@@ -7665,7 +7727,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - diwufeiwen
         - elvin-du
         - hunjixin
         - simlecode
@@ -7690,7 +7751,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - diwufeiwen
         - Stebalien
       maintain:
         - "0x5459"
