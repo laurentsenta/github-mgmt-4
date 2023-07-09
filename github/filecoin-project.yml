@@ -332,33 +332,6 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
-  autoretrieve-deploy:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - hannahhoward
-        - jacobheun
-        - masih
-        - willscott
-      maintain:
-        - rvagg
-        - sti-bot
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - bedrock-go
-    visibility: public
   awesome-filecoin:
     advanced_security: false
     allow_update_branch: true
@@ -2600,7 +2573,6 @@ repositories:
         - fabriziogianni7
         - galen-mcandrew
         - jbesraa
-        - panges2
         - ssallam
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5477,7 +5449,7 @@ repositories:
   network-growth-data:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - davidgasquez
@@ -5538,6 +5510,7 @@ repositories:
       push:
         - filplus-bot
         - web3-bot
+        - xmcai2016
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7091,9 +7064,9 @@ repositories:
     archived: true
     collaborators:
       pull:
+        - frrist
         - zixuanzh
       push:
-        - frrist
         - laudiacay
         - vyzo
         - web3-bot
@@ -7616,6 +7589,30 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
+  tornado-deploy:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+        - kylehuntsman
+        - masih
+        - willscott
+      maintain:
+        - rvagg
+        - sti-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - bedrock-go
+    visibility: public
   TPM:
     advanced_security: false
     allow_update_branch: false
@@ -8461,10 +8458,9 @@ teams:
         - raulk
         - whyrusleeping
       member:
+        - cryptonemo
         - dirkmc
         - fridrik01
-        - frrist
-        - geoff-vball
         - GlacierWalrus
         - hannahhoward
         - hsanjuan
@@ -8479,7 +8475,6 @@ teams:
         - rvagg
         - snissn
         - Terryhung
-        - vyzo
         - willscott
         - ychiaoli18
   lotus-infra-core:
