@@ -679,6 +679,7 @@ repositories:
       maintain:
         - LaurenSpiegel
       pull:
+        - johnnymatthews
         - snissn
       push:
         - Kubuxu
@@ -2035,6 +2036,21 @@ repositories:
         - Sentinel Admin
         - Sentinel
     visibility: public
+  Filecoin_Modbot:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - parthshah1
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filecoin-actor-utils:
     advanced_security: false
     allow_update_branch: false
@@ -2321,9 +2337,10 @@ repositories:
         - andyschwab
         - cwaring
         - raulk
+      maintain:
+        - bobdubois
       push:
         - Angelo-gh3990
-        - bobdubois
         - ivanka
         - web3-bot
     files:
@@ -2764,6 +2781,25 @@ repositories:
       pull:
         - website
     visibility: public
+  filecoin-solidity:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - robertagora
+        - vesahc
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - fvm-team
+    visibility: public
   filecoin.io:
     advanced_security: false
     allow_update_branch: true
@@ -2854,7 +2890,7 @@ repositories:
         - hugomrdias
       maintain:
         - avivash
-    has_discussions: false
+    has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
@@ -2888,6 +2924,8 @@ repositories:
         - andyschwab
         - luckyparadise
         - web3-bot
+      triage:
+        - filecoin-governance
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3078,10 +3116,12 @@ repositories:
       pull:
         - gaganp
         - jenks-guo-filecoin
-        - LaurenSpiegel
         - WhiteFlamingo
       push:
         - dawnkelly09
+        - jsoares
+        - LaurenSpiegel
+        - mturilin
         - robertagora
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3267,6 +3307,21 @@ repositories:
         - FVM Web
         - labbers
     visibility: private
+  gb-filecoin-docs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - docs-admins
+    visibility: public
   geodns-server:
     advanced_security: false
     allow_update_branch: false
@@ -7126,15 +7181,15 @@ repositories:
     collaborators:
       admin:
         - cwaring
-        - jimmylee
         - olizilla
         - yiannisbot
       maintain:
         - ianconsolata
+        - jimmylee
         - nonsense
+        - smagdali
       push:
         - nikkolasg
-        - smagdali
         - sternhenri
         - web3-bot
     has_discussions: false
