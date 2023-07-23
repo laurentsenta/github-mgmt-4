@@ -2036,21 +2036,6 @@ repositories:
         - Sentinel Admin
         - Sentinel
     visibility: public
-  Filecoin_Modbot:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - parthshah1
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
   filecoin-actor-utils:
     advanced_security: false
     allow_update_branch: false
@@ -2630,7 +2615,7 @@ repositories:
         - bmcnabb25
         - cryptowhizzard
         - DarnellWashington
-        - destor2023
+        - Destore2023
         - Fatman13
         - Fenbushi-Filecoin
         - fireflyHZ
@@ -3121,7 +3106,6 @@ repositories:
         - dawnkelly09
         - jsoares
         - LaurenSpiegel
-        - mturilin
         - robertagora
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5075,7 +5059,6 @@ repositories:
         - TMoMoreau
         - web3-bot
       triage:
-        - geoff-vball
         - yusefnapora
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5322,6 +5305,39 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+  mercury-api:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - kasteph
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Sentinel Admin
+    visibility: private
+  mercury-py:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - kasteph
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   merkle_light-backup:
     advanced_security: false
     allow_update_branch: false
