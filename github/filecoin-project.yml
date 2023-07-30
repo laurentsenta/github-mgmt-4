@@ -74,6 +74,7 @@ members:
     - DrPeterVanNostrand
     - duckie-han
     - ec2
+    - elijaharita
     - elmattic
     - ElPaisano
     - emilymvaughan
@@ -2347,7 +2348,11 @@ repositories:
             - package-ecosystem: "npm" # See documentation for possible values
               directory: "/" # Location of package manifests
               schedule:
-                interval: "daily"            
+                interval: "daily"
+              groups:
+                dev-dependencies:
+                  patterns:
+                    - "*"
             - package-ecosystem: "github-actions"
               directory: "/"
               schedule:
@@ -3099,6 +3104,7 @@ repositories:
         - longfeiWan9
         - snissn
       pull:
+        - DrPeterVanNostrand
         - gaganp
         - jenks-guo-filecoin
         - WhiteFlamingo
@@ -4810,6 +4816,7 @@ repositories:
     teams:
       maintain:
         - bedrock-go
+        - Motion
     visibility: public
   lassie-k6:
     advanced_security: false
@@ -5330,6 +5337,8 @@ repositories:
     collaborators:
       admin:
         - kasteph
+      pull:
+        - davidgasquez
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5337,6 +5346,12 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Sentinel Admin
+      triage:
+        - datasystems
+        - labbers
     visibility: private
   merkle_light-backup:
     advanced_security: false
@@ -5459,6 +5474,66 @@ repositories:
     teams:
       maintain:
         - consensuslab
+    visibility: public
+  motion-arsenal:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Motion
+    visibility: public
+  motion-cloudserver:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Motion
+    visibility: public
+  motion-s3-connector:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hannahhoward
+        - kylehuntsman
+        - masih
+        - willscott
+      maintain:
+        - davidd8
+        - LaurenSpiegel
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - bedrock-go
     visibility: public
   motion:
     advanced_security: false
@@ -7560,7 +7635,7 @@ repositories:
   testnet-hyperspace:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - eshon
@@ -7571,7 +7646,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -7582,7 +7657,7 @@ repositories:
   testnet-wallaby:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - eshon
@@ -7594,7 +7669,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -8576,6 +8651,16 @@ teams:
         - Reiers
         - rjan90
         - TippyFlitsUK
+  Motion:
+    members:
+      maintainer:
+        - kylehuntsman
+      member:
+        - davidd8
+        - hannahhoward
+        - LaurenSpiegel
+        - masih
+        - willscott
   oni:
     members:
       maintainer:
