@@ -127,7 +127,6 @@ members:
     - Keren-0117
     - kevzak
     - Kubuxu
-    - kylehuntsman
     - laudiacay
     - launchpad-core-team
     - LaurenSpiegel
@@ -591,6 +590,7 @@ repositories:
     collaborators:
       admin:
         - aarshkshah1992
+        - davidd8
         - dirkmc
         - hannahhoward
         - jacobheun
@@ -600,14 +600,12 @@ repositories:
         - willscott
       maintain:
         - brendalee
-        - davidd8
         - LaurenSpiegel
         - LexLuthr
         - magik6k
         - rvagg
       push:
         - aschmahmann
-        - kylehuntsman
         - shrenujbansal
         - vyzo
     has_discussions: true
@@ -1553,6 +1551,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1602,6 +1603,7 @@ repositories:
         - jsoares
       push:
         - quema
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1775,6 +1777,8 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2167,6 +2171,8 @@ repositories:
     collaborators:
       admin:
         - ribasushi
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2359,6 +2365,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2367,6 +2376,21 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+  filecoin-network-data:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - davidgasquez
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filecoin-network-sim:
     advanced_security: false
     allow_update_branch: false
@@ -2649,8 +2673,16 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - BlocksOnAChain
         - robertagora
+        - scotthconner
         - vesahc
+      push:
+        - andrejrakic
+        - bojinovic
+        - vonum
+      triage:
+        - alexdimitrijevic
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2659,7 +2691,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      pull:
+      push:
         - fvm-team
     visibility: public
   filecoin.io:
@@ -2739,6 +2771,27 @@ repositories:
         - data
         - Sentinel
     visibility: public
+  filplus-backend:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dkkapur
+        - jbesraa
+        - panges2
+      push:
+        - galen-mcandrew
+        - orvn
+        - timelytree
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filsnap:
     advanced_security: false
     allow_update_branch: true
@@ -2748,6 +2801,8 @@ repositories:
         - hugomrdias
       maintain:
         - avivash
+      push:
+        - agostbiro
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3807,6 +3862,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4589,7 +4647,6 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
-        - kylehuntsman
         - masih
         - rvagg
         - willscott
@@ -5286,7 +5343,6 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
-        - kylehuntsman
         - masih
         - willscott
       maintain:
@@ -5311,7 +5367,6 @@ repositories:
       admin:
         - davidd8
         - hannahhoward
-        - kylehuntsman
         - LaurenSpiegel
         - masih
         - TorfinnOlsen
@@ -5330,6 +5385,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5357,21 +5415,6 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
-  network-growth-data:
-    advanced_security: false
-    allow_update_branch: false
-    archived: true
-    collaborators:
-      admin:
-        - davidgasquez
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
   network-info:
     advanced_security: false
     allow_update_branch: false
@@ -5384,6 +5427,8 @@ repositories:
         - hsanjuan
         - orvn
         - timelytree
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5412,7 +5457,6 @@ repositories:
         - Kevin-FF-USA
         - raghavrmadya
       maintain:
-        - brossetti1
         - kevzak
         - panges2
         - simonkim0515
@@ -6166,6 +6210,8 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6219,6 +6265,7 @@ repositories:
     collaborators:
       push:
         - vmx
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6294,6 +6341,8 @@ repositories:
     collaborators:
       maintain:
         - vmx
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6313,6 +6362,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6595,6 +6647,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
+    collaborators:
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6691,6 +6746,8 @@ repositories:
       admin:
         - jasonleyser
         - jimmylee
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6868,6 +6925,7 @@ repositories:
       push:
         - laudiacay
         - vyzo
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7374,7 +7432,6 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
-        - kylehuntsman
         - masih
         - willscott
       maintain:
@@ -7484,6 +7541,7 @@ repositories:
       push:
         - LinZexiao
         - ShuaoZhang
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7810,7 +7868,6 @@ teams:
         - gammazero
         - hannahhoward
         - jacobheun
-        - kylehuntsman
         - LexLuthr
         - nonsense
         - rvagg
@@ -8166,7 +8223,6 @@ teams:
         - kasteph
         - Keren-0117
         - Kubuxu
-        - kylehuntsman
         - laudiacay
         - lksbrssr
         - lucaniz
@@ -8268,8 +8324,6 @@ teams:
         - TippyFlitsUK
   Motion:
     members:
-      maintainer:
-        - kylehuntsman
       member:
         - davidd8
         - hannahhoward
