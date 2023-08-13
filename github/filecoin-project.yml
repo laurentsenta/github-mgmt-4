@@ -522,13 +522,9 @@ repositories:
     collaborators:
       admin:
         - andyschwab
-        - dirkmc
         - LexLuthr
-        - nonsense
       maintain:
-        - brendalee
         - hannahhoward
-        - jacobheun
       push:
         - aarshkshah1992
     has_discussions: true
@@ -2560,6 +2556,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - clriesco
         - dkkapur
         - fabriziogianni7
         - galen-mcandrew
@@ -2677,8 +2674,10 @@ repositories:
         - scotthconner
         - vesahc
       push:
+        - 4l8ee
         - andrejrakic
         - bojinovic
+        - milos1731
         - vonum
       triage:
         - alexdimitrijevic
@@ -2779,8 +2778,9 @@ repositories:
         - dkkapur
         - jbesraa
         - panges2
+      maintain:
+        - kokal33
       push:
-        - galen-mcandrew
         - orvn
         - timelytree
     has_discussions: false
@@ -2791,7 +2791,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
-  filplus-tooling-backend-test:
+  filplus-registry:
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -2800,6 +2800,31 @@ repositories:
         - dkkapur
         - jbesraa
         - panges2
+      push:
+        - clriesco
+        - kokal33
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  filplus-tooling-backend-test:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - clriesco
+        - dkkapur
+        - jbesraa
+        - kokal33
+        - panges2
+      maintain:
+        - orvn
+        - timelytree
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2808,6 +2833,26 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
+  filplus-utils:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dkkapur
+        - jbesraa
+        - panges2
+      push:
+        - clriesco
+        - kokal33
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   filsnap:
     advanced_security: false
     allow_update_branch: true
@@ -3045,6 +3090,7 @@ repositories:
         - dawnkelly09
         - jsoares
         - LaurenSpiegel
+        - mturilin
         - robertagora
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5175,7 +5221,7 @@ repositories:
       admin:
         - Sentinel Admin
     visibility: private
-  mercury-py:
+  mercury-fil:
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -5362,6 +5408,7 @@ repositories:
         - willscott
       maintain:
         - davidd8
+        - elijaharita
         - LaurenSpiegel
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5387,6 +5434,7 @@ repositories:
         - TorfinnOlsen
         - willscott
       push:
+        - elijaharita
         - web3-bot
     has_discussions: true
     merge_commit_message: PR_BODY
@@ -5395,6 +5443,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: PR_BODY
     squash_merge_commit_title: PR_TITLE
+    teams:
+      push:
+        - bedrock-go
     visibility: public
   motivation:
     advanced_security: false
