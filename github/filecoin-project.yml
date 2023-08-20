@@ -147,11 +147,13 @@ members:
     - masterjedy
     - matejpavlovic
     - maxscience
+    - MF416
     - Mingela
     - miyazono
     - momack2
     - monicaortel
     - mriise
+    - mturilin
     - nicola
     - nikkolasg
     - ninitrava
@@ -568,6 +570,8 @@ repositories:
     collaborators:
       admin:
         - dirkmc
+      push:
+        - hannahhoward
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -601,6 +605,7 @@ repositories:
         - magik6k
         - rvagg
       push:
+        - alvin-reyes
         - aschmahmann
         - shrenujbansal
         - vyzo
@@ -2679,8 +2684,6 @@ repositories:
         - bojinovic
         - milos1731
         - vonum
-      triage:
-        - alexdimitrijevic
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2775,6 +2778,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - clriesco
         - dkkapur
         - jbesraa
         - panges2
@@ -2797,11 +2801,9 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - clriesco
         - dkkapur
         - jbesraa
-        - panges2
-      push:
-        - clriesco
         - kokal33
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2811,6 +2813,26 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+  filplus-ssa-bot:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dkkapur
+        - jbesraa
+        - panges2
+      push:
+        - clriesco
+        - kokal33
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filplus-tooling-backend-test:
     advanced_security: false
     allow_update_branch: false
@@ -2821,9 +2843,8 @@ repositories:
         - dkkapur
         - jbesraa
         - kokal33
-        - panges2
-      maintain:
         - orvn
+        - panges2
         - timelytree
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2832,7 +2853,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
+    visibility: public
   filplus-utils:
     advanced_security: false
     allow_update_branch: false
@@ -2841,7 +2862,6 @@ repositories:
       admin:
         - dkkapur
         - jbesraa
-        - panges2
       push:
         - clriesco
         - kokal33
@@ -3073,11 +3093,11 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - BlocksOnAChain
         - honghaoq
         - lksbrssr
         - trruckerfling
       maintain:
-        - BlocksOnAChain
         - cwaring
         - eshon
         - longfeiWan9
@@ -3090,8 +3110,8 @@ repositories:
         - dawnkelly09
         - jsoares
         - LaurenSpiegel
-        - mturilin
         - robertagora
+        - smagdali
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5433,6 +5453,8 @@ repositories:
         - masih
         - TorfinnOlsen
         - willscott
+      maintain:
+        - anjor
       push:
         - elijaharita
         - web3-bot
@@ -7650,13 +7672,13 @@ repositories:
       maintain:
         - "0x5459"
         - Fatman13
+        - LinZexiao
         - simlecode
         - YiRuiLiher
         - zhiqiangxu
       push:
         - elvin-du
         - Joss-Hua
-        - LinZexiao
         - StefanGajic
     has_discussions: true
     merge_commit_message: PR_TITLE
@@ -8297,8 +8319,10 @@ teams:
         - marinakosti
         - masih
         - matejpavlovic
+        - MF416
         - miyazono
         - momack2
+        - mturilin
         - nicola
         - nikkolasg
         - ninitrava
