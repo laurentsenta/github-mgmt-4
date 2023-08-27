@@ -572,6 +572,7 @@ repositories:
         - dirkmc
       push:
         - hannahhoward
+        - rvagg
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1746,6 +1747,7 @@ repositories:
         - BigLep
         - momack2
         - parthshah1
+        - relotnek
       pull:
         - AnomalRoil
         - aronchick
@@ -1758,7 +1760,6 @@ repositories:
       push:
         - jacobheun
         - marten-seemann
-        - rvagg
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2249,6 +2250,9 @@ repositories:
                 dev-dependencies:
                   patterns:
                     - "*"
+              ignore:
+                - dependency-name: "@hyas/images"
+                  versions: ["3.x"]
             - package-ecosystem: "github-actions"
               directory: "/"
               schedule:
@@ -2781,9 +2785,8 @@ repositories:
         - clriesco
         - dkkapur
         - jbesraa
-        - panges2
-      maintain:
         - kokal33
+        - panges2
       push:
         - orvn
         - timelytree
@@ -2821,10 +2824,8 @@ repositories:
       admin:
         - dkkapur
         - jbesraa
-        - panges2
       push:
         - clriesco
-        - kokal33
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3271,10 +3272,10 @@ repositories:
         - cwaring
         - mishmosh
         - raulk
-      push:
-        - aronchick
-        - eshon
+      maintain:
         - honghaoq
+      push:
+        - eshon
         - jimmylee
         - johnnymatthews
         - momack2
@@ -3292,6 +3293,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
+        - collab-ff-seo-ux
         - datasystems
         - FVM Web
         - labbers
@@ -4769,6 +4771,7 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
+        - rvagg
       maintain:
         - davidd8
       push:
@@ -4981,10 +4984,8 @@ repositories:
         - jennijuju
         - johnnymatthews
       push:
+        - GlacierWalrus
         - snadrus
-        - TMoMoreau
-      triage:
-        - yusefnapora
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5447,6 +5448,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - celine3650
         - davidd8
         - hannahhoward
         - LaurenSpiegel
@@ -5455,6 +5457,7 @@ repositories:
         - willscott
       maintain:
         - anjor
+        - xinaxu
       push:
         - elijaharita
         - web3-bot
@@ -7376,17 +7379,14 @@ repositories:
   test-vectors:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - raulk
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -7966,7 +7966,6 @@ teams:
         - jennijuju
       member:
         - brdji
-        - TheDivic
         - TheMenko
   Boost:
     members:
@@ -7989,6 +7988,13 @@ teams:
     members:
       member:
         - filecoin-ci
+  collab-ff-seo-ux:
+    members:
+      maintainer:
+        - cwaring
+      member:
+        - SgtCoin
+        - smagdali
   collab-ipfs-force:
     members:
       member:
