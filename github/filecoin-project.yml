@@ -56,7 +56,6 @@ members:
     - connormullett
     - coryschwartz
     - Cre-eD
-    - creativcoder
     - cryptoAtwill
     - cryptonemo
     - cwaring
@@ -98,7 +97,6 @@ members:
     - guanzo
     - guy-goren
     - hammertoe
-    - hanabi1224
     - hannahhoward
     - honghaoq
     - hsanjuan
@@ -2249,37 +2247,6 @@ repositories:
       push:
         - Angelo-gh3990
         - ivanka
-    files:
-      .github/dependabot.yml:
-        content: >
-          # To get started with Dependabot version updates, you'll need to
-          specify which
-
-          # package ecosystems to update and where the package manifests are located.
-
-          # Please see the documentation for all configuration options:
-
-          # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-
-
-          version: 2
-
-          updates:
-            - package-ecosystem: "npm" # See documentation for possible values
-              directory: "/" # Location of package manifests
-              schedule:
-                interval: "daily"
-              groups:
-                dev-dependencies:
-                  patterns:
-                    - "*"
-              ignore:
-                - dependency-name: "@hyas/images"
-                  versions: ["3.x"]
-            - package-ecosystem: "github-actions"
-              directory: "/"
-              schedule:
-                interval: "weekly"
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2917,6 +2884,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - expede
         - hugomrdias
       maintain:
         - avivash
@@ -3156,6 +3124,7 @@ repositories:
         - LaurenSpiegel
         - robertagora
         - smagdali
+        - xBalbinus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4384,7 +4353,7 @@ repositories:
   gov_docs:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - johnnymatthews
@@ -4393,7 +4362,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -7701,8 +7670,8 @@ repositories:
         - hunjixin
         - simlecode
       maintain:
+        - "0x5459"
         - Fatman13
-      push:
         - LinZexiao
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -8204,9 +8173,7 @@ teams:
         - lerajk
         - raulk
       member:
-        - creativcoder
         - elmattic
-        - hanabi1224
         - jdjaustin
         - LesnyRumcajs
         - q9f
