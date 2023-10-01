@@ -619,8 +619,8 @@ repositories:
         - magik6k
         - rvagg
       push:
-        - alvin-reyes
         - aschmahmann
+        - ischasny
         - shrenujbansal
         - vyzo
     has_discussions: true
@@ -5332,6 +5332,23 @@ repositories:
         - datasystems
         - labbers
     visibility: public
+  meta-aggregator-frontend:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ychiaoli18
+      push:
+        - xBalbinus
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   metadocs:
     advanced_security: false
     allow_update_branch: false
@@ -6294,6 +6311,21 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  roadmap:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - momack2
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
