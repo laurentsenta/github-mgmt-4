@@ -97,7 +97,9 @@
     - `Repository permissions`
         - `Administration`: `Read-only`
         - `Contents`: `Read-only`
+        - `Issues`: `Read-only`
         - `Metadata`: `Read-only`
+        - `Pull requests`: `Read-only`
     - `Organization permissions`
         - `Members`: `Read-only`
     </details>

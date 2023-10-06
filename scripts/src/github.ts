@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 
 import * as core from '@actions/core'
+import {Octokit as Octocore} from '@octokit/core'
 import {Octokit} from '@octokit/rest'
 import {retry} from '@octokit/plugin-retry'
 import {throttling} from '@octokit/plugin-throttling'
@@ -41,29 +42,23 @@ export class GitHub {
     this.client = new Client({
       auth: token,
       throttle: {
-        onRateLimit: (
-          retryAfter: number,
-          options: {method: string; url: string; request: {retryCount: number}}
-        ) => {
+        onRateLimit: (retryAfter: number, options: object, _octokit: Octocore, retryCount: number) => {
           core.warning(
-            `Request quota exhausted for request ${options.method} ${options.url}`
+            `Request quota exhausted for request ${options}`
           )
 
-          if (options.request.retryCount === 0) {
+          if (retryCount === 0) {
             // only retries once
             core.info(`Retrying after ${retryAfter} seconds!`)
             return true
           }
         },
-        onSecondaryRateLimit: (
-          retryAfter: number,
-          options: {method: string; url: string; request: {retryCount: number}}
-        ) => {
+        onSecondaryRateLimit: (retryAfter: number, options: object, _octokit: Octocore, retryCount: number) => {
           core.warning(
-            `SecondaryRateLimit detected for request ${options.method} ${options.url}`
+            `SecondaryRateLimit detected for request ${options}`
           )
 
-          if (options.request.retryCount === 0) {
+          if (retryCount === 0) {
             // only retries once
             core.info(`Retrying after ${retryAfter} seconds!`)
             return true
