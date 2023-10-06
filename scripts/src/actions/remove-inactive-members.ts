@@ -7,8 +7,9 @@ import {Member} from '../resources/member'
 import {NodeBase} from 'yaml/dist/nodes/Node'
 import {RepositoryCollaborator} from '../resources/repository-collaborator'
 import {Resource, ResourceConstructor} from '../resources/resource'
-import {Role, TeamMember} from '../resources/team-member'
+import {TeamMember} from '../resources/team-member'
 import {GitHub} from '../github'
+import { Repository } from '../resources/repository'
 
 const AUDIT_LOG_IGNORED_EVENT_CATEGORIES = ['org_credential_authorization']
 const AUDIT_LOG_LENGTH_IN_MONTHS = 12
@@ -40,21 +41,21 @@ function getResources<T extends Resource>(
 
 /* This function is used to remove inactive members from the config.
  *
- * 1. It ensures that a team called 'Alumni' exists.
- * 2. It removes all 'Alumni' team from all the repositories.
- * 3. It populates 'Alumni' team with organization members who:
+ * 1. It removes organization members who:
  *  a. do not have 'KEEP:' in their inline comment AND
  *  b. have not been added to the organization in the past 12 months AND
  *  c. have not performed any audit log activity in the past 12 months.
- * 4. It removes repository collaborators who:
+ * 2. It removes repository collaborators who:
  *  a. do not have 'KEEP:' in their inline comment AND
  *  b. have not been added to the repository in the past 12 months AND
- *  c. have not performed any audit log activity on the repository they're a collaborator of in the past 12 months.
- * 5. It removes team members who:
+ *  c. have not performed any audit log activity on the repository they're a collaborator of in the past 12 months AND
+ *  d. are not organization members.
+ * 3. It removes team members who:
  *  a. do not have 'KEEP:' in their inline comment AND
  *  b. have not been added to the team in the past 12 months AND
- *  c. have not performed any audit log activity on any repository the team they're a member of has access to in the past 12 months.
- * 6. It removes teams which:
+ *  c. have not performed any audit log activity on any repository the team they're a member of has access to in the past 12 months AND
+ *  d. are not organization members.
+ * 4. It removes teams which:
  *  a. do not have 'KEEP:' in their inline comment AND
  *  b. do not have members anymore.
  */
@@ -66,8 +67,9 @@ async function run(): Promise<void> {
   }
 
   const github = await GitHub.getGitHub()
+  const config = Config.FromPath()
 
-  const archivedRepositories = (await github.listRepositories())
+  const archivedRepositories = config.getResources(Repository)
     .filter(repository => repository.archived)
     .map(repository => repository.name)
   const teamSlugsByName = (await github.listTeams()).reduce(
@@ -81,31 +83,18 @@ async function run(): Promise<void> {
   const logStartDate = new Date()
   logStartDate.setMonth(logStartDate.getMonth() - AUDIT_LOG_LENGTH_IN_MONTHS)
 
-  const log = JSON.parse(
-    fs.readFileSync(process.env.LOG_PATH).toString()
-  ).filter((event: any) => {
-    return (
+  const log = []
+  for (const line of fs.readFileSync(process.env.LOG_PATH).toString().split('\n')) {
+    const event = JSON.parse(line.toString())
+    if (
       new Date(event.created_at) >= logStartDate &&
       !AUDIT_LOG_IGNORED_EVENT_CATEGORIES.includes(event.action.split('.')[0])
-    )
-  })
-  const config = Config.FromPath()
-
-  // alumni is a team for all the members who should get credit for their work
-  //  but do not need any special access anymore
-  // first, ensure that the team exists
-  const alumniTeam = new Team('Alumni')
-  config.addResource(alumniTeam)
-
-  // then, ensure that the team doesn't have any special access anywhere
-  const repositoryTeams = config.getResources(RepositoryTeam)
-  for (const repositoryTeam of repositoryTeams) {
-    if (repositoryTeam.team === alumniTeam.name) {
-      config.removeResource(repositoryTeam)
+    ) {
+      log.push(event)
     }
   }
 
-  // add members that have been inactive to the alumni team
+  // remove members that have been inactive
   const members = getResources(config, Member)
   for (const member of members) {
     const isNew = log.some(
@@ -115,19 +104,18 @@ async function run(): Promise<void> {
     if (!isNew) {
       const isActive = log.some((event: any) => event.actor === member.username)
       if (!isActive) {
-        console.log(`Adding ${member.username} to the ${alumniTeam.name} team`)
-        const teamMember = new TeamMember(
-          alumniTeam.name,
-          member.username,
-          Role.Member
-        )
-        config.addResource(teamMember)
+        console.log(`Removing ${member.username}`)
+        config.removeResource(member)
       }
     }
   }
 
-  // remove repository collaborators that have been inactive
-  const repositoryCollaborators = getResources(config, RepositoryCollaborator)
+  const usernames = config.getResources(Member).map(member => member.username)
+
+  // remove external repository collaborators that have been inactive
+  const repositoryCollaborators = getResources(config, RepositoryCollaborator).filter(collaborator => {
+    return !usernames.includes(collaborator.username)
+  })
   for (const repositoryCollaborator of repositoryCollaborators) {
     const isNew = log.some(
       (event: any) =>
@@ -153,16 +141,18 @@ async function run(): Promise<void> {
     }
   }
 
-  // remove team members that have been inactive (look at all the team repositories)
-  const teamMembers = getResources(config, TeamMember).filter(
-    teamMember => teamMember.team !== alumniTeam.name
-  )
+  const repositoryTeams = config.getResources(RepositoryTeam)
+
+  // remove external team members that have been inactive (look at all the team repositories)
+  const teamMembers = getResources(config, TeamMember).filter(member => {
+    return !usernames.includes(member.username)
+  })
   for (const teamMember of teamMembers) {
     const isNew = log.some(
       (event: any) =>
         event.action === 'team.add_member' &&
         event.user === teamMember.username &&
-        stripOrgPrefix(event.data.team) === teamSlugsByName[teamMember.team]
+        stripOrgPrefix(event.team) === teamSlugsByName[teamMember.team]
     )
     if (!isNew) {
       const repositories = repositoryTeams
