@@ -2,97 +2,55 @@
 
 members:
   admin:
-    - andyschwab-admin
     - anorth
     - arajasek
     - BigLep
-    - daviddias
     - filecoin-helper
     - galargh
-    - jbenet
     - jennijuju
     - JesseXie
-    - mastrwayne-admin
     - mishmosh
     - ognots
-    - protocolin
     - raulk
     - Stebalien
     - vesahc
     - whyrusleeping
   member:
-    - aakoshh
     - aarshkshah1992
     - aashidham
     - adlrocha
-    - ahmedelkashev
-    - akrych
-    - alanshaw
-    - alexandrumatei36
-    - Alexey-N-Chernyshov
-    - alimbuyuguen
-    - AmeanAsad
-    - androowoo
-    - andyschwab
-    - angiemaguire
     - anshu93
     - APiligrim
-    - aronchick
-    - art-gor
     - aschmahmann
     - ashwanth-eth
-    - autonome
-    - aysmed
     - bajtos
     - birdychang
     - BlocksOnAChain
-    - bradholden
-    - brdji
     - brendalee
-    - BulatSaif
-    - carolynjlee
-    - cbrocoum
-    - cmharden
-    - connormullett
-    - coryschwartz
-    - Cre-eD
-    - cryptoAtwill
     - cryptonemo
     - cwaring
-    - damedoteth
-    - davidad
     - davidd8
     - davidgasquez
-    - dawnkelly09
     - dchoi27
-    - dharmapunk82
-    - DiegoRBaquero
     - dirkmc
     - dkkapur
     - dnkolegov
-    - doctorrobinson
     - DrPeterVanNostrand
     - duckie-han
     - elijaharita
     - elmattic
     - ElPaisano
     - emilymvaughan
-    - emmorais
-    - ericronne
     - ErinOCon
     - eshon
     - expede
     - Fatman13
     - figureouter
-    - filecoin-ci
-    - frank-ang
     - fridrik01
     - frrist
     - gammazero
     - geoff-vball
-    - george-haddad
     - GlacierWalrus
-    - gmasgras
     - gruns
     - guanzo
     - guy-goren
@@ -103,31 +61,18 @@ members:
     - hugomrdias
     - hunjixin
     - ianconsolata
-    - iand
-    - igor-egorov
     - irenegia
-    - isa-belch
     - ischasny
     - jacobheun
-    - JadTermsani
-    - jbenetsafer
-    - jdjaustin
     - jenks-guo-filecoin
-    - jesseclay
-    - jimmylee
-    - jimpick
     - jnthnvctr
-    - joaosa
     - johnnymatthews
     - jsoares
     - juliangruber
     - kaitlin-beegle
     - kasteph
-    - Keren-0117
     - kevzak
     - Kubuxu
-    - laudiacay
-    - launchpad-core-team
     - LaurenSpiegel
     - lemmih
     - lerajk
@@ -135,94 +80,51 @@ members:
     - LexLuthr
     - lksbrssr
     - longfeiWan9
-    - lucaniz
     - maciejwitowski
     - magik6k
     - MarcoPolo
     - marinakosti
-    - Markuu-s
     - marten-seemann
     - masih
-    - masterjedy
     - matejpavlovic
-    - maxscience
     - mb1896
     - MF416
-    - Mingela
-    - miyazono
     - momack2
-    - monicaortel
     - mturilin
-    - nicola
-    - nikkolasg
-    - ninitrava
     - nonsense
-    - ns4plabs
     - olizilla
-    - ortyomka
     - parthshah1
-    - patrickwoodhead
-    - pk-controller
-    - pk13-PLF
     - pl-deploy-bot
     - placer14
     - porcuquine
-    - protocol-labs
     - q9f
     - raghavrmadya
-    - ravenolf
     - realChainLife
     - Reiers
     - ribasushi
     - rjan90
-    - rosariogennaro
     - rvagg
-    - sa8
     - scotthconner
-    - SeedingTrees
-    - sergefdrv
-    - sergkaprovich
     - SgtCoin
-    - sheriflouis-FF
     - shrenujbansal
     - simonkim0515
     - smagdali
-    - smooth-operator
     - snadrus
     - snissn
-    - Stefaan-V
     - steve-fraser
     - steven004
-    - storojs72
-    - sudo-shashank
-    - terryhung
-    - thattommyhall
-    - TheDiscordian
     - TheDivic
-    - TheMenko
     - TippyFlitsUK
     - TorfinnOlsen
-    - travisperson
     - trruckerfling
-    - turuslan
     - vmx
-    - vnessasgrt
     - vukolic
-    - vvkio
-    - warpfork
-    - wdbaruni
     - web3-bot
-    - wheresaddie
     - willscott
     - xmcai2016
     - ychiaoli18
-    - yiannisbot
-    - yunigraham
-    - yusefnapora
     - ZakAyesh
     - ZenGround0
-    - zixuanzh
-    - zuiris
 repositories:
   actors-private:
     advanced_security: false
@@ -276,12 +178,6 @@ repositories:
     collaborators:
       admin:
         - Stebalien
-      pull:
-        - 0xleastwood
-        - gnattishness
-        - kirk-baird
-        - NatoliChris
-        - zedt3ster
       push:
         - momack2
     has_discussions: false
@@ -317,9 +213,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - aronchick
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -347,11 +240,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - nicola
-      push:
-        - lucaniz
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -394,8 +282,6 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
-      push:
-        - nikkolasg
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -501,9 +387,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - travisperson
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -536,7 +419,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab
         - LexLuthr
       maintain:
         - hannahhoward
@@ -622,7 +504,6 @@ repositories:
         - aschmahmann
         - ischasny
         - shrenujbansal
-        - vyzo
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -656,20 +537,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - jbenet
-        - protocolin
-        - zixuanzh
       pull:
-        - nicola
         - porcuquine
-      push:
-        - danlessa
-        - davidad
-        - jshorish
-        - markusbkoch
-        - mzargham
-        - tmellan
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -735,10 +604,6 @@ repositories:
         - alexytsu
         - ec2
         - longfeiWan9
-        - macro-ss
-        - marco-storswift
-        - tyshko5
-        - vkalghatgi
         - vyzo
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -763,9 +628,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - sergkaprovich
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -778,9 +640,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - mriise
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -808,11 +667,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - angelopez10
-        - carlosdimatteo
-        - nestorolivaresh
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -859,9 +713,6 @@ repositories:
     collaborators:
       admin:
         - irenegia
-        - nikkolasg
-      push:
-        - lucaniz
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -931,17 +782,12 @@ repositories:
         - ArseniiPetrovich
         - dumikau
         - eshon
-        - jbenet
         - jennijuju
         - lazavikmaria
         - mur-me
-        - protocolin
       pull:
-        - pk-controller
         - ychiaoli18
       push:
-        - koteld
-        - openworklabbot
         - plcgi1
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -992,10 +838,6 @@ repositories:
       admin:
         - eshon
         - jennijuju
-      maintain:
-        - ksaynice
-        - maxvint
-        - NewMai
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1017,13 +859,8 @@ repositories:
         - eshon
       push:
         - dkkapur
-        - rstanberry
-        - vnessasgrt
       triage:
-        - ec2
-        - haochizzle
         - rjan90
-        - timguo-ipfs
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1068,10 +905,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - nikkolasg
-        - sa8
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1109,16 +942,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - zuiris
-      push:
-        - ahmedelkashev
-        - Elestrias
-        - Harrm
-        - Markuu-s
-        - Mingela
-        - wer1st
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1164,9 +987,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - yunigraham
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1264,7 +1084,6 @@ repositories:
     archived: false
     collaborators:
       maintain:
-        - AlexxNica
         - dkkapur
     files:
       .github/dependabot.yml:
@@ -1314,13 +1133,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - jbenet
         - jnthnvctr
-        - zixuanzh
       push:
-        - aaitor
-        - josepablofm78
-        - miyazono
         - momack2
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -1408,10 +1222,8 @@ repositories:
       maintain:
         - eshon
         - figureouter
-        - philippbanhardt
       push:
         - pap1ll0n
-        - SeedingTrees
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1449,11 +1261,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - nicola
-      push:
-        - nikkolasg
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1469,9 +1276,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - nikkolasg
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1488,9 +1292,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - sa8
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1535,12 +1336,10 @@ repositories:
         - timelytree
       maintain:
         - APiligrim
-        - D3AS8A
         - svvimming
         - xBalbinus
       push:
         - cwaring
-        - splumms
         - tjsMck
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -1572,8 +1371,6 @@ repositories:
     collaborators:
       admin:
         - whyrusleeping
-      push:
-        - nikkolasg
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1612,7 +1409,6 @@ repositories:
     archived: false
     collaborators:
       maintain:
-        - alanshaw
         - frrist
       push:
         - ribasushi
@@ -1657,16 +1453,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - orvn
-        - svvimming
-        - timelytree
-      maintain:
-        - splumms
-      push:
-        - joannaong
-        - nicole-code
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1745,8 +1531,6 @@ repositories:
     collaborators:
       admin:
         - ZakAyesh
-      push:
-        - xBalbinus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1787,14 +1571,9 @@ repositories:
         - parthshah1
         - relotnek
       pull:
-        - AnomalRoil
-        - aronchick
         - aschmahmann
         - cwaring
-        - DiegoRBaquero
         - kasteph
-        - lidel
-        - mxinden
       push:
         - jacobheun
         - marten-seemann
@@ -1834,8 +1613,6 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - iand
       push:
         - hsanjuan
         - web3-bot
@@ -1880,8 +1657,6 @@ repositories:
     collaborators:
       admin:
         - porcuquine
-      push:
-        - simonatsn
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2033,9 +1808,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - travisperson
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -2054,9 +1826,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - jimmylee
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2069,9 +1838,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - alanshaw
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2119,10 +1885,6 @@ repositories:
     collaborators:
       admin:
         - jnthnvctr
-      push:
-        - frm
-        - zamith
-        - ZePedroResende
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2141,9 +1903,7 @@ repositories:
       pull:
         - eshon
       push:
-        - frm
         - rvagg
-        - zamith
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2173,10 +1933,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab
         - jnthnvctr
-      maintain:
-        - ZePedroResende
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2191,10 +1948,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab
         - jnthnvctr
-      maintain:
-        - ZePedroResende
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2256,7 +2010,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab
         - cwaring
         - raulk
       maintain:
@@ -2343,8 +2096,6 @@ repositories:
       admin:
         - raulk
         - Stebalien
-      push:
-        - vyzo
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2505,60 +2256,15 @@ repositories:
     collaborators:
       admin:
         - dkkapur
-        - galen-mcandrew
-        - Kevin-FF-USA
         - simonkim0515
       maintain:
-        - fabriziogianni7
-        - huseyincansoylu
-        - ialberquilla
-        - orvn
-        - panges2
         - raghavrmadya
-        - timelytree
       push:
-        - aaitor
-        - dannyob
         - data-programs
-        - filecoin-plus-bot
       triage:
-        - 1475Notary
-        - 1ane-1
-        - andrewxhill
-        - BlockMakeronline
-        - bmcnabb25
-        - cryptowhizzard
-        - DarnellWashington
-        - Destore2023
         - Fatman13
-        - Fenbushi-Filecoin
-        - fireflyHZ
-        - flyworker
-        - GaryGJG
-        - IreneYoung
         - jamerduhgamer
-        - Joss-Hua
-        - junyaoren
-        - kernelogic
-        - laudiacay
-        - liyunzhi-666
-        - llifezou
-        - MasaakiNawatani
-        - MatrixStorage
-        - MegTei
-        - MRJAVAZHAO
-        - neogeweb3
-        - newwebgroup
-        - nicole-code
-        - NiwanDao
-        - PluskitOfficial
-        - rayshitou
-        - s0nik42
         - steven004
-        - TimWilliams00
-        - Tom-OriginStorage
-        - xinaxu
-        - XnMatrixSV
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2578,18 +2284,14 @@ repositories:
         - fabriziogianni7
         - galen-mcandrew
         - jbesraa
-        - Kevin-FF-USA
         - raghavrmadya
         - simonkim0515
       maintain:
         - huseyincansoylu
         - kevzak
-        - nicole-code
         - orvn
         - panges2
         - timelytree
-      pull:
-        - smooth-operator
       push:
         - data-programs
       triage:
@@ -2609,8 +2311,6 @@ repositories:
     collaborators:
       admin:
         - dkkapur
-      maintain:
-        - AlexxNica
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -2643,9 +2343,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      maintain:
-        - AlexxNica
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2673,14 +2370,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - abelsoares
-        - patrickwoodhead
-      maintain:
-        - claudiorodr
-        - rafaelcruzazevedo
-        - tiago258
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -2729,12 +2418,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab
         - cwaring
-      pull:
-        - Isabellabcj
       push:
-        - damedoteth
         - mirhamasala
         - momack2
         - tbenbow
@@ -2884,7 +2569,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - clriesco
         - dkkapur
         - jbesraa
         - kokal33
@@ -2939,7 +2623,6 @@ repositories:
       admin:
         - kaitlin-beegle
       push:
-        - andyschwab
         - ec2
         - luckyparadise
         - vyzo
@@ -3044,9 +2727,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - vyzo
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3225,8 +2905,6 @@ repositories:
       maintain:
         - snissn
         - vyzo
-      push:
-        - xBalbinus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3270,8 +2948,6 @@ repositories:
     collaborators:
       admin:
         - magik6k
-      push:
-        - Jacarte
     files:
       .github/dependabot.yml:
         content: |
@@ -3348,9 +3024,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - DiegoRBaquero
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3400,17 +3073,13 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab-admin
         - arajasek
         - galargh
         - jennijuju
         - JesseXie
-        - mastrwayne-admin
       pull:
         - marten-seemann
       push:
-        - autonome
-        - mroth
         - scotthconner
     files:
       CODEOWNERS:
@@ -3453,7 +3122,6 @@ repositories:
         - ianconsolata
         - pl-deploy-bot
       maintain:
-        - cmharden
         - steve-fraser
     files:
       .github/dependabot.yml:
@@ -3475,18 +3143,13 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - cmharden
         - GlacierWalrus
         - pl-deploy-bot
         - steve-fraser
-      pull:
-        - joaosa
-        - mcamou
       push:
         - ianconsolata
         - MarcoPolo
         - masih
-        - ns4plabs
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3642,9 +3305,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - vyzo
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4431,17 +4091,6 @@ repositories:
       admin:
         - orvn
         - svvimming
-        - timelytree
-      maintain:
-        - splumms
-      push:
-        - D3AS8A
-        - joannaong
-        - nicole-code
-        - orinayodele
-        - redransil
-      triage:
-        - emilymariahh
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4478,12 +4127,6 @@ repositories:
     collaborators:
       admin:
         - lksbrssr
-        - suzannaaltman
-        - tbenbow
-        - vvkio
-      maintain:
-        - jameshuggett
-        - stan-pl
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4500,15 +4143,10 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - andyschwab
-        - tbenbow
       maintain:
         - figureouter
       push:
         - lksbrssr
-        - pap1ll0n
-        - raquelic
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4566,7 +4204,6 @@ repositories:
         - hsanjuan
         - kasteph
       push:
-        - andrestorresGL
         - masih
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4704,7 +4341,6 @@ repositories:
     archived: false
     collaborators:
       pull:
-        - cmharden
         - steve-fraser
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4743,10 +4379,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab
         - cwaring
-        - ericronne
-        - tbenbow
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4826,10 +4459,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - jbenet
-        - protocolin
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4906,8 +4535,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - iand
       push:
         - web3-bot
     files:
@@ -4938,8 +4565,6 @@ repositories:
         - Terryhung
       pull:
         - olizilla
-      push:
-        - iand
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -4988,9 +4613,6 @@ repositories:
     collaborators:
       admin:
         - cryptonemo
-        - schreck23
-      pull:
-        - vvkio
       push:
         - Zorlin
     has_discussions: false
@@ -5037,9 +4659,6 @@ repositories:
     collaborators:
       admin:
         - filecoin-helper
-      pull:
-        - Jorropo
-        - turinglabsorg
       push:
         - cryptonemo
         - DrPeterVanNostrand
@@ -5047,11 +4666,9 @@ repositories:
         - irenegia
         - LexLuthr
         - ribasushi
-        - rstanberry
         - rvagg
         - scotthconner
         - SgtCoin
-        - TheDiscordian
         - vmx
         - ychiaoli18
     has_discussions: false
@@ -5077,22 +4694,13 @@ repositories:
     collaborators:
       admin:
         - ianconsolata
-        - ns4plabs
         - pl-deploy-bot
       pull:
         - adlrocha
-        - aronchick
-        - autonome
-        - cewood
         - eshon
-        - jimmylee
         - jsoares
-        - liviudm
-        - mcamou
         - momack2
-        - yiannisbot
       push:
-        - cmharden
         - gammazero
         - maciejwitowski
         - MarcoPolo
@@ -5391,13 +4999,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - orvn
-      push:
-        - emilymariahh
-        - svvimming
-        - timelytree
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5544,9 +5145,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - mriise
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5589,10 +5187,7 @@ repositories:
       admin:
         - dkkapur
         - fabriziogianni7
-        - filecoin-plus-bot
         - galen-mcandrew
-        - huseyincansoylu
-        - ialberquilla
         - jnthnvctr
         - Kevin-FF-USA
         - raghavrmadya
@@ -5653,13 +5248,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - andyschwab
-        - suzannaaltman
-        - tbenbow
-      maintain:
-        - jameshuggett
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5717,9 +5305,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - nicola
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5924,9 +5509,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - nicola
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5980,8 +5562,6 @@ repositories:
         - filecoin-helper
       maintain:
         - Kubuxu
-      push:
-        - Jacarte
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6022,11 +5602,8 @@ repositories:
         - maciejwitowski
       pull:
         - scotthconner
-        - tchataigner
       push:
         - ec2
-        - iand
-        - Jacarte
         - vyzo
       triage:
         - BlocksOnAChain
@@ -6052,7 +5629,6 @@ repositories:
       admin:
         - ianconsolata
       push:
-        - cmharden
         - steve-fraser
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -6084,9 +5660,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - alanshaw
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6104,9 +5677,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - nicola
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6139,9 +5709,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - protocolin
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6161,10 +5728,8 @@ repositories:
     collaborators:
       admin:
         - anorth
-        - nicola
       push:
         - irenegia
-        - lucaniz
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6269,7 +5834,6 @@ repositories:
       admin:
         - hannahhoward
         - momack2
-        - patrickwoodhead
       push:
         - willscott
     has_discussions: false
@@ -6290,9 +5854,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - patrickwoodhead
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6339,16 +5900,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      maintain:
-        - zixuanzh
-      pull:
-        - AxCortesCubero
-        - laudiacay
       push:
         - kasteph
-        - vkalghatgi
-      triage:
-        - tmellan
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6461,7 +6014,6 @@ repositories:
         - jennijuju
       pull:
         - BlocksOnAChain
-        - DignifiedquireSyncBot
       push:
         - porcuquine
     has_discussions: true
@@ -6695,9 +6247,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - nicola
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6713,7 +6262,6 @@ repositories:
     collaborators:
       admin:
         - hsanjuan
-        - thattommyhall
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -6744,7 +6292,6 @@ repositories:
       push:
         - frrist
         - hsanjuan
-        - iand
         - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -6764,7 +6311,6 @@ repositories:
     collaborators:
       push:
         - pl-deploy-bot
-        - thattommyhall
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -6852,14 +6398,11 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - daviddias
         - hsanjuan
       pull:
         - momack2
-        - nicola
         - olizilla
         - vyzo
-        - zixuanzh
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6920,10 +6463,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - jimmylee
-        - uonai
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6939,23 +6478,7 @@ repositories:
     collaborators:
       admin:
         - Aminejvm
-        - andrewxhill
         - cwaring
-        - jimmylee
-      maintain:
-        - achalvs
-        - akuokojnr
-        - harisbutt
-        - jasonleyser
-        - martinalong
-      pull:
-        - gndclouds
-        - tmytrn
-        - uonai
-      push:
-        - johannes-jp
-        - jordattebayo
-        - tarafanlin
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6988,9 +6511,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - nicola
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7063,7 +6583,6 @@ repositories:
     collaborators:
       admin:
         - ribasushi
-        - Stefaan-V
       push:
         - ashwanth-eth
     has_discussions: false
@@ -7081,13 +6600,10 @@ repositories:
     collaborators:
       admin:
         - cwaring
-      pull:
-        - dleonx
       push:
         - ashwanth-eth
         - brendalee
         - honghaoq
-        - Stefaan-V
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7162,15 +6678,10 @@ repositories:
       admin:
         - cwaring
         - olizilla
-        - yiannisbot
       maintain:
         - ianconsolata
-        - jimmylee
         - nonsense
         - smagdali
-      push:
-        - nikkolasg
-        - sternhenri
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7229,7 +6740,6 @@ repositories:
         - frrist
         - willscott
       maintain:
-        - iand
         - vyzo
     files:
       .github/dependabot.yml:
@@ -7294,9 +6804,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - jimmylee
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7309,9 +6816,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - travisperson
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7327,20 +6831,9 @@ repositories:
     collaborators:
       admin:
         - BlocksOnAChain
-        - brdji
         - raulk
       pull:
-        - KatarinaKeti
-        - LaneBloxico
         - TheDivic
-      push:
-        - AbominableSnowman730
-        - aleksaToljic
-        - bokimilinkovic
-        - MilosMarkoni
-        - mstojanovicbloxico
-        - StefanGajic
-        - Vojimirovich
     files:
       .github/dependabot.yml:
         content: >
@@ -7433,9 +6926,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - nikkolasg
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7586,19 +7076,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - daviddias
         - whyrusleeping
-      pull:
-        - aagdere
-        - andr11111
-        - assaf-anchor
-        - bajohns
-        - dwhjames
-        - ndrewmin
-        - peterlouis
-        - pk-controller
-        - tubergen
-        - vikstrous2
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7618,7 +7096,6 @@ repositories:
         - willscott
       maintain:
         - rvagg
-        - sti-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7694,7 +7171,6 @@ repositories:
       maintain:
         - "0x5459"
         - Fatman13
-        - jimmylee
         - Joss-Hua
         - simlecode
       push:
@@ -7768,12 +7244,8 @@ repositories:
         - Fatman13
         - LinZexiao
         - simlecode
-        - YiRuiLiher
-        - zhiqiangxu
       push:
         - elvin-du
-        - Joss-Hua
-        - StefanGajic
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7798,9 +7270,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - Jacarte
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7828,9 +7297,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - andyschwab
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7845,7 +7311,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - alanshaw
         - olizilla
       maintain:
         - eshon
@@ -7885,14 +7350,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab
         - anorth
         - cwaring
-      maintain:
-        - alexandrricov
-        - andreirykov
-      push:
-        - suzannaaltman
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7910,9 +7369,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - alanshaw
-        - andyschwab
-        - daviddias
         - dkkapur
         - eshon
         - olizilla
@@ -7953,7 +7409,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - cmharden
         - pl-deploy-bot
     files:
       .github/dependabot.yml:
@@ -8027,20 +7482,12 @@ teams:
       maintainer:
         - mishmosh
       member:
-        - dawnkelly09
         - hammertoe
         - jenks-guo-filecoin
         - lksbrssr
         - longfeiWan9
-        - TheDiscordian
         - trruckerfling
         - ZakAyesh
-  Alumni:
-    create_default_maintainer: false
-  bacalhau-team:
-    members:
-      maintainer:
-        - aronchick
   bedrock-go:
     members:
       maintainer:
@@ -8061,9 +7508,6 @@ teams:
     members:
       maintainer:
         - jennijuju
-      member:
-        - brdji
-        - TheMenko
   Boost:
     members:
       maintainer:
@@ -8075,16 +7519,6 @@ teams:
       member:
         - ischasny
         - jacobheun
-  CERT:
-    members:
-      maintainer:
-        - mastrwayne-admin
-      member:
-        - monicaortel
-  ci:
-    members:
-      member:
-        - filecoin-ci
   collab-ff-seo-ux:
     members:
       maintainer:
@@ -8108,44 +7542,20 @@ teams:
         - jsoares
         - vukolic
       member:
-        - aakoshh
-        - cryptoAtwill
         - dnkolegov
         - guy-goren
         - matejpavlovic
-  cpp-filecoin-team:
-    members:
-      member:
-        - Alexey-N-Chernyshov
-        - art-gor
-        - BulatSaif
-        - Cre-eD
-        - igor-egorov
-        - masterjedy
-        - Mingela
-        - ortyomka
-        - ravenolf
-        - sergkaprovich
-        - turuslan
-        - zuiris
   cryptoeconomics:
     members:
       maintainer:
-        - jbenet
         - mishmosh
-        - protocolin
         - whyrusleeping
-        - zixuanzh
       member:
-        - davidad
         - jnthnvctr
-        - miyazono
-        - nicola
         - porcuquine
   Data Programs:
     members:
       maintainer:
-        - daviddias
         - dkkapur
       member:
         - kevzak
@@ -8159,7 +7569,6 @@ teams:
         - kasteph
       member:
         - birdychang
-        - terryhung
   datasystems:
     members:
       maintainer:
@@ -8175,25 +7584,18 @@ teams:
       maintainer:
         - anorth
         - filecoin-helper
-        - jbenet
         - ognots
         - whyrusleeping
       member:
         - DrPeterVanNostrand
         - eshon
         - frrist
-        - gmasgras
-        - jesseclay
-        - jimmylee
         - jnthnvctr
         - Kubuxu
         - magik6k
         - porcuquine
-        - travisperson
         - vmx
-        - warpfork
         - ZenGround0
-        - zixuanzh
   docs-admins:
     members:
       maintainer:
@@ -8217,7 +7619,6 @@ teams:
     members:
       maintainer:
         - anorth
-        - jbenet
         - raulk
         - Stebalien
       member:
@@ -8228,10 +7629,8 @@ teams:
         - Kubuxu
         - magik6k
         - momack2
-        - nicola
         - steven004
         - ZenGround0
-        - zixuanzh
   fips-editors:
     members:
       maintainer:
@@ -8249,19 +7648,14 @@ teams:
         - raulk
       member:
         - elmattic
-        - jdjaustin
         - LesnyRumcajs
         - q9f
-        - sudo-shashank
   foundation:
     members:
       maintainer:
         - ianconsolata
         - realChainLife
         - smagdali
-      member:
-        - SeedingTrees
-        - vnessasgrt
   FVM Web:
     members:
       maintainer:
@@ -8270,7 +7664,6 @@ teams:
         - jennijuju
         - raulk
       member:
-        - ericronne
         - eshon
         - lksbrssr
         - trruckerfling
@@ -8282,7 +7675,6 @@ teams:
         - raulk
         - Stebalien
       member:
-        - aakoshh
         - cryptonemo
         - fridrik01
         - Kubuxu
@@ -8337,51 +7729,31 @@ teams:
         - birdychang
         - frrist
         - GlacierWalrus
-        - gmasgras
         - ianconsolata
-        - iand
         - kasteph
         - nonsense
-        - ns4plabs
         - olizilla
-        - terryhung
-        - travisperson
   labbers:
     members:
       maintainer:
         - anorth
         - arajasek
         - BigLep
-        - jbenet
         - jennijuju
         - mishmosh
-        - protocolin
         - raulk
         - Stebalien
         - vesahc
         - whyrusleeping
       member:
         - aashidham
-        - akrych
-        - alanshaw
-        - alimbuyuguen
-        - AmeanAsad
-        - androowoo
-        - andyschwab
-        - angiemaguire
         - anshu93
         - APiligrim
         - aschmahmann
         - ashwanth-eth
-        - autonome
-        - aysmed
-        - bradholden
         - brendalee
-        - cbrocoum
         - cryptonemo
-        - damedoteth
         - davidd8
-        - DiegoRBaquero
         - dirkmc
         - dkkapur
         - dnkolegov
@@ -8393,69 +7765,38 @@ teams:
         - fridrik01
         - frrist
         - gammazero
-        - gmasgras
         - gruns
         - guanzo
         - hammertoe
         - hannahhoward
         - honghaoq
-        - iand
         - ischasny
         - jacobheun
-        - jesseclay
-        - jimmylee
         - jnthnvctr
         - johnnymatthews
         - juliangruber
         - kasteph
-        - Keren-0117
         - Kubuxu
-        - laudiacay
         - lksbrssr
-        - lucaniz
         - magik6k
         - marinakosti
         - masih
         - matejpavlovic
         - MF416
-        - miyazono
         - momack2
         - mturilin
-        - nicola
-        - nikkolasg
-        - ninitrava
         - nonsense
         - olizilla
-        - patrickwoodhead
-        - pk-controller
-        - pk13-PLF
         - porcuquine
         - ribasushi
-        - rosariogennaro
         - rvagg
-        - sa8
         - scotthconner
-        - Stefaan-V
-        - terryhung
-        - thattommyhall
         - TorfinnOlsen
-        - travisperson
         - trruckerfling
         - vmx
-        - vvkio
-        - warpfork
-        - wdbaruni
-        - wheresaddie
         - willscott
-        - yiannisbot
-        - yunigraham
         - ZakAyesh
         - ZenGround0
-        - zixuanzh
-  legal:
-    members:
-      member:
-        - jesseclay
   lotus-contributors:
     members:
       maintainer:
@@ -8470,7 +7811,6 @@ teams:
         - GlacierWalrus
         - hannahhoward
         - hsanjuan
-        - iand
         - jacobheun
         - Kubuxu
         - maciejwitowski
@@ -8480,7 +7820,6 @@ teams:
         - rjan90
         - rvagg
         - snissn
-        - Terryhung
         - willscott
         - ychiaoli18
   lotus-infra-core:
@@ -8489,7 +7828,6 @@ teams:
         - ognots
       member:
         - GlacierWalrus
-        - ns4plabs
   lotus-maintainers:
     members:
       maintainer:
@@ -8523,38 +7861,25 @@ teams:
   oni:
     members:
       maintainer:
-        - daviddias
         - raulk
         - whyrusleeping
       member:
-        - alanshaw
         - dirkmc
-        - jimpick
         - momack2
         - nonsense
         - willscott
-        - yusefnapora
   product-biz:
     members:
       maintainer:
-        - jesseclay
         - mishmosh
-        - protocolin
       member:
-        - cbrocoum
-        - davidad
-        - ericronne
         - jnthnvctr
-        - yunigraham
-        - zixuanzh
   product:
     members:
       member:
         - cwaring
         - dchoi27
         - dkkapur
-        - jesseclay
-        - jimmylee
         - jnthnvctr
         - ribasushi
   proj-mgmt:
@@ -8563,17 +7888,14 @@ teams:
         - anorth
         - mishmosh
         - ognots
-        - protocolin
         - raulk
         - whyrusleeping
       member:
         - davidd8
         - eshon
         - frrist
-        - jesseclay
         - jnthnvctr
         - porcuquine
-        - travisperson
         - ZenGround0
   proofs:
     members:
@@ -8582,49 +7904,30 @@ teams:
         - porcuquine
       member:
         - DrPeterVanNostrand
-        - emmorais
         - Kubuxu
-        - nicola
-        - nikkolasg
         - vmx
   research:
     members:
       maintainer:
-        - jbenet
-        - miyazono
-        - nicola
         - whyrusleeping
       member:
         - dkkapur
         - DrPeterVanNostrand
         - irenegia
         - jsoares
-        - lucaniz
-        - nikkolasg
-        - ninitrava
         - porcuquine
-        - rosariogennaro
-        - sa8
-        - yiannisbot
   Retrieval Market Builders:
     members:
-      maintainer:
-        - daviddias
       member:
         - bajtos
-        - joaosa
         - juliangruber
-        - patrickwoodhead
   saturn:
     members:
       maintainer:
         - gruns
-        - patrickwoodhead
       member:
         - aarshkshah1992
-        - AmeanAsad
         - bajtos
-        - DiegoRBaquero
   Sentinel Admin:
     members:
       maintainer:
@@ -8639,9 +7942,6 @@ teams:
       maintainer:
         - birdychang
         - ognots
-      member:
-        - cmharden
-        - terryhung
   Sentinel:
     members:
       maintainer:
@@ -8649,30 +7949,19 @@ teams:
         - hsanjuan
       member:
         - kasteph
-        - terryhung
   specs:
     members:
       maintainer:
         - anorth
-        - jbenet
         - mishmosh
         - whyrusleeping
       member:
-        - miyazono
         - momack2
-        - nicola
         - porcuquine
-        - yiannisbot
-        - zixuanzh
   starling-storage:
     members:
       maintainer:
         - mishmosh
-      member:
-        - alexandrumatei36
-        - george-haddad
-        - JadTermsani
-        - smooth-operator
   Strike Team:
     members:
       maintainer:
@@ -8690,7 +7979,6 @@ teams:
       member:
         - frrist
         - jnthnvctr
-        - travisperson
   UXimprovement team:
     members:
       maintainer:
@@ -8718,24 +8006,17 @@ teams:
   Weaveworks:
     members:
       member:
-        - cmharden
         - steve-fraser
   website:
     members:
       maintainer:
         - eshon
         - filecoin-helper
-        - jesseclay
         - mishmosh
         - vesahc
       member:
-        - andyschwab
-        - angiemaguire
         - cwaring
         - dkkapur
         - emilymvaughan
-        - ericronne
-        - jimmylee
         - jnthnvctr
         - momack2
-        - nicola
