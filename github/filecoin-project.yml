@@ -6,12 +6,10 @@ members:
     - anorth
     - arajasek
     - BigLep
-    - daviddias
     - filecoin-helper
     - galargh
     - jbenet
     - jennijuju
-    - JesseXie
     - mastrwayne-admin
     - mishmosh
     - ognots
@@ -25,7 +23,6 @@ members:
     - aarshkshah1992
     - aashidham
     - adlrocha
-    - ahmedelkashev
     - akrych
     - alanshaw
     - alexandrumatei36
@@ -50,11 +47,8 @@ members:
     - brdji
     - brendalee
     - BulatSaif
-    - carolynjlee
     - cbrocoum
     - cmharden
-    - connormullett
-    - coryschwartz
     - Cre-eD
     - cryptoAtwill
     - cryptonemo
@@ -62,7 +56,6 @@ members:
     - damedoteth
     - davidad
     - davidd8
-    - davidgasquez
     - dawnkelly09
     - dchoi27
     - dharmapunk82
@@ -70,7 +63,6 @@ members:
     - dirkmc
     - dkkapur
     - dnkolegov
-    - doctorrobinson
     - DrPeterVanNostrand
     - duckie-han
     - elijaharita
@@ -85,11 +77,9 @@ members:
     - Fatman13
     - figureouter
     - filecoin-ci
-    - frank-ang
     - fridrik01
     - frrist
     - gammazero
-    - geoff-vball
     - george-haddad
     - GlacierWalrus
     - gmasgras
@@ -100,17 +90,14 @@ members:
     - hannahhoward
     - honghaoq
     - hsanjuan
-    - hugomrdias
     - hunjixin
     - ianconsolata
     - iand
     - igor-egorov
     - irenegia
-    - isa-belch
     - ischasny
     - jacobheun
     - JadTermsani
-    - jbenetsafer
     - jdjaustin
     - jenks-guo-filecoin
     - jesseclay
@@ -127,7 +114,6 @@ members:
     - kevzak
     - Kubuxu
     - laudiacay
-    - launchpad-core-team
     - LaurenSpiegel
     - lemmih
     - lerajk
@@ -145,7 +131,6 @@ members:
     - masih
     - masterjedy
     - matejpavlovic
-    - maxscience
     - mb1896
     - MF416
     - Mingela
@@ -165,7 +150,6 @@ members:
     - pk-controller
     - pk13-PLF
     - pl-deploy-bot
-    - placer14
     - porcuquine
     - protocol-labs
     - q9f
@@ -180,10 +164,8 @@ members:
     - sa8
     - scotthconner
     - SeedingTrees
-    - sergefdrv
     - sergkaprovich
     - SgtCoin
-    - sheriflouis-FF
     - shrenujbansal
     - simonkim0515
     - smagdali
@@ -193,7 +175,6 @@ members:
     - Stefaan-V
     - steve-fraser
     - steven004
-    - storojs72
     - sudo-shashank
     - terryhung
     - thattommyhall
@@ -583,6 +564,8 @@ repositories:
     collaborators:
       admin:
         - dirkmc
+        - LexLuthr
+        - nonsense
       push:
         - hannahhoward
         - rvagg
@@ -603,23 +586,24 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - aarshkshah1992
         - davidd8
         - dirkmc
         - hannahhoward
         - jacobheun
         - jennijuju
+        - LexLuthr
         - masih
         - nonsense
         - willscott
       maintain:
         - brendalee
         - LaurenSpiegel
-        - LexLuthr
         - magik6k
         - rvagg
       push:
+        - aarshkshah1992
         - aschmahmann
+        - gammazero
         - ischasny
         - shrenujbansal
         - vyzo
@@ -836,6 +820,7 @@ repositories:
         - raulk
         - whyrusleeping
       maintain:
+        - daviddias
         - vyzo
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -895,6 +880,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      admin:
+        - daviddias
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -910,6 +898,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      maintain:
+        - daviddias
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -966,24 +957,6 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
-  communications:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - datasystems
-        - labbers
-      push:
-        - product-biz
-    visibility: private
   community-china:
     advanced_security: false
     allow_update_branch: false
@@ -1104,6 +1077,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - actors-committers
     visibility: public
   cpp-filecoin:
     advanced_security: false
@@ -2392,9 +2368,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - davidgasquez
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3404,7 +3377,6 @@ repositories:
         - arajasek
         - galargh
         - jennijuju
-        - JesseXie
         - mastrwayne-admin
       pull:
         - marten-seemann
@@ -4192,7 +4164,7 @@ repositories:
   go-sectorbuilder:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       maintain:
         - magik6k
@@ -4201,7 +4173,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -4932,12 +4904,9 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - birdychang
+      maintain:
         - frrist
-        - hsanjuan
-        - kasteph
-        - Terryhung
-      pull:
-        - olizilla
       push:
         - iand
     files:
@@ -5153,10 +5122,7 @@ repositories:
         - arajasek
         - jennijuju
       push:
-        - adlrocha
-        - guy-goren
         - Kubuxu
-        - pl-kevin
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5281,8 +5247,6 @@ repositories:
     collaborators:
       admin:
         - kasteph
-      pull:
-        - davidgasquez
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5435,9 +5399,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5448,14 +5409,13 @@ repositories:
     teams:
       admin:
         - Motion
+      maintain:
+        - bedrock-go
     visibility: public
   motion-cloudserver:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hannahhoward
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5466,6 +5426,8 @@ repositories:
     teams:
       admin:
         - Motion
+      maintain:
+        - bedrock-go
     visibility: public
   motion-s3-connector:
     advanced_security: false
@@ -5497,18 +5459,17 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - celine3650
         - davidd8
-        - hannahhoward
+        - gammazero
         - LaurenSpiegel
         - masih
-        - TorfinnOlsen
         - willscott
+        - xinaxu
       maintain:
         - anjor
-        - xinaxu
+        - celine3650
+        - TorfinnOlsen
       push:
-        - elijaharita
         - web3-bot
     has_discussions: true
     merge_commit_message: PR_BODY
@@ -5518,7 +5479,9 @@ repositories:
     squash_merge_commit_message: PR_BODY
     squash_merge_commit_title: PR_TITLE
     teams:
-      push:
+      admin:
+        - Motion
+      maintain:
         - bedrock-go
     visibility: public
   motivation:
@@ -5619,6 +5582,7 @@ repositories:
       admin:
         - raulk
       maintain:
+        - daviddias
         - vyzo
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5829,7 +5793,7 @@ repositories:
   playground:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6270,6 +6234,8 @@ repositories:
         - hannahhoward
         - momack2
         - patrickwoodhead
+      pull:
+        - daviddias
       push:
         - willscott
     has_discussions: false
@@ -6293,6 +6259,8 @@ repositories:
     collaborators:
       admin:
         - patrickwoodhead
+      pull:
+        - daviddias
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7076,13 +7044,11 @@ repositories:
     visibility: public
   sp.filecoin.io:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
     collaborators:
       admin:
         - cwaring
-      pull:
-        - dleonx
       push:
         - ashwanth-eth
         - brendalee
@@ -7229,6 +7195,7 @@ repositories:
         - frrist
         - willscott
       maintain:
+        - daviddias
         - iand
         - vyzo
     files:
@@ -7476,6 +7443,7 @@ repositories:
       admin:
         - raulk
       maintain:
+        - daviddias
         - vyzo
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -8009,6 +7977,7 @@ teams:
         - Stebalien
         - ZenGround0
       member:
+        - aarshkshah1992
         - mb1896
         - rjan90
   actors-maintainers:
@@ -8021,6 +7990,7 @@ teams:
         - Stebalien
         - ZenGround0
       member:
+        - aarshkshah1992
         - scotthconner
   advocates:
     members:
@@ -8053,7 +8023,6 @@ teams:
         - elijaharita
         - gammazero
         - hannahhoward
-        - jacobheun
         - LexLuthr
         - nonsense
         - rvagg
@@ -8145,7 +8114,6 @@ teams:
   Data Programs:
     members:
       maintainer:
-        - daviddias
         - dkkapur
       member:
         - kevzak
@@ -8222,7 +8190,6 @@ teams:
         - Stebalien
       member:
         - arajasek
-        - geoff-vball
         - jennijuju
         - kaitlin-beegle
         - Kubuxu
@@ -8331,7 +8298,6 @@ teams:
     members:
       maintainer:
         - hsanjuan
-        - JesseXie
         - ognots
       member:
         - birdychang
@@ -8497,6 +8463,7 @@ teams:
         - jennijuju
         - Stebalien
       member:
+        - aarshkshah1992
         - fridrik01
         - magik6k
         - mb1896
@@ -8523,7 +8490,6 @@ teams:
   oni:
     members:
       maintainer:
-        - daviddias
         - raulk
         - whyrusleeping
       member:
@@ -8608,8 +8574,6 @@ teams:
         - yiannisbot
   Retrieval Market Builders:
     members:
-      maintainer:
-        - daviddias
       member:
         - bajtos
         - joaosa
@@ -8630,7 +8594,6 @@ teams:
       maintainer:
         - birdychang
         - hsanjuan
-        - JesseXie
       member:
         - kasteph
         - Terryhung
