@@ -519,6 +519,7 @@ repositories:
       admin:
         - andyschwab
         - LexLuthr
+        - masih
       maintain:
         - hannahhoward
       push:
@@ -587,9 +588,7 @@ repositories:
     collaborators:
       admin:
         - davidd8
-        - dirkmc
         - hannahhoward
-        - jacobheun
         - jennijuju
         - LexLuthr
         - masih
@@ -603,8 +602,10 @@ repositories:
       push:
         - aarshkshah1992
         - aschmahmann
+        - dirkmc
         - gammazero
         - ischasny
+        - jacobheun
         - shrenujbansal
         - vyzo
     has_discussions: true
@@ -619,21 +620,6 @@ repositories:
         - Boost
       triage:
         - Lotus-TSE
-    visibility: public
-  boostd-data:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - masih
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   bsci-collab:
     advanced_security: false
@@ -672,7 +658,6 @@ repositories:
       maintain:
         - LaurenSpiegel
       pull:
-        - johnnymatthews
         - snissn
       push:
         - Kubuxu
@@ -3422,11 +3407,12 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - ianconsolata
         - pl-deploy-bot
       maintain:
         - cmharden
         - steve-fraser
+      push:
+        - ianconsolata
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -3452,10 +3438,10 @@ repositories:
         - pl-deploy-bot
         - steve-fraser
       pull:
+        - ianconsolata
         - joaosa
         - mcamou
       push:
-        - ianconsolata
         - MarcoPolo
         - masih
         - ns4plabs
@@ -4576,7 +4562,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
+      push:
         - ianconsolata
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5045,30 +5031,13 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - ianconsolata
-        - ns4plabs
         - pl-deploy-bot
       pull:
-        - adlrocha
-        - aronchick
-        - autonome
-        - cewood
         - eshon
-        - jimmylee
-        - jsoares
-        - liviudm
-        - mcamou
         - momack2
-        - yiannisbot
       push:
-        - cmharden
-        - gammazero
         - maciejwitowski
-        - MarcoPolo
-        - masih
         - rjan90
-        - steve-fraser
-        - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7884,7 +7853,6 @@ repositories:
         - dkkapur
         - eshon
         - olizilla
-      push:
         - parthshah1
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -7990,7 +7958,6 @@ teams:
         - Stebalien
         - ZenGround0
       member:
-        - aarshkshah1992
         - scotthconner
   advocates:
     members:
@@ -8038,11 +8005,12 @@ teams:
       maintainer:
         - brendalee
         - davidd8
-        - dirkmc
+        - ischasny
         - LexLuthr
+        - masih
         - nonsense
       member:
-        - ischasny
+        - dirkmc
         - jacobheun
   CERT:
     members:
@@ -8064,7 +8032,6 @@ teams:
   collab-ipfs-force:
     members:
       member:
-        - hunjixin
         - steven004
   community-mgmt:
     members:
@@ -8166,8 +8133,6 @@ teams:
     members:
       maintainer:
         - johnnymatthews
-      member:
-        - ElPaisano
   docs-storage-provider:
     members:
       maintainer:
@@ -8179,8 +8144,6 @@ teams:
     members:
       maintainer:
         - johnnymatthews
-      member:
-        - ElPaisano
   fips-contributors:
     members:
       maintainer:
@@ -8301,17 +8264,10 @@ teams:
         - ognots
       member:
         - birdychang
-        - frrist
         - GlacierWalrus
-        - gmasgras
-        - ianconsolata
-        - iand
         - kasteph
-        - nonsense
         - ns4plabs
-        - olizilla
         - terryhung
-        - travisperson
   labbers:
     members:
       maintainer:
@@ -8467,7 +8423,6 @@ teams:
         - fridrik01
         - magik6k
         - mb1896
-        - shrenujbansal
         - snadrus
         - snissn
         - ZenGround0
@@ -8545,13 +8500,11 @@ teams:
     members:
       maintainer:
         - cryptonemo
-        - porcuquine
       member:
         - DrPeterVanNostrand
-        - emmorais
         - Kubuxu
         - nicola
-        - nikkolasg
+        - porcuquine
         - vmx
   research:
     members:
@@ -8665,7 +8618,6 @@ teams:
         - steven004
       member:
         - Fatman13
-        - hunjixin
   w3dt-stewards:
     members:
       maintainer:
