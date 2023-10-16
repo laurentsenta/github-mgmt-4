@@ -1567,7 +1567,7 @@ repositories:
         - product-biz
         - proj-mgmt
     visibility: private
-  ent: # KEEP: ??
+  ent: # KEEP: this is a tool used by Lotus team during Filecoin network migrations which doesn't need much direct change unless the data schemas it works with change
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -2420,7 +2420,7 @@ repositories:
         - dev-misc
         - product-biz
     visibility: private
-  filecoin-phase2: # KEEP: ??
+  filecoin-phase2: # KEEP: this is trusted setup related and should stay available
     advanced_security: false
     allow_update_branch: false
     archived: false
