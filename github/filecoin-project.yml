@@ -1567,10 +1567,10 @@ repositories:
         - product-biz
         - proj-mgmt
     visibility: private
-  ent:
+  ent: # KEEP: ??
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     collaborators:
       maintain:
         - alanshaw
@@ -2420,10 +2420,10 @@ repositories:
         - dev-misc
         - product-biz
     visibility: private
-  filecoin-phase2:
+  filecoin-phase2: # KEEP: ??
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     collaborators:
       admin:
         - cryptonemo
@@ -3239,7 +3239,7 @@ repositories:
               directory: "/"
               labels: []
               schedule:
-                interval: "daily"            
+                interval: "daily"
             - package-ecosystem: "github-actions"
               directory: "/"
               schedule:
@@ -3581,10 +3581,10 @@ repositories:
         - datasystems
         - labbers
     visibility: public
-  go-cbor-util:
+  go-cbor-util: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3632,10 +3632,10 @@ repositories:
         - labbers
         - lotus-contributors
     visibility: public
-  go-crypto:
+  go-crypto: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -3725,10 +3725,10 @@ repositories:
         - labbers
         - lotus-contributors
     visibility: public
-  go-ds-versioning:
+  go-ds-versioning: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -4076,10 +4076,10 @@ repositories:
       push:
         - Strike Team
     visibility: public
-  go-paramfetch:
+  go-paramfetch: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4246,10 +4246,10 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
-  go-statestore:
+  go-statestore: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4299,10 +4299,10 @@ repositories:
       maintain:
         - proofs
     visibility: public
-  go-storedcounter:
+  go-storedcounter: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     collaborators:
       admin:
         - hannahhoward
@@ -4909,7 +4909,7 @@ repositories:
       admin:
         - Sentinel Admin
     visibility: public
-  lotus-archived:
+  lotus-archived: # this is a meta repo into which stale branches are migrated from lotus
     advanced_security: false
     allow_update_branch: false
     archived: true
@@ -5719,10 +5719,10 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
-  phase2-attestations:
+  phase2-attestations: # KEEP: this is trusted setup related and should stay available
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     collaborators:
       admin:
         - porcuquine
@@ -5790,10 +5790,10 @@ repositories:
         - product-biz
         - proj-mgmt
     visibility: private
-  powersoftau:
+  powersoftau: # KEEP: this is trusted setup related and should stay available
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5871,10 +5871,10 @@ repositories:
       push:
         - research
     visibility: private
-  pubsub:
+  pubsub: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7179,7 +7179,7 @@ repositories:
             - package-ecosystem: "npm"
               directory: "/npm/app"
               schedule:
-                interval: "daily"            
+                interval: "daily"
             - package-ecosystem: "github-actions"
               directory: "/"
               schedule:
@@ -7287,7 +7287,7 @@ repositories:
 
           version: 2
 
-          updates:            
+          updates:
             - package-ecosystem: "github-actions"
               directory: "/"
               schedule:
@@ -7365,10 +7365,10 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
-  taupipp:
+  taupipp: # KEEP: this is trusted setup related and should stay available
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     collaborators:
       push:
         - nikkolasg
