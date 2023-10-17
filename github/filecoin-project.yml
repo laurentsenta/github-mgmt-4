@@ -4909,10 +4909,10 @@ repositories:
       admin:
         - Sentinel Admin
     visibility: public
-  lotus-archived: # this is a meta repo into which stale branches are migrated from lotus
+  lotus-archived: # KEEP: this is a meta repo into which stale branches are migrated from lotus
     advanced_security: false
     allow_update_branch: false
-    archived: true
+    archived: false
     collaborators:
       admin:
         - Kubuxu
