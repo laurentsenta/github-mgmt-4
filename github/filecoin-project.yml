@@ -79,6 +79,7 @@ members:
     - filecoin-ci
     - fridrik01
     - frrist
+    - galen-mcandrew
     - gammazero
     - george-haddad
     - GlacierWalrus
@@ -111,6 +112,7 @@ members:
     - kaitlin-beegle
     - kasteph
     - Keren-0117
+    - Kevin-FF-USA
     - kevzak
     - Kubuxu
     - laudiacay
@@ -145,6 +147,7 @@ members:
     - ns4plabs
     - olizilla
     - ortyomka
+    - panges2
     - parthshah1
     - patrickwoodhead
     - pk-controller
@@ -154,7 +157,6 @@ members:
     - protocol-labs
     - q9f
     - raghavrmadya
-    - ravenolf
     - realChainLife
     - Reiers
     - ribasushi
@@ -2618,7 +2620,14 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - dkkapur
         - simonkim0515
+      maintain:
+        - galen-mcandrew
+        - Kevin-FF-USA
+        - kevzak
+        - panges2
+        - raghavrmadya
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2626,6 +2635,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - fil-plus-wg
     visibility: public
   filecoin-retrieval-market-website:
     advanced_security: false
@@ -2668,6 +2680,7 @@ repositories:
         - andrejrakic
         - bojinovic
         - milos1731
+        - vaniiiii
         - vonum
         - vyzo
     has_discussions: false
@@ -4738,21 +4751,6 @@ repositories:
       maintain:
         - bedrock-go
         - Motion
-    visibility: public
-  lassie-k6:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - hannahhoward
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   lassie:
     advanced_security: false
@@ -8060,7 +8058,6 @@ teams:
         - masterjedy
         - Mingela
         - ortyomka
-        - ravenolf
         - sergkaprovich
         - turuslan
         - zuiris
@@ -8144,6 +8141,17 @@ teams:
     members:
       maintainer:
         - johnnymatthews
+  fil-plus-wg:
+    members:
+      maintainer:
+        - dkkapur
+        - simonkim0515
+      member:
+        - galen-mcandrew
+        - Kevin-FF-USA
+        - kevzak
+        - panges2
+        - raghavrmadya
   fips-contributors:
     members:
       maintainer:
