@@ -252,7 +252,7 @@ repositories:
   armadillo:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - momack2
@@ -278,7 +278,7 @@ repositories:
   assets:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -295,7 +295,7 @@ repositories:
   athena:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - aronchick
@@ -325,7 +325,7 @@ repositories:
   batching-snarks:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - nicola
@@ -342,7 +342,7 @@ repositories:
   bellperson-gadgets:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -354,7 +354,7 @@ repositories:
   bellperson-private:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - cryptonemo
@@ -389,7 +389,7 @@ repositories:
   benchmark-service:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - jnthnvctr
@@ -440,7 +440,7 @@ repositories:
   bitsets:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -479,7 +479,7 @@ repositories:
   blst:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - travisperson
@@ -622,7 +622,7 @@ repositories:
   bsci-collab:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - jbenet
@@ -729,7 +729,7 @@ repositories:
   c-bls-sigs:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - sergkaprovich
@@ -744,7 +744,7 @@ repositories:
   cache-action:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - mriise
@@ -759,7 +759,7 @@ repositories:
   cgo-blockstore:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - Stebalien
@@ -823,7 +823,7 @@ repositories:
   chung_scripts:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - irenegia
@@ -844,7 +844,7 @@ repositories:
   circleci-exporter:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - ianconsolata
@@ -880,7 +880,7 @@ repositories:
   client-growth:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       maintain:
         - daviddias
@@ -943,7 +943,7 @@ repositories:
   community-china:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - eshon
@@ -996,7 +996,7 @@ repositories:
   conformance-tools:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - raulk
@@ -1023,7 +1023,7 @@ repositories:
   consensus:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - nikkolasg
@@ -1092,7 +1092,7 @@ repositories:
   cryptoecon-sim-david:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1107,7 +1107,7 @@ repositories:
   cryptoeconomics-sim:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1122,7 +1122,7 @@ repositories:
   cryptoeconomics:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       push:
         - yunigraham
@@ -1142,7 +1142,7 @@ repositories:
   cryptolab-private:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1154,7 +1154,7 @@ repositories:
   cryptolab:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - porcuquine
@@ -1270,7 +1270,7 @@ repositories:
   depr-notary-governance:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - jbenet
@@ -1310,7 +1310,7 @@ repositories:
   designdocs-internal:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1327,7 +1327,7 @@ repositories:
   designdocs:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1342,7 +1342,7 @@ repositories:
   dev-vendor-hack:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1407,7 +1407,7 @@ repositories:
   drg-attacks-deprecated:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - nicola
@@ -1427,7 +1427,7 @@ repositories:
   drg-attacks:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - nikkolasg
@@ -1446,7 +1446,7 @@ repositories:
   ec_collab:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       push:
         - sa8
@@ -1512,7 +1512,7 @@ repositories:
   ecosystem-dashboard:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - cwaring
@@ -1527,7 +1527,7 @@ repositories:
   ecsim2:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - whyrusleeping
@@ -1565,7 +1565,7 @@ repositories:
         - product-biz
         - proj-mgmt
     visibility: private
-  ent:
+  ent: # KEEP: this is a tool used by Lotus team during Filecoin network migrations which doesn't need much direct change unless the data schemas it works with change
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -1637,7 +1637,7 @@ repositories:
   fc-cap-sim:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1649,7 +1649,7 @@ repositories:
   fcnr:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - frrist
@@ -1835,7 +1835,7 @@ repositories:
   fil-blst:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - porcuquine
@@ -1855,7 +1855,7 @@ repositories:
   fil-calculations:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - porcuquine
@@ -1870,7 +1870,7 @@ repositories:
   fil-docs-bot:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - ElPaisano
@@ -1885,7 +1885,7 @@ repositories:
   fil-ocl:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1971,7 +1971,7 @@ repositories:
   filecoin-aggregator:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - frrist
@@ -2012,7 +2012,7 @@ repositories:
   filecoin-client-tutorial:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - jimmylee
@@ -2027,7 +2027,7 @@ repositories:
   filecoin-contributors:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - alanshaw
@@ -2042,7 +2042,7 @@ repositories:
   filecoin-cred:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2054,7 +2054,7 @@ repositories:
   filecoin-dashboard:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2093,7 +2093,7 @@ repositories:
   filecoin-datasets:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - jnthnvctr
@@ -2129,7 +2129,7 @@ repositories:
   filecoin-discover-go-services:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - andyschwab
@@ -2147,7 +2147,7 @@ repositories:
   filecoin-discover-onboarding:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - andyschwab
@@ -2362,7 +2362,7 @@ repositories:
   filecoin-network-sim:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2382,7 +2382,7 @@ repositories:
   filecoin-network-viz:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2403,7 +2403,7 @@ repositories:
   filecoin-params:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2418,7 +2418,7 @@ repositories:
         - dev-misc
         - product-biz
     visibility: private
-  filecoin-phase2:
+  filecoin-phase2: # KEEP: this is trusted setup related and should stay available
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -2598,7 +2598,7 @@ repositories:
   filecoin-plus-leaderboard:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       maintain:
         - AlexxNica
@@ -2723,7 +2723,7 @@ repositories:
   filecoin:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2884,7 +2884,7 @@ repositories:
   FIPs-1:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - jenks-guo-filecoin
@@ -2950,7 +2950,7 @@ repositories:
   fungi:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - whyrusleeping
@@ -2993,7 +2993,7 @@ repositories:
   fuzzing-lotus:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - Kubuxu
@@ -3125,7 +3125,7 @@ repositories:
   fvm-runtime-experiment:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - Stebalien
@@ -3246,7 +3246,7 @@ repositories:
               directory: "/"
               labels: []
               schedule:
-                interval: "daily"            
+                interval: "daily"
             - package-ecosystem: "github-actions"
               directory: "/"
               schedule:
@@ -3312,7 +3312,7 @@ repositories:
   geodns-server:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - DiegoRBaquero
@@ -3396,7 +3396,7 @@ repositories:
   gitops-policy-library:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - steve-fraser
@@ -3535,7 +3535,7 @@ repositories:
   go-bls-sigs:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       maintain:
         - Kubuxu
@@ -3553,7 +3553,7 @@ repositories:
   go-bs-lmdb:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - raulk
@@ -3572,7 +3572,7 @@ repositories:
   go-bs-postgres-chainnotated:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - ribasushi
@@ -3588,7 +3588,7 @@ repositories:
         - datasystems
         - labbers
     visibility: public
-  go-cbor-util:
+  go-cbor-util: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -3606,7 +3606,7 @@ repositories:
   go-cid-tools:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - vyzo
@@ -3639,7 +3639,7 @@ repositories:
         - labbers
         - lotus-contributors
     visibility: public
-  go-crypto:
+  go-crypto: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -3732,7 +3732,7 @@ repositories:
         - labbers
         - lotus-contributors
     visibility: public
-  go-ds-versioning:
+  go-ds-versioning: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -3817,7 +3817,7 @@ repositories:
   go-fil-filestore:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hannahhoward
@@ -3877,7 +3877,7 @@ repositories:
   go-filecoin-badges:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - filecoin-helper
@@ -3896,7 +3896,7 @@ repositories:
   go-filecoin-infra:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       pull:
         - jnthnvctr
@@ -4002,7 +4002,7 @@ repositories:
   go-leb128:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4047,7 +4047,7 @@ repositories:
   go-multistore:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hannahhoward
@@ -4083,7 +4083,7 @@ repositories:
       push:
         - Strike Team
     visibility: public
-  go-paramfetch:
+  go-paramfetch: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -4118,7 +4118,7 @@ repositories:
   go-retrieval-market-project:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4145,7 +4145,7 @@ repositories:
   go-sectorbuilder-rpc:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4196,7 +4196,7 @@ repositories:
   go-state-types-private:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - momack2
@@ -4253,7 +4253,7 @@ repositories:
       push:
         - lotus-contributors
     visibility: public
-  go-statestore:
+  go-statestore: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -4306,7 +4306,7 @@ repositories:
       maintain:
         - proofs
     visibility: public
-  go-storedcounter:
+  go-storedcounter: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -4324,7 +4324,7 @@ repositories:
   go-ulimit:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4353,7 +4353,7 @@ repositories:
   grafana-lotus-theme:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       push:
         - eshon
@@ -4371,7 +4371,7 @@ repositories:
   graphsync-chainsync-sprint:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hannahhoward
@@ -4421,7 +4421,7 @@ repositories:
   group:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - cryptonemo
@@ -4463,7 +4463,7 @@ repositories:
   hackathons-microgen-legacy:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - andyschwab
@@ -4586,7 +4586,7 @@ repositories:
   hyperdrive-analysis:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - Stebalien
@@ -4605,7 +4605,7 @@ repositories:
   infra:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4639,7 +4639,7 @@ repositories:
   jbenet-market-sim:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4666,7 +4666,7 @@ repositories:
   kube-infra:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       pull:
         - cmharden
@@ -4705,7 +4705,7 @@ repositories:
   large-data.filecoin.io:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - andyschwab
@@ -4775,7 +4775,7 @@ repositories:
   launch:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - jbenet
@@ -4797,7 +4797,7 @@ repositories:
   learn-math:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - porcuquine
@@ -4901,7 +4901,7 @@ repositories:
       admin:
         - Sentinel Admin
     visibility: public
-  lotus-archived:
+  lotus-archived: # KEEP: this is a meta repo into which stale branches are migrated from lotus
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -4919,7 +4919,7 @@ repositories:
   lotus-badges:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5139,7 +5139,7 @@ repositories:
   lua-filecoin:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5175,7 +5175,7 @@ repositories:
   mapr:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5300,7 +5300,7 @@ repositories:
   metamodel:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5468,7 +5468,7 @@ repositories:
   near-blake2:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - mriise
@@ -5563,7 +5563,7 @@ repositories:
   openzeppelin-contracts:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - ychiaoli18
@@ -5600,7 +5600,7 @@ repositories:
   orient:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - porcuquine
@@ -5624,7 +5624,7 @@ repositories:
   paired:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - cryptonemo
@@ -5642,7 +5642,7 @@ repositories:
   paper-porep-drg:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - nicola
@@ -5661,7 +5661,7 @@ repositories:
   parity-wasm:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5688,7 +5688,7 @@ repositories:
   PebblingAndDepthReductionAttacks:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5700,7 +5700,7 @@ repositories:
   phase2-attestations-internal-verification:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - porcuquine
@@ -5712,7 +5712,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
-  phase2-attestations:
+  phase2-attestations: # KEEP: this is trusted setup related and should stay available
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -5767,7 +5767,7 @@ repositories:
   pm:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5783,7 +5783,7 @@ repositories:
         - product-biz
         - proj-mgmt
     visibility: private
-  powersoftau:
+  powersoftau: # KEEP: this is trusted setup related and should stay available
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -5801,7 +5801,7 @@ repositories:
   product-biz:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5816,7 +5816,7 @@ repositories:
   product:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5849,7 +5849,7 @@ repositories:
   proofs:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - nicola
@@ -5864,7 +5864,7 @@ repositories:
       push:
         - research
     visibility: private
-  pubsub:
+  pubsub: # KEEP: this is a lotus dependency
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -5994,7 +5994,7 @@ repositories:
   replication-game-infra:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - ognots
@@ -6009,7 +6009,7 @@ repositories:
   replication-game-leaderboard:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - alanshaw
@@ -6029,7 +6029,7 @@ repositories:
   replication-game:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - nicola
@@ -6052,7 +6052,7 @@ repositories:
   research-FC-calculator:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6064,7 +6064,7 @@ repositories:
   research-network:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - protocolin
@@ -6102,7 +6102,7 @@ repositories:
   research-retreats:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6117,7 +6117,7 @@ repositories:
   research-simpleCalc:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6133,7 +6133,7 @@ repositories:
   research-website:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - parthshah1
@@ -6152,7 +6152,7 @@ repositories:
   research:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6267,7 +6267,7 @@ repositories:
   rust-cad-cad:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       maintain:
         - zixuanzh
@@ -6414,7 +6414,7 @@ repositories:
   rust-fil-secp256k1:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6537,7 +6537,7 @@ repositories:
   rust-proofs-infra:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - filecoin-helper
@@ -6575,7 +6575,7 @@ repositories:
   sample-data:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6590,7 +6590,7 @@ repositories:
   sapling-crypto:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - cryptonemo
@@ -6624,7 +6624,7 @@ repositories:
   security-analysis:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - nicola
@@ -6665,7 +6665,7 @@ repositories:
   sentinel-drone:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - filecoin-helper
@@ -6715,7 +6715,7 @@ repositories:
   sentinel-locations:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hsanjuan
@@ -6807,7 +6807,7 @@ repositories:
   serialization-vectors:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6819,7 +6819,7 @@ repositories:
   shared-shell-scripts:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6849,7 +6849,7 @@ repositories:
   slate-stats:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - jimmylee
@@ -6917,7 +6917,7 @@ repositories:
   snark-circuits:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - nicola
@@ -6989,7 +6989,7 @@ repositories:
   sp-mentorship-grants:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - ribasushi
@@ -7070,7 +7070,7 @@ repositories:
   specs-storage:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7172,7 +7172,7 @@ repositories:
             - package-ecosystem: "npm"
               directory: "/npm/app"
               schedule:
-                interval: "daily"            
+                interval: "daily"
             - package-ecosystem: "github-actions"
               directory: "/"
               schedule:
@@ -7210,7 +7210,7 @@ repositories:
   storage-team:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7222,7 +7222,7 @@ repositories:
   storage.filecoin.io:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - jimmylee
@@ -7280,7 +7280,7 @@ repositories:
 
           version: 2
 
-          updates:            
+          updates:
             - package-ecosystem: "github-actions"
               directory: "/"
               schedule:
@@ -7358,7 +7358,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
-  taupipp:
+  taupipp: # KEEP: this is trusted setup related and should stay available
     advanced_security: false
     allow_update_branch: false
     archived: false
@@ -7380,7 +7380,7 @@ repositories:
   terraform-google-lily-starter:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - birdychang
@@ -7483,7 +7483,7 @@ repositories:
   time-capsule-app:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - jnthnvctr
@@ -7513,7 +7513,7 @@ repositories:
   token-distribution-procedures:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -7563,7 +7563,7 @@ repositories:
   TPM:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7575,7 +7575,7 @@ repositories:
   tweety:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - nonsense
@@ -7595,7 +7595,7 @@ repositories:
   venus-common-types:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - hunjixin
@@ -7757,7 +7757,7 @@ repositories:
   website-archive.discuss.filecoin.io:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - andyschwab
@@ -7772,7 +7772,7 @@ repositories:
   website-bounty.filecoin.io:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - alanshaw
@@ -7812,7 +7812,7 @@ repositories:
   website-liftoff:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - andyschwab
@@ -7898,7 +7898,7 @@ repositories:
   why-market-sim:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7913,7 +7913,7 @@ repositories:
   zexe:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - porcuquine
