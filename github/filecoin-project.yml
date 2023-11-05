@@ -1635,6 +1635,24 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
+  f3:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - jsoares
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - consensuslab
+    visibility: public
   fc-cap-sim:
     advanced_security: false
     allow_update_branch: false
@@ -2525,6 +2543,25 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+  filecoin-plus-falcon:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - clriesco
+        - jbesraa
+        - kokal33
+        - panges2
+        - simonkim0515
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   filecoin-plus-large-datasets:
     advanced_security: false
     allow_update_branch: false
@@ -2701,7 +2738,7 @@ repositories:
       pull:
         - Isabellabcj
       push:
-        - damedoteth
+        - kenada88
         - mirhamasala
         - tbenbow
     has_discussions: false
@@ -5094,6 +5131,8 @@ repositories:
         - jennijuju
       push:
         - Kubuxu
+        - LaurenSpiegel
+        - scotthconner
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5104,6 +5143,7 @@ repositories:
     teams:
       push:
         - lotus-maintainers
+        - Lotus-TSE
     visibility: private
   lotus-testground:
     advanced_security: false
@@ -5423,6 +5463,25 @@ repositories:
     teams:
       maintain:
         - bedrock-go
+    visibility: public
+  motion-sp-test:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - rvagg
+      push:
+        - elijaharita
+        - gammazero
+        - xinaxu
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   motion:
     advanced_security: false
