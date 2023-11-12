@@ -106,7 +106,6 @@ members:
     - jimpick
     - jnthnvctr
     - joaosa
-    - johnnymatthews
     - jsoares
     - juliangruber
     - kaitlin-beegle
@@ -2554,6 +2553,9 @@ repositories:
         - kokal33
         - panges2
         - simonkim0515
+      push:
+        - orvn
+        - timelytree
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2848,10 +2850,9 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - clriesco
         - dkkapur
         - jbesraa
-      push:
-        - clriesco
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3066,9 +3067,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - johnnymatthews
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3108,8 +3106,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - johnnymatthews
       maintain:
         - ZakAyesh
     has_discussions: false
@@ -4384,7 +4380,6 @@ repositories:
     archived: true
     collaborators:
       admin:
-        - johnnymatthews
         - kaitlin-beegle
         - luckyparadise
     has_discussions: false
@@ -5007,7 +5002,6 @@ repositories:
     collaborators:
       admin:
         - jennijuju
-        - johnnymatthews
       push:
         - GlacierWalrus
         - snadrus
@@ -5959,6 +5953,7 @@ repositories:
         - ychiaoli18
       push:
         - lordshashank
+        - ravish1729
         - xBalbinus
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -8194,20 +8189,14 @@ teams:
         - ZenGround0
         - zixuanzh
   docs-admins:
-    members:
-      maintainer:
-        - johnnymatthews
+    {}
   docs-storage-provider:
     members:
-      maintainer:
-        - johnnymatthews
       member:
         - SgtCoin
         - smagdali
   docs-writers:
-    members:
-      maintainer:
-        - johnnymatthews
+    {}
   fil-plus-wg:
     members:
       maintainer:
@@ -8401,7 +8390,6 @@ teams:
         - jesseclay
         - jimmylee
         - jnthnvctr
-        - johnnymatthews
         - juliangruber
         - kasteph
         - Keren-0117
