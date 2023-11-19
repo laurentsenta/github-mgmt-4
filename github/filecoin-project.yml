@@ -2234,14 +2234,17 @@ repositories:
     collaborators:
       admin:
         - andyschwab
-        - cwaring
+        - jennijuju
         - raulk
       maintain:
         - bobdubois
+        - cwaring
+        - smagdali
         - trruckerfling
       push:
         - Angelo-gh3990
         - ivanka
+        - mirhamasala
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2250,10 +2253,6 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      admin:
-        - docs-admins
-      maintain:
-        - docs-writers
       push:
         - advocates
         - Boost
@@ -2548,6 +2547,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - AlexMCon
         - clriesco
         - jbesraa
         - kokal33
@@ -2563,16 +2563,18 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
+    visibility: public
   filecoin-plus-large-datasets:
     advanced_security: false
     allow_update_branch: false
     archived: false
     collaborators:
       admin:
+        - AlexMCon
         - clriesco
         - dkkapur
         - fabriziogianni7
+        - Filplus-govteam
         - galen-mcandrew
         - jbesraa
         - Kevin-FF-USA
@@ -2810,6 +2812,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - AlexMCon
         - clriesco
         - dkkapur
         - jbesraa
@@ -2832,6 +2835,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - AlexMCon
         - clriesco
         - dkkapur
         - jbesraa
@@ -2850,6 +2854,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - AlexMCon
         - clriesco
         - dkkapur
         - jbesraa
@@ -2867,6 +2872,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - AlexMCon
         - clriesco
         - dkkapur
         - jbesraa
@@ -2888,6 +2894,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - AlexMCon
         - clriesco
         - dkkapur
         - jbesraa
@@ -5443,6 +5450,7 @@ repositories:
         - hannahhoward
         - masih
         - willscott
+        - xinaxu
       maintain:
         - davidd8
         - elijaharita
