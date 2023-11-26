@@ -1769,11 +1769,11 @@ repositories:
         - aschmahmann
         - cwaring
         - DiegoRBaquero
+        - jacobheun
         - kasteph
         - lidel
         - mxinden
       push:
-        - jacobheun
         - marten-seemann
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2320,6 +2320,7 @@ repositories:
         - raulk
         - Stebalien
       push:
+        - rjan90
         - vyzo
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -8456,13 +8457,11 @@ teams:
         - whyrusleeping
       member:
         - cryptonemo
-        - dirkmc
         - fridrik01
         - GlacierWalrus
         - hannahhoward
         - hsanjuan
         - iand
-        - jacobheun
         - Kubuxu
         - maciejwitowski
         - marten-seemann
@@ -8472,6 +8471,7 @@ teams:
         - rvagg
         - snissn
         - Terryhung
+        - TippyFlitsUK
         - willscott
         - ychiaoli18
   lotus-infra-core:
