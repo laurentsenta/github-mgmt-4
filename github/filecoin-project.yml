@@ -117,7 +117,6 @@ members:
     - MF416
     - Mingela
     - monicaortel
-    - mturilin
     - nicola
     - ninitrava
     - nonsense
@@ -2468,9 +2467,10 @@ repositories:
         - kokal33
         - panges2
         - simonkim0515
-      push:
-        - orvn
         - timelytree
+      push:
+        - data-programs
+        - orvn
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2793,6 +2793,8 @@ repositories:
         - orvn
         - panges2
         - timelytree
+      push:
+        - data-programs
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2863,6 +2865,8 @@ repositories:
     collaborators:
       admin:
         - kaitlin-beegle
+      pull:
+        - raykyri
       push:
         - andyschwab
         - ec2
@@ -3676,6 +3680,25 @@ repositories:
     teams:
       push:
         - lotus-contributors
+    visibility: public
+  go-f3:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - anorth
+        - arajasek
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - lotus-maintainers
     visibility: public
   go-fil-commcid-priv:
     advanced_security: false
@@ -7060,6 +7083,21 @@ repositories:
       admin:
         - starling-storage
     visibility: public
+  state-storage-starter-kit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - longfeiWan9
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   statediff:
     advanced_security: false
     allow_update_branch: false
@@ -8212,7 +8250,6 @@ teams:
         - masih
         - matejpavlovic
         - MF416
-        - mturilin
         - nicola
         - ninitrava
         - nonsense
