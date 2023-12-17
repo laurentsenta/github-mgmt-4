@@ -133,6 +133,7 @@ members:
     - protocol-labs
     - q9f
     - raghavrmadya
+    - ranchalp
     - realChainLife
     - Reiers
     - ribasushi
@@ -2247,7 +2248,6 @@ repositories:
     teams:
       admin:
         - lotus-maintainers
-      maintain:
         - proofs
     visibility: public
   filecoin-fvm-localnet:
@@ -2865,11 +2865,8 @@ repositories:
     collaborators:
       admin:
         - kaitlin-beegle
-      pull:
-        - raykyri
       push:
         - andyschwab
-        - ec2
         - luckyparadise
       triage:
         - filecoin-governance
@@ -2885,10 +2882,11 @@ repositories:
         - fips-editors
       push:
         - actors-committers
-        - fips-contributors
+        - cryptoeconomics
         - Forest
         - lotus-maintainers
         - research
+        - Venus
     visibility: public
   foundation-website:
     advanced_security: false
@@ -3129,9 +3127,8 @@ repositories:
     collaborators:
       admin:
         - aashidham
-      maintain:
-        - snissn
       push:
+        - snissn
         - xBalbinus
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3688,7 +3685,10 @@ repositories:
     collaborators:
       admin:
         - anorth
-        - arajasek
+      push:
+        - Kubuxu
+        - matejpavlovic
+        - ranchalp
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7977,6 +7977,7 @@ teams:
         - dnkolegov
         - guy-goren
         - matejpavlovic
+        - ranchalp
   cpp-filecoin-team:
     members:
       member:
@@ -7995,15 +7996,10 @@ teams:
     members:
       maintainer:
         - jbenet
-        - mishmosh
         - protocolin
-        - whyrusleeping
         - zixuanzh
       member:
-        - davidad
-        - jnthnvctr
         - nicola
-        - porcuquine
   Data Programs:
     members:
       maintainer:
@@ -8068,24 +8064,6 @@ teams:
       member:
         - kevzak
         - raghavrmadya
-  fips-contributors:
-    members:
-      maintainer:
-        - anorth
-        - jbenet
-        - raulk
-        - Stebalien
-      member:
-        - arajasek
-        - jennijuju
-        - kaitlin-beegle
-        - Kubuxu
-        - magik6k
-        - momack2
-        - nicola
-        - steven004
-        - ZenGround0
-        - zixuanzh
   fips-editors:
     members:
       maintainer:
@@ -8093,7 +8071,9 @@ teams:
         - arajasek
         - jennijuju
         - momack2
+        - raulk
       member:
+        - jsoares
         - kaitlin-beegle
   Forest:
     members:
@@ -8319,7 +8299,6 @@ teams:
         - magik6k
         - mb1896
         - snadrus
-        - snissn
         - ZenGround0
   Lotus-TSE:
     members:
@@ -8399,15 +8378,12 @@ teams:
       maintainer:
         - jbenet
         - nicola
-        - whyrusleeping
       member:
-        - dkkapur
         - DrPeterVanNostrand
         - irenegia
         - jsoares
         - lucaniz
         - ninitrava
-        - porcuquine
         - yiannisbot
   Retrieval Market Builders:
     members:
