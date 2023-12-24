@@ -81,7 +81,6 @@ members:
     - hsanjuan
     - hunjixin
     - ianconsolata
-    - iand
     - igor-egorov
     - irenegia
     - ischasny
@@ -109,7 +108,6 @@ members:
     - magik6k
     - MarcoPolo
     - Markuu-s
-    - marten-seemann
     - masih
     - masterjedy
     - matejpavlovic
@@ -133,7 +131,6 @@ members:
     - protocol-labs
     - q9f
     - raghavrmadya
-    - ranchalp
     - realChainLife
     - Reiers
     - ribasushi
@@ -152,7 +149,6 @@ members:
     - steven004
     - sudo-shashank
     - terryhung
-    - TheDiscordian
     - TheDivic
     - TheMenko
     - TippyFlitsUK
@@ -169,7 +165,6 @@ members:
     - xmcai2016
     - ychiaoli18
     - yiannisbot
-    - yunigraham
     - ZenGround0
     - zixuanzh
     - zuiris
@@ -1062,9 +1057,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - yunigraham
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1425,7 +1417,6 @@ repositories:
       maintain:
         - D3AS8A
         - svvimming
-        - xBalbinus
       push:
         - cwaring
         - splumms
@@ -1437,7 +1428,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
+    visibility: public
   ecosystem-dashboard:
     advanced_security: false
     allow_update_branch: false
@@ -1561,24 +1552,6 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
-  f3:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - jsoares
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - consensuslab
-    visibility: public
   fc-cap-sim:
     advanced_security: false
     allow_update_branch: false
@@ -1646,9 +1619,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - xBalbinus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1695,9 +1665,6 @@ repositories:
         - DiegoRBaquero
         - kasteph
         - lidel
-        - mxinden
-      push:
-        - marten-seemann
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1734,8 +1701,6 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - iand
       push:
         - hsanjuan
         - web3-bot
@@ -3049,7 +3014,6 @@ repositories:
         - LaurenSpiegel
         - robertagora
         - smagdali
-        - xBalbinus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3129,7 +3093,6 @@ repositories:
         - aashidham
       push:
         - snissn
-        - xBalbinus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3308,8 +3271,6 @@ repositories:
         - galargh
         - jennijuju
         - mastrwayne-admin
-      pull:
-        - marten-seemann
       push:
         - autonome
         - mroth
@@ -3642,8 +3603,6 @@ repositories:
       admin:
         - hannahhoward
         - mishmosh
-      maintain:
-        - marten-seemann
       push:
         - dkkapur
     has_discussions: false
@@ -4796,8 +4755,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - iand
       push:
         - web3-bot
     files:
@@ -4825,8 +4782,6 @@ repositories:
         - birdychang
       maintain:
         - frrist
-      push:
-        - iand
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -4937,7 +4892,6 @@ repositories:
         - rvagg
         - scotthconner
         - SgtCoin
-        - TheDiscordian
         - vmx
         - ychiaoli18
     has_discussions: false
@@ -5205,8 +5159,6 @@ repositories:
     collaborators:
       admin:
         - ychiaoli18
-      push:
-        - xBalbinus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5844,7 +5796,6 @@ repositories:
       push:
         - lordshashank
         - ravish1729
-        - xBalbinus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5907,7 +5858,6 @@ repositories:
         - tchataigner
       push:
         - ec2
-        - iand
         - Jacarte
       triage:
         - BlocksOnAChain
@@ -6223,8 +6173,6 @@ repositories:
     collaborators:
       maintain:
         - zixuanzh
-      pull:
-        - AxCortesCubero
       push:
         - kasteph
         - vkalghatgi
@@ -6624,7 +6572,6 @@ repositories:
       push:
         - frrist
         - hsanjuan
-        - iand
         - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -7108,7 +7055,6 @@ repositories:
         - willscott
       maintain:
         - daviddias
-        - iand
     files:
       .github/dependabot.yml:
         content: |
@@ -7438,6 +7384,24 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
+  tla-f3:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - jsoares
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - consensuslab
+    visibility: public
   TODOnotes:
     advanced_security: false
     allow_update_branch: false
@@ -7902,7 +7866,6 @@ teams:
         - jenks-guo-filecoin
         - lksbrssr
         - longfeiWan9
-        - TheDiscordian
         - trruckerfling
   Alumni:
     create_default_maintainer: false
@@ -7977,7 +7940,6 @@ teams:
         - dnkolegov
         - guy-goren
         - matejpavlovic
-        - ranchalp
   cpp-filecoin-team:
     members:
       member:
@@ -8218,7 +8180,6 @@ teams:
         - hammertoe
         - hannahhoward
         - honghaoq
-        - iand
         - ischasny
         - jnthnvctr
         - juliangruber
@@ -8249,7 +8210,6 @@ teams:
         - vvkio
         - willscott
         - yiannisbot
-        - yunigraham
         - ZenGround0
         - zixuanzh
   legal:
@@ -8267,10 +8227,8 @@ teams:
         - GlacierWalrus
         - hannahhoward
         - hsanjuan
-        - iand
         - Kubuxu
         - maciejwitowski
-        - marten-seemann
         - masih
         - nonsense
         - rjan90
@@ -8336,7 +8294,6 @@ teams:
         - cbrocoum
         - davidad
         - jnthnvctr
-        - yunigraham
         - zixuanzh
   product:
     members:
@@ -8486,7 +8443,6 @@ teams:
       member:
         - BlocksOnAChain
         - magik6k
-        - marten-seemann
         - ZenGround0
   Weaveworks:
     {}
