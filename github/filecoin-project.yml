@@ -48,8 +48,6 @@ members:
     - Cre-eD
     - cryptoAtwill
     - cryptonemo
-    - cwaring
-    - damedoteth
     - davidad
     - davidd8
     - dchoi27
@@ -57,7 +55,6 @@ members:
     - dkkapur
     - dnkolegov
     - DrPeterVanNostrand
-    - duckie-han
     - elijaharita
     - elmattic
     - emilymvaughan
@@ -78,7 +75,6 @@ members:
     - hammertoe
     - hannahhoward
     - honghaoq
-    - hsanjuan
     - hunjixin
     - ianconsolata
     - igor-egorov
@@ -93,7 +89,6 @@ members:
     - jsoares
     - juliangruber
     - kaitlin-beegle
-    - kasteph
     - kevzak
     - Kubuxu
     - LaurenSpiegel
@@ -106,7 +101,6 @@ members:
     - lucaniz
     - maciejwitowski
     - magik6k
-    - MarcoPolo
     - Markuu-s
     - masih
     - masterjedy
@@ -1418,7 +1412,6 @@ repositories:
         - D3AS8A
         - svvimming
       push:
-        - cwaring
         - splumms
         - tjsMck
     has_discussions: false
@@ -1433,9 +1426,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - cwaring
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1654,17 +1644,12 @@ repositories:
     collaborators:
       admin:
         - BigLep
+        - jennijuju
         - momack2
         - parthshah1
         - relotnek
       pull:
         - AnomalRoil
-        - aronchick
-        - aschmahmann
-        - cwaring
-        - DiegoRBaquero
-        - kasteph
-        - lidel
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1702,7 +1687,6 @@ repositories:
     archived: false
     collaborators:
       push:
-        - hsanjuan
         - web3-bot
         - willscott
     has_discussions: false
@@ -1837,9 +1821,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hsanjuan
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2120,7 +2101,6 @@ repositories:
         - raulk
       maintain:
         - bobdubois
-        - cwaring
         - smagdali
         - trruckerfling
       push:
@@ -2616,7 +2596,6 @@ repositories:
     collaborators:
       admin:
         - andyschwab
-        - cwaring
         - momack2
       pull:
         - Isabellabcj
@@ -3001,7 +2980,6 @@ repositories:
         - lksbrssr
         - trruckerfling
       maintain:
-        - cwaring
         - eshon
         - longfeiWan9
         - snissn
@@ -3049,7 +3027,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - cwaring
         - honghaoq
         - raulk
     has_discussions: false
@@ -3170,7 +3147,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - cwaring
         - momack2
         - raulk
       maintain:
@@ -3339,7 +3315,6 @@ repositories:
         - ianconsolata
         - joaosa
       push:
-        - MarcoPolo
         - masih
         - ns4plabs
     has_discussions: false
@@ -3644,6 +3619,8 @@ repositories:
     collaborators:
       admin:
         - anorth
+      maintain:
+        - jsoares
       push:
         - Kubuxu
         - matejpavlovic
@@ -4433,8 +4410,6 @@ repositories:
       admin:
         - filecoin-helper
         - GlacierWalrus
-        - hsanjuan
-        - kasteph
       push:
         - andrestorresGL
         - masih
@@ -4610,7 +4585,6 @@ repositories:
     collaborators:
       admin:
         - andyschwab
-        - cwaring
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4880,7 +4854,6 @@ repositories:
       admin:
         - filecoin-helper
       pull:
-        - Jorropo
         - turinglabsorg
       push:
         - cryptonemo
@@ -4974,10 +4947,11 @@ repositories:
       admin:
         - arajasek
         - jennijuju
-      push:
+        - Stebalien
+      maintain:
         - Kubuxu
-        - LaurenSpiegel
-        - scotthconner
+      push:
+        - pl-kevin
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4985,10 +4959,6 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      push:
-        - lotus-maintainers
-        - Lotus-TSE
     visibility: private
   lotus-testground:
     advanced_security: false
@@ -5082,9 +5052,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - kasteph
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5100,9 +5067,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - kasteph
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5395,7 +5359,6 @@ repositories:
         - travisperson
       maintain:
         - eshon
-        - hsanjuan
         - orvn
         - timelytree
       push:
@@ -6174,7 +6137,6 @@ repositories:
       maintain:
         - zixuanzh
       push:
-        - kasteph
         - vkalghatgi
       triage:
         - tmellan
@@ -6539,9 +6501,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hsanjuan
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -6571,7 +6530,6 @@ repositories:
         - olizilla
       push:
         - frrist
-        - hsanjuan
         - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -6612,9 +6570,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - hsanjuan
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6650,9 +6605,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - hsanjuan
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -6679,7 +6631,6 @@ repositories:
     collaborators:
       admin:
         - daviddias
-        - hsanjuan
         - momack2
       pull:
         - nicola
@@ -6760,7 +6711,6 @@ repositories:
     collaborators:
       admin:
         - Aminejvm
-        - cwaring
       maintain:
         - achalvs
         - akuokojnr
@@ -6863,9 +6813,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - cwaring
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6897,8 +6844,6 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - cwaring
       push:
         - ashwanth-eth
         - brendalee
@@ -6974,7 +6919,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - cwaring
         - olizilla
         - yiannisbot
       maintain:
@@ -7274,7 +7218,6 @@ repositories:
     collaborators:
       admin:
         - birdychang
-        - kasteph
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7723,7 +7666,6 @@ repositories:
       admin:
         - andyschwab
         - anorth
-        - cwaring
       maintain:
         - alexandrricov
         - andreirykov
@@ -7915,8 +7857,6 @@ teams:
         - filecoin-ci
   collab-ff-seo-ux:
     members:
-      maintainer:
-        - cwaring
       member:
         - SgtCoin
         - smagdali
@@ -7974,8 +7914,6 @@ teams:
         - xmcai2016
   data:
     members:
-      maintainer:
-        - kasteph
       member:
         - birdychang
         - terryhung
@@ -8061,7 +7999,6 @@ teams:
   FVM Web:
     members:
       maintainer:
-        - cwaring
         - honghaoq
         - jennijuju
         - raulk
@@ -8125,12 +8062,10 @@ teams:
   infra:
     members:
       maintainer:
-        - hsanjuan
         - ognots
       member:
         - birdychang
         - GlacierWalrus
-        - kasteph
         - ns4plabs
         - terryhung
   labbers:
@@ -8163,12 +8098,10 @@ teams:
         - brendalee
         - cbrocoum
         - cryptonemo
-        - damedoteth
         - davidd8
         - DiegoRBaquero
         - dkkapur
         - dnkolegov
-        - duckie-han
         - emilymvaughan
         - eshon
         - figureouter
@@ -8181,11 +8114,8 @@ teams:
         - hannahhoward
         - honghaoq
         - ischasny
-        - jnthnvctr
         - juliangruber
-        - kasteph
         - Kubuxu
-        - lksbrssr
         - lucaniz
         - magik6k
         - masih
@@ -8198,7 +8128,6 @@ teams:
         - patrickwoodhead
         - pk-controller
         - pk13-PLF
-        - porcuquine
         - ribasushi
         - rvagg
         - scotthconner
@@ -8226,7 +8155,6 @@ teams:
         - fridrik01
         - GlacierWalrus
         - hannahhoward
-        - hsanjuan
         - Kubuxu
         - maciejwitowski
         - masih
@@ -8298,7 +8226,6 @@ teams:
   product:
     members:
       member:
-        - cwaring
         - dchoi27
         - dkkapur
         - jnthnvctr
@@ -8363,9 +8290,7 @@ teams:
     members:
       maintainer:
         - birdychang
-        - hsanjuan
       member:
-        - kasteph
         - Terryhung
   Sentinel Operators:
     members:
@@ -8378,9 +8303,7 @@ teams:
     members:
       maintainer:
         - birdychang
-        - hsanjuan
       member:
-        - kasteph
         - terryhung
   specs:
     members:
@@ -8456,7 +8379,6 @@ teams:
         - vesahc
       member:
         - andyschwab
-        - cwaring
         - dkkapur
         - emilymvaughan
         - jnthnvctr
