@@ -7,7 +7,6 @@ members:
     - arajasek
     - BigLep
     - filecoin-helper
-    - galargh
     - jbenet
     - jennijuju
     - mastrwayne-admin
@@ -18,7 +17,6 @@ members:
     - raulk
     - Stebalien
     - vesahc
-    - whyrusleeping
   member:
     - aakoshh
     - aarshkshah1992
@@ -66,6 +64,7 @@ members:
     - filecoin-ci
     - fridrik01
     - frrist
+    - galargh
     - gammazero
     - george-haddad
     - GlacierWalrus
@@ -155,6 +154,7 @@ members:
     - vukolic
     - vvkio
     - web3-bot
+    - whyrusleeping
     - willscott
     - xmcai2016
     - ychiaoli18
@@ -1278,6 +1278,32 @@ repositories:
       push:
         - dev-misc
     visibility: private
+  dev-wg:
+    advanced_security: false
+    allow_update_branch: false
+    archived: true
+    collaborators:
+      admin:
+        - kaitlin-beegle
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    visibility: public
+  DeveloperWG:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - ErinOCon
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   devgrants:
     advanced_security: false
     allow_update_branch: false
@@ -1439,7 +1465,7 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
+      push:
         - whyrusleeping
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2855,7 +2881,7 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
+      push:
         - whyrusleeping
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5702,7 +5728,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
+      pull:
         - galargh
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -5812,8 +5838,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - galargh
       maintain:
         - maciejwitowski
       pull:
@@ -5821,6 +5845,7 @@ repositories:
         - tchataigner
       push:
         - ec2
+        - galargh
         - Jacarte
       triage:
         - BlocksOnAChain
@@ -7934,7 +7959,6 @@ teams:
         - filecoin-helper
         - jbenet
         - ognots
-        - whyrusleeping
       member:
         - DrPeterVanNostrand
         - eshon
@@ -7945,6 +7969,7 @@ teams:
         - porcuquine
         - travisperson
         - vmx
+        - whyrusleeping
         - ZenGround0
         - zixuanzh
   docs-admins:
@@ -8058,6 +8083,7 @@ teams:
       #  - be ready to triage/review org configuration change request in github-mgmt
       maintainer:
         - BigLep
+      member:
         - galargh
   infra:
     members:
@@ -8082,7 +8108,6 @@ teams:
         - raulk
         - Stebalien
         - vesahc
-        - whyrusleeping
       member:
         - aashidham
         - alanshaw
@@ -8137,6 +8162,7 @@ teams:
         - trruckerfling
         - vmx
         - vvkio
+        - whyrusleeping
         - willscott
         - yiannisbot
         - ZenGround0
@@ -8149,7 +8175,6 @@ teams:
         - arajasek
         - jennijuju
         - raulk
-        - whyrusleeping
       member:
         - cryptonemo
         - fridrik01
@@ -8164,6 +8189,7 @@ teams:
         - snissn
         - Terryhung
         - TippyFlitsUK
+        - whyrusleeping
         - willscott
         - ychiaoli18
   lotus-infra-core:
@@ -8207,11 +8233,11 @@ teams:
       maintainer:
         - momack2
         - raulk
-        - whyrusleeping
       member:
         - alanshaw
         - jimpick
         - nonsense
+        - whyrusleeping
         - willscott
   product-biz:
     members:
@@ -8238,7 +8264,6 @@ teams:
         - ognots
         - protocolin
         - raulk
-        - whyrusleeping
       member:
         - davidd8
         - eshon
@@ -8246,6 +8271,7 @@ teams:
         - jnthnvctr
         - porcuquine
         - travisperson
+        - whyrusleeping
         - ZenGround0
   proofs:
     members:
@@ -8312,10 +8338,10 @@ teams:
         - jbenet
         - mishmosh
         - momack2
-        - whyrusleeping
       member:
         - nicola
         - porcuquine
+        - whyrusleeping
         - yiannisbot
         - zixuanzh
   starling-storage:
