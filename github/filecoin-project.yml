@@ -712,7 +712,7 @@ repositories:
   chain-love-website:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       push:
         - angelopez10
@@ -721,7 +721,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -1437,6 +1437,7 @@ repositories:
       maintain:
         - D3AS8A
         - svvimming
+        - tikagan
       push:
         - splumms
         - tjsMck
@@ -1549,7 +1550,7 @@ repositories:
   events-directory:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - orvn
@@ -3197,6 +3198,24 @@ repositories:
         - FVM Web
         - labbers
     visibility: private
+  fvm-workbench:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      push:
+        - alexytsu
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
+    teams:
+      admin:
+        - actors-maintainers
+    visibility: public
   gb-filecoin-docs:
     advanced_security: false
     allow_update_branch: false
@@ -3382,9 +3401,10 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - rvagg
       push:
         - frrist
-        - rvagg
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3831,9 +3851,10 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - rvagg
       push:
         - frrist
-        - rvagg
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4654,6 +4675,7 @@ repositories:
         - hannahhoward
         - rvagg
       maintain:
+        - AmeanAsad
         - davidd8
       push:
         - web3-bot
@@ -5195,7 +5217,7 @@ repositories:
   metaverse.filecoin.io:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - orvn
@@ -6837,7 +6859,10 @@ repositories:
   sp-infographic:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
+    collaborators:
+      admin:
+        - dkkapur
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7806,11 +7831,8 @@ teams:
   actors-committers:
     members:
       maintainer:
-        - anorth
-        - Stebalien
-        - ZenGround0
+        - raulk
       member:
-        - aarshkshah1992
         - mb1896
         - rjan90
   actors-maintainers:
@@ -7819,11 +7841,12 @@ teams:
         - anorth
         - arajasek
         - jennijuju
-        - raulk
         - Stebalien
         - ZenGround0
       member:
-        - scotthconner
+        - aarshkshah1992
+        - Kubuxu
+        - rvagg
   advocates:
     members:
       maintainer:
@@ -8209,7 +8232,6 @@ teams:
         - aarshkshah1992
         - fridrik01
         - magik6k
-        - mb1896
         - snadrus
         - ZenGround0
   Lotus-TSE:
