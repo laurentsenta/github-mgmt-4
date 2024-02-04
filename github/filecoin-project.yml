@@ -2351,7 +2351,10 @@ repositories:
         - fabriziogianni7
         - galen-mcandrew
         - jbesraa
+        - martapiekarska
         - ssallam
+      maintain:
+        - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2369,6 +2372,7 @@ repositories:
         - dkkapur
         - galen-mcandrew
         - Kevin-FF-USA
+        - martapiekarska
         - simonkim0515
       maintain:
         - fabriziogianni7
@@ -2378,6 +2382,7 @@ repositories:
         - panges2
         - raghavrmadya
         - timelytree
+        - willscott
       push:
         - aaitor
         - dannyob
@@ -2465,6 +2470,7 @@ repositories:
         - galen-mcandrew
         - jbesraa
         - Kevin-FF-USA
+        - martapiekarska
         - raghavrmadya
         - simonkim0515
       maintain:
@@ -2474,6 +2480,7 @@ repositories:
         - orvn
         - panges2
         - timelytree
+        - willscott
       pull:
         - smooth-operator
       push:
@@ -2495,8 +2502,10 @@ repositories:
     collaborators:
       admin:
         - dkkapur
+        - martapiekarska
       maintain:
         - AlexxNica
+        - willscott
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -2547,10 +2556,12 @@ repositories:
     collaborators:
       admin:
         - dkkapur
+        - martapiekarska
         - simonkim0515
       maintain:
         - kevzak
         - raghavrmadya
+        - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2629,6 +2640,8 @@ repositories:
       push:
         - kenada88
         - mirhamasala
+      triage:
+        - knyckolas-protocol-ai
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5236,28 +5249,6 @@ repositories:
       admin:
         - website
     visibility: private
-  mir:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    collaborators:
-      admin:
-        - jsoares
-        - matejpavlovic
-      push:
-        - ranchalp
-        - xosmig
-    has_discussions: true
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      maintain:
-        - consensuslab
-    visibility: public
   motion-arsenal:
     advanced_security: false
     allow_update_branch: false
@@ -6469,6 +6460,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      maintain:
+        - vmx
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
