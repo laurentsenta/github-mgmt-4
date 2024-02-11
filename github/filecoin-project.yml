@@ -1286,8 +1286,12 @@ repositories:
       admin:
         - kaitlin-beegle
     has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   DeveloperWG:
     advanced_security: false
@@ -2351,7 +2355,6 @@ repositories:
         - fabriziogianni7
         - galen-mcandrew
         - jbesraa
-        - martapiekarska
         - ssallam
       maintain:
         - willscott
@@ -2372,7 +2375,6 @@ repositories:
         - dkkapur
         - galen-mcandrew
         - Kevin-FF-USA
-        - martapiekarska
         - simonkim0515
       maintain:
         - fabriziogianni7
@@ -2502,7 +2504,6 @@ repositories:
     collaborators:
       admin:
         - dkkapur
-        - martapiekarska
       maintain:
         - AlexxNica
         - willscott
@@ -2556,7 +2557,6 @@ repositories:
     collaborators:
       admin:
         - dkkapur
-        - martapiekarska
         - simonkim0515
       maintain:
         - kevzak
@@ -2640,8 +2640,6 @@ repositories:
       push:
         - kenada88
         - mirhamasala
-      triage:
-        - knyckolas-protocol-ai
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3682,7 +3680,6 @@ repositories:
         - jsoares
       push:
         - Kubuxu
-        - matejpavlovic
         - ranchalp
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -8025,7 +8022,6 @@ teams:
         - raulk
       member:
         - elmattic
-        - jdjaustin
         - LesnyRumcajs
         - q9f
         - sudo-shashank
