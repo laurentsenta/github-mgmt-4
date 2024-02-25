@@ -5,7 +5,6 @@ members:
     - andyschwab-admin
     - anorth
     - arajasek
-    - BigLep
     - filecoin-helper
     - galargh
     - jbenet
@@ -36,6 +35,7 @@ members:
     - autonome
     - aysmed
     - bajtos
+    - BigLep
     - birdychang
     - BlocksOnAChain
     - bradholden
@@ -2311,7 +2311,6 @@ repositories:
         - patrickwoodhead
       maintain:
         - claudiorodr
-        - rafaelcruzazevedo
         - tiago258
     files:
       .github/dependabot.yml:
@@ -4348,7 +4347,10 @@ repositories:
     collaborators:
       admin:
         - birdychang
+        - LaurenSpiegel
+        - Terryhung
       maintain:
+        - cxytz01
         - frrist
     files:
       .github/dependabot.yml:
@@ -7211,6 +7213,7 @@ teams:
       member:
         - jsoares
         - kaitlin-beegle
+        - TippyFlitsUK
   Forest:
     members:
       maintainer:
@@ -7290,8 +7293,9 @@ teams:
       #  - be familiar with GitHub Management
       #  - be ready to triage/review org configuration change request in github-mgmt
       maintainer:
-        - BigLep
         - galargh
+      member:
+        - BigLep
   infra:
     members:
       maintainer:
@@ -7306,7 +7310,6 @@ teams:
       maintainer:
         - anorth
         - arajasek
-        - BigLep
         - jbenet
         - jennijuju
         - mishmosh
@@ -7323,6 +7326,7 @@ teams:
         - aschmahmann
         - ashwanth-eth
         - aysmed
+        - BigLep
         - bradholden
         - brendalee
         - cbrocoum
@@ -7382,6 +7386,7 @@ teams:
         - GlacierWalrus
         - hannahhoward
         - Kubuxu
+        - LexLuthr
         - maciejwitowski
         - masih
         - nonsense
