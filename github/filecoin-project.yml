@@ -9,6 +9,7 @@ members:
     - galargh
     - jbenet
     - jennijuju
+    - jmac-sead
     - laurentsenta
     - mastrwayne-admin
     - mishmosh
@@ -126,6 +127,7 @@ members:
     - Reiers
     - ribasushi
     - rjan90
+    - robertagora
     - rvagg
     - scotthconner
     - SeedingTrees
@@ -761,16 +763,13 @@ repositories:
         - eshon
         - jbenet
         - jennijuju
-        - lazavikmaria
         - mur-me
         - protocolin
       pull:
         - pk-controller
         - ychiaoli18
       push:
-        - koteld
         - openworklabbot
-        - plcgi1
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2541,6 +2540,7 @@ repositories:
         - smagdali
       maintain:
         - avivash
+        - meandavejustice
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3021,7 +3021,7 @@ repositories:
   gitops-profile-catalog:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - pl-deploy-bot
@@ -3033,7 +3033,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -3044,7 +3044,7 @@ repositories:
   gitops-root:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       admin:
         - GlacierWalrus
@@ -4347,10 +4347,11 @@ repositories:
     collaborators:
       admin:
         - birdychang
-        - LaurenSpiegel
-        - Terryhung
-      maintain:
         - cxytz01
+        - LaurenSpiegel
+        - starboard-devops
+        - Terryhung
+      pull:
         - frrist
     files:
       .github/dependabot.yml:
@@ -7024,6 +7025,7 @@ teams:
       maintainer:
         - raulk
       member:
+        - masih
         - mb1896
         - rjan90
   actors-maintainers:
