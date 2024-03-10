@@ -18,7 +18,6 @@ members:
     - protocolin
     - raulk
     - Stebalien
-    - vesahc
   member:
     - aakoshh
     - aarshkshah1992
@@ -127,7 +126,6 @@ members:
     - Reiers
     - ribasushi
     - rjan90
-    - robertagora
     - rvagg
     - scotthconner
     - SeedingTrees
@@ -148,6 +146,7 @@ members:
     - TorfinnOlsen
     - trruckerfling
     - turuslan
+    - vesahc
     - vmx
     - vnessasgrt
     - vukolic
@@ -156,7 +155,6 @@ members:
     - whyrusleeping
     - willscott
     - xmcai2016
-    - ychiaoli18
     - yiannisbot
     - ZenGround0
     - zixuanzh
@@ -181,6 +179,39 @@ repositories:
       push:
         - actors-maintainers
     visibility: private
+  Allocator-Governance:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - galen-mcandrew
+        - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  Allocator-Registry:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - clriesco
+        - galen-mcandrew
+        - willscott
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   aq:
     advanced_security: false
     allow_update_branch: false
@@ -424,13 +455,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab
         - LexLuthr
         - masih
-      maintain:
-        - hannahhoward
-      push:
-        - aarshkshah1992
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -460,7 +486,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      admin:
+      maintain:
         - Boost
     visibility: public
   boost-graphsync:
@@ -482,7 +508,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      admin:
+      maintain:
         - Boost
     visibility: public
   boost:
@@ -767,7 +793,6 @@ repositories:
         - protocolin
       pull:
         - pk-controller
-        - ychiaoli18
       push:
         - openworklabbot
     has_discussions: false
@@ -1423,8 +1448,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - ychiaoli18
       push:
         - maciejwitowski
     has_discussions: false
@@ -1473,8 +1496,6 @@ repositories:
     collaborators:
       admin:
         - hammertoe
-      maintain:
-        - ychiaoli18
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1962,9 +1983,8 @@ repositories:
     collaborators:
       admin:
         - raulk
-        - Stebalien
-      push:
         - rjan90
+        - Stebalien
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2203,7 +2223,6 @@ repositories:
         - clriesco
         - dkkapur
         - fabriziogianni7
-        - Filplus-govteam
         - galen-mcandrew
         - jbesraa
         - Kevin-FF-USA
@@ -2334,13 +2353,13 @@ repositories:
         - BlocksOnAChain
         - robertagora
         - scotthconner
-        - vesahc
       push:
         - 4l8ee
         - andrejrakic
         - bojinovic
         - milos1731
         - vaniiiii
+        - vesahc
         - vonum
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4281,6 +4300,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - LexLuthr
         - magik6k
         - nonsense
       push:
@@ -4293,7 +4313,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      admin:
+      maintain:
         - Boost
     visibility: private
   lightning-planning:
@@ -4459,7 +4479,6 @@ repositories:
         - scotthconner
         - SgtCoin
         - vmx
-        - ychiaoli18
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4484,12 +4503,13 @@ repositories:
       admin:
         - momack2
         - pl-deploy-bot
+      maintain:
+        - rjan90
       pull:
         - eshon
         - jsoares
       push:
         - maciejwitowski
-        - rjan90
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4685,9 +4705,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - ychiaoli18
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4945,9 +4962,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - ychiaoli18
     has_discussions: false
     secret_scanning_push_protection: false
     secret_scanning: true
@@ -5213,8 +5227,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - ychiaoli18
       push:
         - lordshashank
         - ravish1729
@@ -6122,9 +6134,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - ychiaoli18
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7086,6 +7095,10 @@ teams:
         - LexLuthr
         - masih
         - nonsense
+      member:
+        - magik6k
+        - Reiers
+        - snadrus
   CERT:
     members:
       maintainer:
@@ -7261,7 +7274,6 @@ teams:
         - maciejwitowski
         - magik6k
         - vmx
-        - ychiaoli18
         - ZenGround0
   fvm-crate-owners:
     members:
@@ -7319,7 +7331,6 @@ teams:
         - protocolin
         - raulk
         - Stebalien
-        - vesahc
       member:
         - alanshaw
         - AmeanAsad
@@ -7369,6 +7380,7 @@ teams:
         - Terryhung
         - TorfinnOlsen
         - trruckerfling
+        - vesahc
         - vmx
         - whyrusleeping
         - willscott
@@ -7395,11 +7407,9 @@ teams:
         - rjan90
         - rvagg
         - snissn
-        - Terryhung
         - TippyFlitsUK
         - whyrusleeping
         - willscott
-        - ychiaoli18
   lotus-infra-core:
     members:
       maintainer:
@@ -7415,8 +7425,8 @@ teams:
         - Stebalien
       member:
         - aarshkshah1992
-        - fridrik01
         - magik6k
+        - rjan90
         - snadrus
         - ZenGround0
   Lotus-TSE:
@@ -7606,10 +7616,10 @@ teams:
         - filecoin-helper
         - mishmosh
         - momack2
-        - vesahc
       member:
         - andyschwab
         - dkkapur
         - emilymvaughan
         - jnthnvctr
         - nicola
+        - vesahc
