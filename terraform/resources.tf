@@ -211,7 +211,7 @@ resource "github_team_repository" "this" {
   ]
 
   repository = each.value.repository
-  team_id    = try(try(each.value.team_id, null), github_team.this[lower(each.value.team_key)].id)
+  team_id    = try(try(each.value.team_id, null), github_team.this[lower(try(each.value.team_key, null))].id)
 
   permission = try(each.value.permission, null)
 
