@@ -199,7 +199,7 @@ resource "github_team_repository" "this" {
       for permission, teams in lookup(repository_config, "teams", {}) : {
         for team in teams : lower("${team}:${repository}") => {
           repository = repository
-          team_key   = lower(team)
+          team_key   = team
           permission = permission
         }
       }
@@ -211,7 +211,7 @@ resource "github_team_repository" "this" {
   ]
 
   repository = each.value.repository
-  team_id    = github_team.this[each.value.team_key].id
+  team_id    = github_team.this[lower(each.value.team_key)].id
 
   permission = try(each.value.permission, null)
 
