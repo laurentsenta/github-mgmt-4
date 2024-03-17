@@ -211,7 +211,9 @@ resource "github_team_repository" "this" {
   ]
 
   repository = each.value.repository
-  team_id = contains(each.value, "team_id") ? each.value.team_id : contains(each.value, "team") ? github_team.this[lower(each.value.team)].id : null
+  team_id = lookup(github_team.this, split(":", each.key)[0], {
+    id = lookup(each.value, "team_id", null)
+  }).id
 
   permission = try(each.value.permission, null)
 
