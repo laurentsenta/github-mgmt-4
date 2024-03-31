@@ -17,6 +17,7 @@ members:
     - ognots
     - protocolin
     - raulk
+    - smagdali
     - Stebalien
   member:
     - aakoshh
@@ -131,7 +132,6 @@ members:
     - SeedingTrees
     - sergkaprovich
     - simonkim0515
-    - smagdali
     - smooth-operator
     - snadrus
     - snissn
@@ -204,6 +204,8 @@ repositories:
       admin:
         - galen-mcandrew
         - willscott
+      maintain:
+        - Kevin-FF-USA
       pull:
         - clriesco
     has_discussions: false
@@ -1242,9 +1244,9 @@ repositories:
         - andyschwab
         - jennijuju
         - raulk
+        - smagdali
       maintain:
         - bobdubois
-        - smagdali
         - trruckerfling
       push:
         - Angelo-gh3990
@@ -1696,9 +1698,9 @@ repositories:
         - AlexMCon
         - clriesco
         - dkkapur
-        - jbesraa
         - kokal33
         - panges2
+        - willscott
       push:
         - orvn
         - timelytree
@@ -1910,6 +1912,7 @@ repositories:
         - BlocksOnAChain
         - honghaoq
         - lksbrssr
+        - smagdali
         - trruckerfling
       maintain:
         - eshon
@@ -1923,7 +1926,6 @@ repositories:
         - jsoares
         - LaurenSpiegel
         - robertagora
-        - smagdali
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4235,11 +4237,11 @@ repositories:
     collaborators:
       admin:
         - olizilla
+        - smagdali
         - yiannisbot
       maintain:
         - ianconsolata
         - nonsense
-        - smagdali
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4839,7 +4841,7 @@ teams:
         - filecoin-ci
   collab-ff-seo-ux:
     members:
-      member:
+      maintainer:
         - smagdali
   collab-ipfs-force:
     members:
@@ -4927,7 +4929,7 @@ teams:
     {}
   docs-storage-provider:
     members:
-      member:
+      maintainer:
         - smagdali
   fil-plus-wg:
     members:
