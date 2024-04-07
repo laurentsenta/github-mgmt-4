@@ -203,9 +203,8 @@ repositories:
     collaborators:
       admin:
         - galen-mcandrew
-        - willscott
-      maintain:
         - Kevin-FF-USA
+        - willscott
       pull:
         - clriesco
     has_discussions: false
@@ -1638,6 +1637,7 @@ repositories:
       push:
         - kenada88
         - mirhamasala
+        - TippyFlitsUK
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2395,9 +2395,9 @@ repositories:
         - anorth
       maintain:
         - jsoares
+        - masih
       push:
         - Kubuxu
-        - masih
         - ranchalp
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2925,25 +2925,7 @@ repositories:
   kube-infra:
     archived: true
   kubo-api-client:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - hannahhoward
-      push:
-        - web3-bot
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - lotus-maintainers
-    visibility: public
+    archived: true
   large-data.filecoin.io:
     archived: true
   lassie-event-recorder:
@@ -3051,13 +3033,11 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - birdychang
         - cxytz01
         - LaurenSpiegel
         - starboard-devops
-        - Terryhung
-      pull:
-        - frrist
+      maintain:
+        - tancehao
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -3146,6 +3126,8 @@ repositories:
     collaborators:
       admin:
         - filecoin-helper
+      maintain:
+        - rvagg
       pull:
         - turinglabsorg
       push:
@@ -3155,7 +3137,6 @@ repositories:
         - irenegia
         - LexLuthr
         - ribasushi
-        - rvagg
         - scotthconner
         - vmx
     has_discussions: false
@@ -5147,7 +5128,9 @@ teams:
       member:
         - aarshkshah1992
         - magik6k
+        - masih
         - rjan90
+        - rvagg
         - snadrus
         - ZenGround0
   Motion:
