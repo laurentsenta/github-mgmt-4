@@ -27,7 +27,6 @@ members:
     - AmeanAsad
     - androowoo
     - andyschwab
-    - arajasek
     - aronchick
     - art-gor
     - aschmahmann
@@ -207,6 +206,21 @@ repositories:
         - willscott
       pull:
         - clriesco
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  apt:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - snadrus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1731,7 +1745,7 @@ repositories:
         - AlexMCon
         - clriesco
         - dkkapur
-        - kokal33
+        - huseyincansoylu
         - panges2
         - willscott
       push:
@@ -1754,8 +1768,7 @@ repositories:
         - AlexMCon
         - clriesco
         - dkkapur
-        - jbesraa
-        - kokal33
+        - huseyincansoylu
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1773,7 +1786,7 @@ repositories:
         - AlexMCon
         - clriesco
         - dkkapur
-        - jbesraa
+        - huseyincansoylu
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2453,9 +2466,9 @@ repositories:
       maintain:
         - arajasek
         - jsoares
+        - Kubuxu
         - masih
       push:
-        - Kubuxu
         - ranchalp
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3113,10 +3126,6 @@ repositories:
         - LaurenSpiegel
         - starboard-devops
         - Terryhung
-      maintain:
-        - cxytz01
-      push:
-        - tancehao
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -3724,7 +3733,6 @@ repositories:
       admin:
         - arajasek
         - filecoin-helper
-      maintain:
         - Kubuxu
       push:
         - Jacarte
@@ -4897,6 +4905,7 @@ teams:
         - aarshkshah1992
         - Kubuxu
         - rvagg
+        - TippyFlitsUK
   advocates:
     members:
       maintainer:
@@ -5056,6 +5065,23 @@ teams:
       member:
         - kevzak
         - raghavrmadya
+  FilOz:
+    members:
+      maintainer:
+        - anorth
+        - jennijuju
+        - Stebalien
+        - TippyFlitsUK
+      member:
+        - aarshkshah1992
+        - irenegia
+        - Kubuxu
+        - lucaniz
+        - masih
+        - nicola
+        - rjan90
+        - rvagg
+        - ZenGround0
   fips-editors:
     members:
       maintainer:
@@ -5176,7 +5202,6 @@ teams:
         - davidd8
         - DiegoRBaquero
         - dkkapur
-        - dnkolegov
         - emilymvaughan
         - eshon
         - figureouter
@@ -5222,7 +5247,6 @@ teams:
         - jennijuju
         - raulk
       member:
-        - arajasek
         - cryptonemo
         - fridrik01
         - GlacierWalrus
@@ -5250,11 +5274,13 @@ teams:
         - Stebalien
       member:
         - aarshkshah1992
+        - Kubuxu
         - magik6k
         - masih
         - rjan90
         - rvagg
         - snadrus
+        - TippyFlitsUK
         - ZenGround0
   Motion:
     members:
