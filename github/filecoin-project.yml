@@ -4,6 +4,7 @@ members:
   admin:
     - andyschwab-admin
     - anorth
+    - arden-sead
     - filecoin-helper
     - galargh
     - jbenet
@@ -2363,6 +2364,8 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
+      push:
+        - Schwartz10
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2463,11 +2466,12 @@ repositories:
     collaborators:
       admin:
         - anorth
+        - Kubuxu
+        - masih
+        - Stebalien
       maintain:
         - arajasek
         - jsoares
-        - Kubuxu
-        - masih
       push:
         - ranchalp
     has_discussions: false
