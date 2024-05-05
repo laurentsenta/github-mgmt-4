@@ -2,7 +2,6 @@
 
 members:
   admin:
-    - andyschwab-admin
     - anorth
     - arden-sead
     - filecoin-helper
@@ -1679,8 +1678,10 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab
+        - dr-bizz
         - momack2
+      maintain:
+        - andyschwab
       pull:
         - arajasek
         - Isabellabcj
@@ -2207,7 +2208,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - andyschwab-admin
         - arajasek
         - galargh
         - jennijuju
@@ -3567,6 +3567,12 @@ repositories:
       admin:
         - ianconsolata
         - kaitlin-beegle
+        - relotnek
+        - smagdali
+      push:
+        - hexianglinss
+        - Huang-Zexiang
+        - willpan1102
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
