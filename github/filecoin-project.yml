@@ -3567,12 +3567,16 @@ repositories:
       admin:
         - ianconsolata
         - kaitlin-beegle
-        - relotnek
         - smagdali
+      pull:
+        - filipagr
       push:
         - hexianglinss
         - Huang-Zexiang
+        - liuzeming1
+        - mor9x00
         - willpan1102
+        - yukixu007
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
