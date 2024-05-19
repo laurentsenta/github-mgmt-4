@@ -1292,7 +1292,9 @@ repositories:
       push:
         - Angelo-gh3990
         - ivanka
+        - jochasinga
         - mirhamasala
+        - robertagora
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1748,6 +1750,7 @@ repositories:
         - clriesco
         - dkkapur
         - huseyincansoylu
+        - kacperzuk-neti
         - panges2
         - willscott
       push:
@@ -1771,6 +1774,8 @@ repositories:
         - clriesco
         - dkkapur
         - huseyincansoylu
+        - kacperzuk-neti
+        - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1789,6 +1794,8 @@ repositories:
         - clriesco
         - dkkapur
         - huseyincansoylu
+        - kacperzuk-neti
+        - willscott
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2422,7 +2429,9 @@ repositories:
       admin:
         - hannahhoward
         - mishmosh
+        - rvagg
       push:
+        - aarshkshah1992
         - arajasek
         - dkkapur
     has_discussions: false
@@ -2855,6 +2864,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - dr-bizz
         - orvn
         - svvimming
         - timelytree
@@ -3265,6 +3275,8 @@ repositories:
       pull:
         - eshon
         - jsoares
+        - lemmih
+        - LesnyRumcajs
       push:
         - maciejwitowski
     has_discussions: false
@@ -3493,36 +3505,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   motion:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - davidd8
-        - gammazero
-        - LaurenSpiegel
-        - masih
-        - willscott
-        - xinaxu
-      maintain:
-        - anjor
-        - celine3650
-        - TorfinnOlsen
-      push:
-        - web3-bot
-    has_discussions: true
-    merge_commit_message: PR_BODY
-    merge_commit_title: PR_TITLE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: PR_BODY
-    squash_merge_commit_title: PR_TITLE
-    teams:
-      admin:
-        - Motion
-      maintain:
-        - bedrock-go
-    visibility: public
+    archived: true
   motivation:
     archived: true
   near-blake2:
