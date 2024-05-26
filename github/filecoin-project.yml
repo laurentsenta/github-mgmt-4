@@ -4,6 +4,7 @@ members:
   admin:
     - anorth
     - arden-sead
+    - dr-bizz
     - filecoin-helper
     - galargh
     - jbenet
@@ -187,6 +188,8 @@ repositories:
         - willscott
       maintain:
         - Kevin-FF-USA
+      push:
+        - martapiekarska
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -206,6 +209,8 @@ repositories:
         - willscott
       pull:
         - clriesco
+      push:
+        - martapiekarska
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -573,6 +578,7 @@ repositories:
       admin:
         - ArseniiPetrovich
         - dumikau
+        - dzmitrykliapkou
         - eshon
         - jbenet
         - jennijuju
@@ -703,6 +709,24 @@ repositories:
     archived: true
   cryptolab:
     archived: true
+  curio:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - magik6k
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Curio
+    visibility: public
   dagstore:
     advanced_security: false
     allow_update_branch: false
@@ -1288,6 +1312,7 @@ repositories:
         - smagdali
       maintain:
         - bobdubois
+        - eshon
         - trruckerfling
       push:
         - Angelo-gh3990
@@ -1754,6 +1779,7 @@ repositories:
         - panges2
         - willscott
       push:
+        - Filip-L
         - orvn
         - timelytree
     has_discussions: false
@@ -2482,6 +2508,7 @@ repositories:
         - arajasek
         - jsoares
       push:
+        - adlrocha
         - ranchalp
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -2639,6 +2666,8 @@ repositories:
       maintain:
         - arajasek
         - frrist
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2647,7 +2676,7 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      maintain:
+      admin:
         - lotus-maintainers
     visibility: public
   go-leb128-backup:
@@ -3778,6 +3807,8 @@ repositories:
         - arajasek
         - ec2
         - Jacarte
+        - longfeiWan9
+        - snissn
       triage:
         - BlocksOnAChain
     has_discussions: false
@@ -4915,10 +4946,6 @@ teams:
         - trruckerfling
   Alumni:
     {}
-  bacalhau-team:
-    members:
-      maintainer:
-        - aronchick
   bedrock-go:
     members:
       maintainer:
@@ -5009,6 +5036,14 @@ teams:
         - zixuanzh
       member:
         - nicola
+  Curio:
+    members:
+      maintainer:
+        - magik6k
+        - snadrus
+      member:
+        - LexLuthr
+        - Reiers
   Data Programs:
     members:
       maintainer:
