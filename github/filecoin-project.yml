@@ -4,7 +4,6 @@ members:
   admin:
     - anorth
     - arden-sead
-    - dr-bizz
     - filecoin-helper
     - galargh
     - jbenet
@@ -716,9 +715,9 @@ repositories:
     collaborators:
       admin:
         - magik6k
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
+    has_discussions: true
+    merge_commit_message: PR_BODY
+    merge_commit_title: PR_TITLE
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
@@ -1685,6 +1684,7 @@ repositories:
         - arajasek
         - bojinovic
         - milos1731
+        - snissn
         - vaniiiii
         - vesahc
         - vonum
@@ -3577,18 +3577,17 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - ianconsolata
-        - kaitlin-beegle
-        - smagdali
-      pull:
-        - filipagr
-      push:
         - hexianglinss
         - Huang-Zexiang
+        - ianconsolata
+        - kaitlin-beegle
         - liuzeming1
         - mor9x00
+        - smagdali
         - willpan1102
         - yukixu007
+      pull:
+        - filipagr
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4632,6 +4631,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - ansermino
         - eshon
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4724,11 +4724,9 @@ repositories:
         - steven004
       maintain:
         - "0x5459"
-        - Fatman13
         - Joss-Hua
         - simlecode
       push:
-        - cloudxin
         - LinZexiao
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4747,11 +4745,9 @@ repositories:
     collaborators:
       admin:
         - elvin-du
-        - hunjixin
         - simlecode
       maintain:
         - "0x5459"
-        - Fatman13
         - LinZexiao
       pull:
         - arajasek
