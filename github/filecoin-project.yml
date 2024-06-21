@@ -4,6 +4,7 @@ members:
   admin:
     - anorth
     - arden-sead
+    - BigLep
     - dr-bizz
     - filecoin-helper
     - galargh
@@ -35,7 +36,6 @@ members:
     - autonome
     - aysmed
     - bajtos
-    - BigLep
     - birdychang
     - BlocksOnAChain
     - bradholden
