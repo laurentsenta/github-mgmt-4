@@ -4,8 +4,8 @@ members:
   admin:
     - anorth
     - arden-sead
-    - dr-bizz
     - BigLep
+    - dr-bizz
     - filecoin-helper
     - galargh
     - jbenet
