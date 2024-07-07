@@ -1014,6 +1014,30 @@ repositories:
     archived: true
   events-directory:
     archived: true
+  f3-passive-testing:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - anorth
+        - jennijuju
+        - Kubuxu
+        - masih
+        - Stebalien
+      push:
+        - adlrocha
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - FilOz
+    visibility: private
   fc-cap-sim:
     archived: true
   fcnr:
@@ -2023,7 +2047,10 @@ repositories:
       push:
         - jsoares
         - LaurenSpiegel
+        - rk-rishikesh
         - robertagora
+        - xBalbinus
+        - XORS-eng
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2793,6 +2820,8 @@ repositories:
     collaborators:
       admin:
         - arajasek
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3351,6 +3380,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - adlrocha
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
