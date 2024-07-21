@@ -161,6 +161,21 @@ members:
     - zixuanzh
     - zuiris
 repositories:
+  accessible-hot-copy-storage:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: BLANK
+    merge_commit_title: PR_TITLE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - FilOz
+    visibility: private
   actors-private:
     advanced_security: false
     allow_update_branch: false
@@ -182,6 +197,30 @@ repositories:
       push:
         - actors-maintainers
     visibility: private
+  actors-utils:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - alexytsu
+        - anorth
+        - BigLep
+        - jennijuju
+        - rjan90
+        - rvagg
+        - Stebalien
+      push:
+        - arajasek
+        - ZenGround0
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: PR_TITLE
+    visibility: public
   Allocator-Governance:
     advanced_security: false
     allow_update_branch: false
@@ -1168,7 +1207,11 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - longfeiWan9
+        - snissn
+        - trruckerfling
         - xBalbinus
+        - XORS-eng
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1508,73 +1551,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   filecoin-plus-client-onboarding:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - dkkapur
-        - galen-mcandrew
-        - Kevin-FF-USA
-        - simonkim0515
-      maintain:
-        - fabriziogianni7
-        - huseyincansoylu
-        - ialberquilla
-        - orvn
-        - panges2
-        - raghavrmadya
-        - timelytree
-        - willscott
-      push:
-        - aaitor
-        - dannyob
-        - data-programs
-        - filecoin-plus-bot
-      triage:
-        - 1475Notary
-        - 1ane-1
-        - BlockMakeronline
-        - bmcnabb25
-        - cryptowhizzard
-        - DarnellWashington
-        - Destore2023
-        - Fatman13
-        - Fenbushi-Filecoin
-        - fireflyHZ
-        - flyworker
-        - GaryGJG
-        - IreneYoung
-        - jamerduhgamer
-        - joshua-ne
-        - Joss-Hua
-        - kernelogic
-        - liyunzhi-666
-        - llifezou
-        - MasaakiNawatani
-        - MatrixStorage
-        - MegTei
-        - MRJAVAZHAO
-        - neogeweb3
-        - newwebgroup
-        - nicole-code
-        - NiwanDao
-        - PluskitOfficial
-        - rayshitou
-        - s0nik42
-        - steven004
-        - TimWilliams00
-        - Tom-OriginStorage
-        - xinaxu
-        - XnMatrixSV
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
+    archived: true
   filecoin-plus-falcon:
     advanced_security: false
     allow_update_branch: false
@@ -1600,43 +1577,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   filecoin-plus-large-datasets:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - AlexMCon
-        - clriesco
-        - dkkapur
-        - fabriziogianni7
-        - galen-mcandrew
-        - jbesraa
-        - Kevin-FF-USA
-        - martapiekarska
-        - raghavrmadya
-        - simonkim0515
-      maintain:
-        - huseyincansoylu
-        - kevzak
-        - nicole-code
-        - orvn
-        - panges2
-        - timelytree
-        - willscott
-      pull:
-        - smooth-operator
-      push:
-        - data-programs
-      triage:
-        - Sunnyiscoming
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
+    archived: true
   filecoin-plus-leaderboard-data:
     advanced_security: false
     allow_update_branch: false
@@ -1817,7 +1758,6 @@ repositories:
         - AlexMCon
         - clriesco
         - dkkapur
-        - huseyincansoylu
         - kacperzuk-neti
         - panges2
         - willscott
@@ -1843,13 +1783,13 @@ repositories:
         - AlexMCon
         - clriesco
         - dkkapur
-        - huseyincansoylu
         - kacperzuk-neti
         - willscott
       push:
         - Filip-L
         - gstraczek
         - lukasz-wal
+        - tplocic20
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1867,7 +1807,6 @@ repositories:
         - AlexMCon
         - clriesco
         - dkkapur
-        - huseyincansoylu
         - kacperzuk-neti
         - willscott
       push:
@@ -2416,6 +2355,24 @@ repositories:
     visibility: public
   go-cid-tools:
     archived: true
+  go-clock:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - lotus-maintainers
+    visibility: public
   go-commp-utils:
     advanced_security: false
     allow_update_branch: false
@@ -3596,7 +3553,6 @@ repositories:
         - fabriziogianni7
         - filecoin-plus-bot
         - galen-mcandrew
-        - huseyincansoylu
         - ialberquilla
         - jnthnvctr
         - Kevin-FF-USA
@@ -5146,6 +5102,7 @@ teams:
       maintainer:
         - anorth
         - jennijuju
+        - momack2
         - Stebalien
         - TippyFlitsUK
       member:
