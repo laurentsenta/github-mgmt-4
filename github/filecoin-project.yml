@@ -503,9 +503,9 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-       - actors-maintainers
+        - actors-maintainers
       pull:
-       - lotus-maintainers
+        - lotus-maintainers
     visibility: private
   builtin-actors-bundler:
     advanced_security: false
@@ -2264,7 +2264,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-        - web3-bot
+      - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2664,7 +2664,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-       - lotus-maintainers
+        - lotus-maintainers
       push:
         - proofs
     visibility: public
