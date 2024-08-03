@@ -3236,6 +3236,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      maintain:
+        - snadrus
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5173,7 +5176,6 @@ teams:
         - masih
         - rjan90
         - rvagg
-        - snadrus
         - TippyFlitsUK
         - ZenGround0
   Motion:
