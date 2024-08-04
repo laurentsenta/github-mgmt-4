@@ -78,7 +78,6 @@ members:
     - ischasny
     - JadTermsani
     - jdjaustin
-    - jenks-guo-filecoin
     - jimpick
     - jnthnvctr
     - joaosa
@@ -127,7 +126,6 @@ members:
     - ribasushi
     - rjan90
     - rk-rishikesh
-    - robertagora
     - rvagg
     - scotthconner
     - SeedingTrees
@@ -152,6 +150,7 @@ members:
     - vukolic
     - vvkio
     - web3-bot
+    - web3jenks
     - whyrusleeping
     - willscott
     - xBalbinus
@@ -2022,7 +2021,7 @@ repositories:
         - snissn
       pull:
         - DrPeterVanNostrand
-        - jenks-guo-filecoin
+        - web3jenks
         - WhiteFlamingo
       push:
         - jsoares
@@ -2407,8 +2406,10 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - hannahhoward
+        - jennijuju
         - magik6k
+      maintain:
+        - rvagg
       push:
         - arajasek
     has_discussions: false
@@ -2587,7 +2588,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - arajasek
         - hannahhoward
         - magik6k
         - whyrusleeping
@@ -2601,6 +2601,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      maintain:
+        - FilOz
       push:
         - lotus-contributors
     visibility: public
@@ -3830,8 +3832,6 @@ repositories:
     collaborators:
       admin:
         - galargh
-      maintain:
-        - maciejwitowski
       pull:
         - scotthconner
         - tchataigner
@@ -3840,6 +3840,7 @@ repositories:
         - ec2
         - Jacarte
         - longfeiWan9
+        - rvagg
         - snissn
       triage:
         - BlocksOnAChain
@@ -4964,10 +4965,10 @@ teams:
         - mishmosh
       member:
         - hammertoe
-        - jenks-guo-filecoin
         - lksbrssr
         - longfeiWan9
         - trruckerfling
+        - web3jenks
   Alumni:
     {}
   bedrock-go:
@@ -5195,13 +5196,7 @@ teams:
         - raulk
         - Stebalien
       member:
-        - aakoshh
-        - cryptonemo
-        - fridrik01
         - Kubuxu
-        - maciejwitowski
-        - magik6k
-        - vmx
         - ZenGround0
   fvm-crate-owners:
     members:
