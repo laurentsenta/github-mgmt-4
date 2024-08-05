@@ -544,6 +544,7 @@ repositories:
       maintain:
         - lotus-maintainers
       push:
+        - actors-contributors
         - Forest
         - fvm-core-devs
         - lotus-contributors
@@ -4781,6 +4782,17 @@ repositories:
   zexe:
     archived: true
 teams:
+  actors-contributors:
+    members:
+      member:
+        - arajasek
+        - ec2
+        - kkarrancsu
+        - macro-ss
+        - marco-storswift
+        - NemanjaLu92
+        - tyshko5
+        - vkalghatgi
   actors-maintainers:
     members:
       maintainer:
