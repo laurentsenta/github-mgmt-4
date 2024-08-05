@@ -1303,26 +1303,6 @@ repositories:
         - Sentinel Admin
         - Sentinel
     visibility: public
-  filecoin-actor-utils:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - Stebalien
-      pull:
-        - arajasek
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - actors-maintainers
-    visibility: public
   filecoin-aggregator:
     archived: true
   filecoin-chain-archiver:
@@ -2284,7 +2264,7 @@ repositories:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       push:
         - github-mgmt stewards
-    visibility: public
+    visibility: private
   gitops-policy-library:
     archived: true
   gitops-profile-catalog:
