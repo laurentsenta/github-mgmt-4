@@ -78,7 +78,6 @@ members:
     - ischasny
     - JadTermsani
     - jdjaustin
-    - jenks-guo-filecoin
     - jimpick
     - jnthnvctr
     - joaosa
@@ -127,7 +126,6 @@ members:
     - ribasushi
     - rjan90
     - rk-rishikesh
-    - robertagora
     - rvagg
     - scotthconner
     - SeedingTrees
@@ -152,6 +150,7 @@ members:
     - vukolic
     - vvkio
     - web3-bot
+    - web3jenks
     - whyrusleeping
     - willscott
     - xBalbinus
@@ -1955,7 +1954,7 @@ repositories:
         - snissn
       pull:
         - DrPeterVanNostrand
-        - jenks-guo-filecoin
+        - web3jenks
         - WhiteFlamingo
       push:
         - jsoares
@@ -2481,9 +2480,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      maintain:
-        - ribasushi
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4804,10 +4800,10 @@ teams:
         - mishmosh
       member:
         - hammertoe
-        - jenks-guo-filecoin
         - lksbrssr
         - longfeiWan9
         - trruckerfling
+        - web3jenks
   Alumni:
     {}
   bedrock-go:
@@ -5028,13 +5024,7 @@ teams:
         - raulk
         - Stebalien
       member:
-        - aakoshh
-        - cryptonemo
-        - fridrik01
         - Kubuxu
-        - maciejwitowski
-        - magik6k
-        - vmx
         - ZenGround0
   fvm-crate-owners:
     members:
