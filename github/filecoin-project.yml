@@ -2215,7 +2215,7 @@ repositories:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       push:
         - github-mgmt stewards
-    visibility: private
+    visibility: public
   gitops-policy-library:
     archived: true
   gitops-profile-catalog:
