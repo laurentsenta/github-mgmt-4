@@ -2263,7 +2263,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      - web3-bot
+      push:
+        - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
