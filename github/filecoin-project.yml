@@ -647,7 +647,6 @@ repositories:
       push:
         - advocates
         - datasystems
-        - labbers
     visibility: public
   conformance-tools:
     archived: true
@@ -902,7 +901,6 @@ repositories:
       push:
         - datasystems
         - foundation
-        - labbers
     visibility: public
   docker-hub-exporter:
     advanced_security: false
@@ -1390,7 +1388,6 @@ repositories:
       push:
         - datasystems
         - dev-misc
-        - labbers
     visibility: public
   filecoin-ffi-private:
     advanced_security: false
@@ -1657,7 +1654,6 @@ repositories:
     teams:
       pull:
         - datasystems
-        - labbers
       push:
         - collab-ff-seo-ux
         - website
@@ -1963,7 +1959,6 @@ repositories:
       maintain:
         - datasystems
         - fvm-core-devs
-        - labbers
         - lotus-maintainers
     visibility: private
   fvm-runtime-experiment:
@@ -2098,7 +2093,6 @@ repositories:
         - collab-ff-seo-ux
         - datasystems
         - FVM Web
-        - labbers
     visibility: private
   fvm-workbench:
     advanced_security: false
@@ -2409,7 +2403,6 @@ repositories:
     teams:
       push:
         - datasystems
-        - labbers
         - lotus-contributors
     visibility: public
   go-ds-versioning:
@@ -3030,7 +3023,6 @@ repositories:
     teams:
       push:
         - datasystems
-        - labbers
     visibility: public
   lily-archiver:
     advanced_security: false
@@ -3287,7 +3279,6 @@ repositories:
         - Sentinel Admin
       triage:
         - datasystems
-        - labbers
     visibility: private
   merkle_light-backup:
     archived: true
@@ -3314,7 +3305,6 @@ repositories:
         - ci
       push:
         - datasystems
-        - labbers
     visibility: public
   meta-aggregator-frontend:
     advanced_security: false
@@ -3804,7 +3794,6 @@ repositories:
         - Retrieval Market Builders
       push:
         - datasystems
-        - labbers
     visibility: public
   retrieval-market:
     advanced_security: false
@@ -4682,7 +4671,6 @@ repositories:
       push:
         - datasystems
         - infra
-        - labbers
     visibility: public
   wasm-tools:
     advanced_security: false
@@ -4740,7 +4728,6 @@ repositories:
         - datasystems
         - foundation
         - infra
-        - labbers
         - product-biz
         - research
     visibility: private
@@ -4826,8 +4813,69 @@ teams:
         - lksbrssr
         - longfeiWan9
         - trruckerfling
-  Alumni:
-    {}
+  alumni:
+    members:
+      member:
+        - alanshaw
+        - AmeanAsad
+        - androowoo
+        - andyschwab
+        - anorth
+        - aschmahmann
+        - ashwanth-eth
+        - aysmed
+        - BigLep
+        - bradholden
+        - brendalee
+        - cbrocoum
+        - cryptonemo
+        - davidd8
+        - DiegoRBaquero
+        - dkkapur
+        - emilymvaughan
+        - eshon
+        - figureouter
+        - fridrik01
+        - frrist
+        - gammazero
+        - guanzo
+        - hammertoe
+        - hannahhoward
+        - ischasny
+        - jbenet
+        - jennijuju
+        - juliangruber
+        - Kubuxu
+        - lucaniz
+        - magik6k
+        - masih
+        - matejpavlovic
+        - MF416
+        - mishmosh
+        - momack2
+        - nicola
+        - ninitrava
+        - nonsense
+        - olizilla
+        - patrickwoodhead
+        - pk-controller
+        - pk13-PLF
+        - protocolin
+        - raulk
+        - ribasushi
+        - rvagg
+        - scotthconner
+        - Stebalien
+        - Stefaan-V
+        - Terryhung
+        - TorfinnOlsen
+        - trruckerfling
+        - vesahc
+        - vmx
+        - whyrusleeping
+        - willscott
+        - yiannisbot
+        - ZenGround0
   bedrock-go:
     members:
       maintainer:
@@ -5113,70 +5161,6 @@ teams:
         - GlacierWalrus
         - ns4plabs
         - Terryhung
-  labbers:
-    members:
-      maintainer:
-        - anorth
-        - jbenet
-        - jennijuju
-        - mishmosh
-        - momack2
-        - protocolin
-        - raulk
-        - Stebalien
-      member:
-        - alanshaw
-        - AmeanAsad
-        - androowoo
-        - andyschwab
-        - aschmahmann
-        - ashwanth-eth
-        - aysmed
-        - BigLep
-        - bradholden
-        - brendalee
-        - cbrocoum
-        - cryptonemo
-        - davidd8
-        - DiegoRBaquero
-        - dkkapur
-        - emilymvaughan
-        - eshon
-        - figureouter
-        - fridrik01
-        - frrist
-        - gammazero
-        - guanzo
-        - hammertoe
-        - hannahhoward
-        - ischasny
-        - juliangruber
-        - Kubuxu
-        - lucaniz
-        - magik6k
-        - masih
-        - matejpavlovic
-        - MF416
-        - nicola
-        - ninitrava
-        - nonsense
-        - olizilla
-        - patrickwoodhead
-        - pk-controller
-        - pk13-PLF
-        - ribasushi
-        - rvagg
-        - scotthconner
-        - Stefaan-V
-        - Terryhung
-        - TorfinnOlsen
-        - trruckerfling
-        - vesahc
-        - vmx
-        - whyrusleeping
-        - willscott
-        - yiannisbot
-        - ZenGround0
   legal:
     {}
   lotus-contributors:
