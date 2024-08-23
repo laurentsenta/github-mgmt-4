@@ -5097,11 +5097,8 @@ teams:
   github-mgmt stewards:
     # Notes: 
     # 1. These members have push+ access to the github-mgmt repository (in addition to the org owners listed in "members.admin" above).
-    # 2. This team also has the org-level "moderator" and "security manager" role.
-    #    This is configured through the GitHub UI, not in GitHub management.
-    #    (Org-level role documentation: https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization)
-    # 3. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
-    # 4. Leaning on "github-mgmt stewards" for day-to-day admin over true org owners was done
+    # 2. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
+    # 3. Leaning on "github-mgmt stewards" for day-to-day admin over true org owners was done
     #    as part of the effort to reduce org owners in https://github.com/filecoin-project/github-mgmt/issues/47 
     description: Users that are effectively org owners/admins
     members:
@@ -5118,11 +5115,11 @@ teams:
       # GitHub will auto-bump their team privileges anyway if we don't manually.
       maintainer:
         # Why @galargh?
-        # 1. Same reasons listed at the top in "org.admin".
+        # 1. Same reasons listed at the top in "members.admin".
         # 2. He has deep knowledge of the tool and its use as the creator.  This empowers him to help make changes and improvements in a low friction way.
         - galargh
         # Why @jennijuju?
-        # 1. Same reasons listed at the top in "org.admin".
+        # 1. Same reasons listed at the top in "members.admin".
         # 2. She is part of the team rather than just relying on "org.admin" abilities so she sees the @filecoin-project/github-mgmt-stewards team mentions/notifications.
         - jennijuju
       member:
@@ -5191,6 +5188,7 @@ teams:
         - ZenGround0
   moderators:
     description: This team has the Moderators role described in https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-moderators
+    # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
     # Sead team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
       maintainer:
@@ -5290,7 +5288,9 @@ teams:
         - bajtos
         - DiegoRBaquero
   security-managers:
-    # Note: members of this team have read access to all repos per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
+    # Notes:
+    # 1. members of this team have read access to all repos per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
+    # 2. assigning this team the Security Manager role is configured through the GitHub UI, not in github-mgmt.
     description: This team has the Security Manager role described in https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
     # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
