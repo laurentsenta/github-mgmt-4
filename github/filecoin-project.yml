@@ -5189,6 +5189,17 @@ teams:
         - rvagg
         - TippyFlitsUK
         - ZenGround0
+  moderators:
+    description: This team has the Moderators role described in https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-moderators
+    # Sead team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
+    members:
+      maintainer:
+        # @masterway-admin is listed as a maintainer rather than member because GitHub will automatically make him a maintainer given he is an org.admin above.
+        - mastrwayne-admin
+      member:
+        - arden-sead
+        - dr-bizz
+        - jmac-sead
   Motion:
     members:
       member:
@@ -5278,6 +5289,15 @@ teams:
         - AmeanAsad
         - bajtos
         - DiegoRBaquero
+  security-managers:
+    # Note: members of this team have read access to all repos per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
+    description: This team has the Security Manager role described in https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
+    # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
+    members:
+      member:
+        - parthshah1
+        - relotnek
+        - smagdali
   Sentinel Admin:
     members:
       maintainer:
