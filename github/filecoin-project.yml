@@ -5187,7 +5187,8 @@ teams:
         - TippyFlitsUK
         - ZenGround0
   moderators:
-    description: This team has the Moderators role described in https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-moderators
+    description: This team has the Moderators role described in
+      https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-moderators
     # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
     # Sead team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
@@ -5288,9 +5289,7 @@ teams:
         - bajtos
         - DiegoRBaquero
   security-managers:
-    # Notes:
-    # 1. members of this team have read access to all repos per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
-    # 2. assigning this team the Security Manager role is configured through the GitHub UI, not in github-mgmt.
+    # Note: members of this team have read access to all repos per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
     description: This team has the Security Manager role described in https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
     # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
