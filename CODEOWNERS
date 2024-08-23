@@ -1,2 +1,6 @@
+# The ipdx team is responsible for GitHub Management maintenance (at least through 2024)
+* @ipfs/ipdx
+
 # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
-/github/filecoin-project.yml @filecoin-project/github-mgmt-stewards
+# The ipdx team is added here temporarily to witness use patterns in github-mgmt
+/github/filecoin-project.yml @filecoin-project/github-mgmt-stewards @ipfs/ipdx
