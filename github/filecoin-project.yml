@@ -4793,6 +4793,7 @@ teams:
     members:
       maintainer:
         - anorth
+        - BigLep
         - jbenet
         - jennijuju
         - mishmosh
@@ -4808,7 +4809,6 @@ teams:
         - aschmahmann
         - ashwanth-eth
         - aysmed
-        - BigLep
         - bradholden
         - brendalee
         - cbrocoum
@@ -5099,6 +5099,7 @@ teams:
         # Why @galargh?
         # 1. He has deep knowledge of the tool and its use as the creator.
         # 2. He is co-founder of IPDX, which has a contract in 2024 to support developer productivity in the filecoin-project ecosystem.
+        - BigLep
         - galargh
         # Why @jennijuju?
         # 1. Has a long history with filecoin-project and has a lot of connections to teams across filecoin-project.  
@@ -5109,7 +5110,6 @@ teams:
         # 1. This can be temporarily, but at least of 2024-08-02, he is a FilOz team member getting github-mgmt setup and operationalized
         #    (e.g., https://github.com/filecoin-project/community/discussions/710).
         # 2. He has experience working with github-mgmt in other contexts (e.g., ipfs per https://github.com/ipfs/ipfs/issues/511)
-        - BigLep
         # Whey @rvagg?
         # 1. He is an active in-the-GitHub-trenches maintainer for FilOz, often touching the 10+ repos that FilOz owns/maintains.
         #    FilOz wants to ensure changes to these repos is done under code review and transparently,
@@ -5131,10 +5131,10 @@ teams:
   lotus-contributors:
     members:
       maintainer:
+        - BigLep
         - jennijuju
         - raulk
       member:
-        - BigLep
         - cryptonemo
         - fridrik01
         - GlacierWalrus
@@ -5153,11 +5153,11 @@ teams:
   lotus-maintainers:
     members:
       maintainer:
+        - BigLep
         - jennijuju
         - Stebalien
       member:
         - aarshkshah1992
-        - BigLep
         - Kubuxu
         - magik6k
         - masih
