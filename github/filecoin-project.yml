@@ -5155,6 +5155,13 @@ teams:
         - GlacierWalrus
         - ns4plabs
         - Terryhung
+  ipdx:
+    description: ipdx.co team members
+    members:
+      maintainer:
+        - galargh
+      member:
+        - laurentsenta
   legal:
     {}
   lotus-contributors:
