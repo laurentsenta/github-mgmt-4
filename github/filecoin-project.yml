@@ -5148,6 +5148,8 @@ teams:
         # Why @smagdali?
         # 1. Serves as technical projects representative for the Filecoin Foundation.
         - smagdali
+    # Visibility (not-private) is needed so that the team can be referred to in CODEOWNERS
+    privacy: closed
   infra:
     members:
       member:
