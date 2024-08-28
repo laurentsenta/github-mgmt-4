@@ -5103,7 +5103,8 @@ teams:
     # 4. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
     # 5. Leaning on "github-mgmt approvers" for day-to-day admin over true org owners was done
     #    as part of the effort to reduce org owners in https://github.com/filecoin-project/github-mgmt/issues/47 
-    description: Additional users beyong github-mgmt-stewards who can approve (but not merge) github-mgmt PRs
+    description: Additional users beyong github-mgmt-stewards who can approve (but
+      not merge) github-mgmt PRs
     members:
       # ATTN: members are expected to:
       #  - be familiar with github-mgmt / github-as-code
