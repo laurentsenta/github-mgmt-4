@@ -5129,6 +5129,11 @@ teams:
       # INFO: The individuals below are listed as "maintainers" rather than "members" because they are filecoin-project owners/admins (see "org.admin" above).
       # GitHub will auto-bump their team privileges anyway if we don't manually.
       maintainer:
+        # Why @BigLep?
+        # 1. This can be temporarily, but at least of 2024-08-02, he is contracted with FilOz to get github-mgmt setup and operationalized
+        #    (e.g., https://github.com/filecoin-project/community/discussions/710).
+        # 2. He has experience working with github-mgmt in other contexts (e.g., ipfs per https://github.com/ipfs/ipfs/issues/511)
+        - biglep
         # Why @galargh?
         # 1. Same reasons listed at the top in "members.admin".
         # 2. He has deep knowledge of the tool and its use as the creator.  This empowers him to help make changes and improvements in a low friction way.
@@ -5138,11 +5143,6 @@ teams:
         # 2. She is part of the team rather than just relying on "org.admin" abilities so she sees the @filecoin-project/github-mgmt-stewards team mentions/notifications.
         - jennijuju
       member:
-        # Why @BigLep?
-        # 1. This can be temporarily, but at least of 2024-08-02, he is a FilOz team member getting github-mgmt setup and operationalized
-        #    (e.g., https://github.com/filecoin-project/community/discussions/710).
-        # 2. He has experience working with github-mgmt in other contexts (e.g., ipfs per https://github.com/ipfs/ipfs/issues/511)
-        - biglep
         # Whey @rvagg?
         # 1. He is an active in-the-GitHub-trenches maintainer for FilOz, often touching the 10+ repos that FilOz owns/maintains.
         #    FilOz wants to ensure changes to these repos is done under code review and transparently,
