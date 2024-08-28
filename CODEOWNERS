@@ -3,4 +3,4 @@
 
 # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
 # The ipdx team is added here temporarily to witness use patterns in github-mgmt
-/github/filecoin-project.yml @filecoin-project/github-mgmt-stewards @filecoin-project/ipdx
+/github/filecoin-project.yml @filecoin-project/github-mgmt-stewards @filecoin-project/github-mgmt-approvers @filecoin-project/ipdx
