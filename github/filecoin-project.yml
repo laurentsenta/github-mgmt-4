@@ -1,33 +1,47 @@
 # yaml-language-server: $schema=.schema.json
 
 members:
+  # Admin permissions map to "org owner" permissions listed in 
+  # https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#permissions-for-organization-rolesare 
+  # These permissions are very broad, and thus, the list of people is intentionally minimal.
+  # Day-to-day administrating is done by those in the "github-mgmt Stewards" team (see team below).  
+  # "github-mgmt Stewards" team can still escalate into org owner permissions if/when needed.  
+  # This minimal owner set plus supporting rationale was documented and discussed in https://github.com/filecoin-project/github-mgmt/issues/47.
   admin:
+    # Why @anorth?
+    # 1. Long-time Filecoin developer and filecoin-project GitHub owner
+    # 2. Currently an independent contractor, not exclusively homed under one team.
     - anorth
-    - arden-sead
     # Why @BigLep?
-    # Temporary org ownership is needed to complete https://github.com/filecoin-project/github-mgmt/issues/47
-    # It enables me to
-    # 1. Access the (audit log)[https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization]
+    # He was originally given temporary org ownership to complete https://github.com/filecoin-project/github-mgmt/issues/47 via:
+    # 1. Accessing the (audit log)[https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization]
     #    so I can be sure I'm not advocating for removing owner ownership of someone who has been very active on administering the org
-    # 2. Enable me to give the "github-mgmt Stewards" team [moderator](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-moderators) 
+    # 2. Giving the "github-mgmt Stewards" team [moderator](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-moderators) 
     #    and [security manager](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers) roles.
-    # Access here will be revoked as part of completing https://github.com/filecoin-project/github-mgmt/issues/47,
-    # which should happen no later than the week of 2024-09-02.
+    # His ownership is being extended beyond https://github.com/filecoin-project/github-mgmt/issues/47 at least through 2024-12-31 because he:
+    # 1. Has been leading the effort to improve the operational posture of the filecoin-project org
+    # 2. Is experienced adminstering other similar orgs (e.g., ipfs)
+    # 3. Is an independent contractor (similar to @anorth)
     - BigLep
-    - dr-bizz
-    - filecoin-helper
+    # Why @galargh?
+    # 1. co-founder of [IPDX](https://ipdx.co) and IPDX is contracted to help look after GitHub for this organization at least through 2024.
+    # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org and related orgs like ipfs.
     - galargh
-    - jbenet
+    # Why @jennijuju?
+    # 1. Has a long history with filecoin-project and has a lot of connections to teams across filecoin-project.  
+    #    She often has history or context on projects and can anticipate needs or issues that may arise.
+    # 2. She has repeatedly demonstrated promptness to notice and engage in operational/security events, 
+    #    where having the ability to "break class" without barriers (like an "org owner" is able) is most warranted.
     - jennijuju
-    - jmac-sead
-    - laurentsenta
+    # Why @magik6k?
+    # 1. He represents another portion of the Filecoin ecystem: Curio
+    # 2. Long-time / OG Filecoin developer with broader awareness and GitHub operational experience
+    - magik6k
+    # Why @mastrwayne-admin?
+    # 1. Founder/leader of [sead](https://www.sead.ai/), which is charged with sysadmin for critical systems within the wider Protocol Labs Network.
+    # 2. general long-standing sysadmin for these organizations with his past roles at PL Inc.
+    # 3. This isn't mastrwayne's day-to-day GitHub account
     - mastrwayne-admin
-    - mishmosh
-    - momack2
-    - protocolin
-    - raulk
-    - smagdali
-    - Stebalien
   member:
     - aakoshh
     - aarshkshah1992
@@ -39,6 +53,7 @@ members:
     - androowoo
     - andyschwab
     - arajasek
+    - arden-sead
     - aronchick
     - art-gor
     - aschmahmann
@@ -62,6 +77,7 @@ members:
     - DiegoRBaquero
     - dkkapur
     - dnkolegov
+    - dr-bizz
     - DrPeterVanNostrand
     - ec2
     - elijaharita
@@ -73,6 +89,7 @@ members:
     - Fatman13
     - figureouter
     - filecoin-ci
+    - filecoin-helper
     - fridrik01
     - frrist
     - gammazero
@@ -88,8 +105,10 @@ members:
     - irenegia
     - ischasny
     - JadTermsani
+    - jbenet
     - jdjaustin
     - jimpick
+    - jmac-sead
     - jnthnvctr
     - joaosa
     - jochasinga
@@ -100,6 +119,7 @@ members:
     - kkarrancsu
     - Kubuxu
     - LaurenSpiegel
+    - laurentsenta
     - lemmih
     - lerajk
     - LesnyRumcajs
@@ -109,7 +129,6 @@ members:
     - lucaniz
     - maciejwitowski
     - macro-ss
-    - magik6k
     - marco-storswift
     - Markuu-s
     - masih
@@ -118,6 +137,8 @@ members:
     - mb1896
     - MF416
     - Mingela
+    - mishmosh
+    - momack2
     - monicaortel
     - nicola
     - ninitrava
@@ -133,8 +154,10 @@ members:
     - pl-deploy-bot
     - porcuquine
     - protocol-labs
+    - protocolin
     - q9f
     - raghavrmadya
+    - raulk
     - realChainLife
     - Reiers
     - ribasushi
@@ -146,9 +169,11 @@ members:
     - SeedingTrees
     - sergkaprovich
     - simonkim0515
+    - smagdali
     - smooth-operator
     - snadrus
     - snissn
+    - Stebalien
     - Stefaan-V
     - steven004
     - sudo-shashank
@@ -2171,21 +2196,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - arajasek
-        - galargh
-        - jennijuju
-        - mastrwayne-admin
-      push:
-        - autonome
-        - mroth
-        - scotthconner
-    files:
-      CODEOWNERS:
-        content: |
-          # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
-          /github/filecoin-project.yml @filecoin-project/github-mgmt-stewards
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2194,9 +2204,10 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       push:
         - github-mgmt stewards
+      triage:
+        - github-mgmt approvers
     visibility: public
   gitops-policy-library:
     archived: true
@@ -5084,31 +5095,69 @@ teams:
         - magik6k
         - parthpathakweb3
         - trruckerfling
-  github-mgmt stewards:
-    # NOTE: created to capture users with push+ access to github-mgmt repository
-    #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
+  github-mgmt approvers:
+    # Notes: 
+    # 1. These members have triage access to the github-mgmt repository.
+    # 2. These members + github-mgmt-stewards + org owners are who can approve PRs to this repo.
+    # 3. These members can't merge PRs.  They need a github-mgmt-stewards or org owner to do this.
+    # 4. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
+    # 5. Leaning on "github-mgmt approvers" for day-to-day admin over true org owners was done
+    #    as part of the effort to reduce org owners in https://github.com/filecoin-project/github-mgmt/issues/47 
+    description: Additional users beyong github-mgmt-stewards who can approve (but
+      not merge) github-mgmt PRs
     members:
-      # WARN: membership here should be treated exactly as cautiosly as having an org admin role
       # ATTN: members are expected to:
-      #  - be familiar with GitHub Management
-      #  - be ready to triage/review org configuration change request in github-mgmt
-      # The individuals below are listed as "maintainers" rather than "members" because they are filecoin-project owners/admins.
+      #  - be familiar with github-mgmt / github-as-code
+      #  - be ready to triage/review org configuration change requests in github-mgmt
+      member:
+        # Why @rjan90?
+        # 1. Long-time Filecoin community member, often helping represent or act on behalf of the implementer community
+        # 2. Experienced with GitHub operationally
+        - rjan90
+        # Why @Stebalien?
+        # 1. Long-time Filecoin developer with broad awareness and GitHub operational experience. 
+        # 2. He has experience working with github-mgmt in other contexts (e.g., ipfs, libp2p, ipld)
+        - Stebalien
+        # Why @willscott?
+        # 1. Represents another part of the ecosystem: Filecoin Incentive Design Labs
+        # 2. He's experienced working with and adminstering github-mgmt in other organizations (e.g., ipld, ipfs)
+        - willscott
+    # Visibility (not-private) is needed so that the team can be referred to in CODEOWNERS
+    privacy: closed
+  github-mgmt stewards:
+    # Notes: 
+    # 1. These members have push+ access to the github-mgmt repository (in addition to the org owners listed in "members.admin" above).
+    # 2. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
+    # 3. Leaning on "github-mgmt stewards" for day-to-day admin over true org owners was done
+    #    as part of the effort to reduce org owners in https://github.com/filecoin-project/github-mgmt/issues/47 
+    description: Users that are effectively org owners/admins
+    members:
+      # WARN: membership here should be treated as cautiously as having an "org owner" role,
+      # since one can escalate their privileges accordingly.
+      # ATTN: members are expected to:
+      #  - be familiar with github-mgmt / github-as-code
+      #  - be ready to triage/review org configuration change requests in github-mgmt
+      # INFO: There are others who could certainly qualify to be members of this team.  
+      # There is a balance to be had to ensure there are enough knowledgeable people available to support the needs/requests of the github org,
+      # and reducing risk by not having too many with the escalation path that this role affords.
+      # INFO: Intentionally minimize "maintainers" so that additional membership is done through github-mgmt rather than the GitHub UI.
+      # INFO: The individuals below are listed as "maintainers" rather than "members" because they are filecoin-project owners/admins (see "org.admin" above).
       # GitHub will auto-bump their team privileges anyway if we don't manually.
       maintainer:
-        # Why @galargh?
-        # 1. He has deep knowledge of the tool and its use as the creator.
-        # 2. He is co-founder of IPDX, which has a contract in 2024 to support developer productivity in the filecoin-project ecosystem.
-        - BigLep
-        - galargh
-        # Why @jennijuju?
-        # 1. Has a long history with filecoin-project and has a lot of connections to teams across filecoin-project.  
-        #    She often has history or context on projects and can anticipate needs or issues that may arise.
-        - jennijuju
-      member:
         # Why @BigLep?
-        # 1. This can be temporarily, but at least of 2024-08-02, he is a FilOz team member getting github-mgmt setup and operationalized
+        # 1. This can be temporarily, but at least of 2024-08-02, he is contracted with FilOz to get github-mgmt setup and operationalized
         #    (e.g., https://github.com/filecoin-project/community/discussions/710).
         # 2. He has experience working with github-mgmt in other contexts (e.g., ipfs per https://github.com/ipfs/ipfs/issues/511)
+        - biglep
+        # Why @galargh?
+        # 1. Same reasons listed at the top in "members.admin".
+        # 2. He has deep knowledge of the tool and its use as the creator.  This empowers him to help make changes and improvements in a low friction way.
+        - galargh
+        # Why @jennijuju?
+        # 1. Same reasons listed at the top in "members.admin".
+        # 2. She is part of the team rather than just relying on "org.admin" abilities so she sees the @filecoin-project/github-mgmt-stewards team mentions/notifications.
+        - jennijuju
+      member:
         # Whey @rvagg?
         # 1. He is an active in-the-GitHub-trenches maintainer for FilOz, often touching the 10+ repos that FilOz owns/maintains.
         #    FilOz wants to ensure changes to these repos is done under code review and transparently,
@@ -5118,6 +5167,11 @@ teams:
         #    See https://github.com/ipdxco/github-as-code/issues/126 for more info.)
         # 2. He has experience working with github-mgmt in other contexts (e.g., ipld)
         - rvagg
+        # Why @smagdali?
+        # 1. Serves as technical projects representative for the Filecoin Foundation.
+        - smagdali
+    # Visibility (not-private) is needed so that the team can be referred to in CODEOWNERS
+    privacy: closed
   infra:
     members:
       member:
@@ -5125,6 +5179,13 @@ teams:
         - GlacierWalrus
         - ns4plabs
         - Terryhung
+  ipdx:
+    description: ipdx.co team members
+    members:
+      maintainer:
+        - galargh
+      member:
+        - laurentsenta
   legal:
     {}
   lotus-contributors:
@@ -5164,6 +5225,19 @@ teams:
         - rvagg
         - TippyFlitsUK
         - ZenGround0
+  moderators:
+    description: This team has the Moderators role described in
+      https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-moderators
+    # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
+    # Sead team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
+    members:
+      maintainer:
+        # @masterway-admin is listed as a maintainer rather than member because GitHub will automatically make him a maintainer given he is an org.admin above.
+        - mastrwayne-admin
+      member:
+        - arden-sead
+        - dr-bizz
+        - jmac-sead
   Motion:
     members:
       member:
@@ -5253,6 +5327,16 @@ teams:
         - AmeanAsad
         - bajtos
         - DiegoRBaquero
+  security-managers:
+    # Note: members of this team have read access to all repos per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
+    description: This team has the Security Manager role described in
+      https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
+    # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
+    members:
+      member:
+        - parthshah1
+        - relotnek
+        - smagdali
   Sentinel Admin:
     members:
       maintainer:
