@@ -160,6 +160,7 @@ members:
     - raulk
     - realChainLife
     - Reiers
+    - relotnek
     - ribasushi
     - rjan90
     - rk-rishikesh
@@ -486,13 +487,13 @@ repositories:
         - hannahhoward
         - jennijuju
         - LexLuthr
+        - magik6k
         - masih
         - nonsense
         - willscott
       maintain:
         - brendalee
         - LaurenSpiegel
-        - magik6k
         - rvagg
       push:
         - aarshkshah1992
@@ -1371,10 +1372,10 @@ repositories:
         - andyschwab
         - jennijuju
         - raulk
-        - smagdali
       maintain:
         - bobdubois
         - eshon
+        - smagdali
         - trruckerfling
       push:
         - Angelo-gh3990
@@ -1661,9 +1662,9 @@ repositories:
     collaborators:
       admin:
         - dr-bizz
-        - momack2
       maintain:
         - andyschwab
+        - filecoinfoundation-inf
       pull:
         - arajasek
         - Isabellabcj
@@ -1671,6 +1672,7 @@ repositories:
         - barbaraperic
         - CharlyMartin
         - mirhamasala
+        - momack2
         - TippyFlitsUK
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -1957,7 +1959,6 @@ repositories:
       admin:
         - BlocksOnAChain
         - lksbrssr
-        - smagdali
         - trruckerfling
       maintain:
         - arajasek
@@ -1972,6 +1973,7 @@ repositories:
         - LaurenSpiegel
         - rk-rishikesh
         - robertagora
+        - smagdali
         - xBalbinus
         - XORS-eng
     has_discussions: false
@@ -2097,12 +2099,12 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - momack2
         - raulk
       push:
         - arajasek
         - eshon
         - mirhamasala
+        - momack2
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -2397,11 +2399,11 @@ repositories:
     collaborators:
       admin:
         - hannahhoward
-        - mishmosh
         - rvagg
       push:
         - aarshkshah1992
         - arajasek
+        - mishmosh
       triage:
         - dkkapur
     has_discussions: false
@@ -2523,13 +2525,13 @@ repositories:
         - aarshkshah1992
         - anorth
         - hannahhoward
+        - magik6k
         - masih
         - mishmosh
         - nonsense
-        - Stebalien
       maintain:
-        - magik6k
         - rvagg
+        - Stebalien
       push:
         - arajasek
       triage:
@@ -2752,10 +2754,10 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - magik6k
         - whyrusleeping
       maintain:
         - Kubuxu
-        - magik6k
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3460,6 +3462,7 @@ repositories:
       pull:
         - filipagr
       push:
+        - luojing-cx
         - ygy-1231
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4104,9 +4107,9 @@ repositories:
     collaborators:
       admin:
         - daviddias
-        - momack2
         - starboard-devops
       pull:
+        - momack2
         - nicola
         - olizilla
         - zixuanzh
@@ -4237,11 +4240,11 @@ repositories:
       admin:
         - arajasek
         - olizilla
-        - smagdali
         - yiannisbot
       maintain:
         - ianconsolata
         - nonsense
+        - smagdali
       push:
         - ognots
     has_discussions: false
@@ -4577,7 +4580,6 @@ repositories:
         - arajasek
         - elvin-du
         - eshon
-        - filecoin-helper
         - hunjixin
         - jennijuju
         - mishmosh
@@ -4587,6 +4589,7 @@ repositories:
         - Joss-Hua
         - simlecode
       push:
+        - filecoin-helper
         - LinZexiao
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4627,8 +4630,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - Stebalien
       maintain:
         - "0x5459"
         - arajasek
@@ -4641,6 +4642,7 @@ repositories:
         - elvin-du
         - Joss-Hua
         - ognots
+        - Stebalien
         - StefanGajic
     has_discussions: true
     merge_commit_message: PR_TITLE
@@ -4791,12 +4793,11 @@ teams:
         - TippyFlitsUK
   advocates:
     members:
-      maintainer:
-        - mishmosh
       member:
         - hammertoe
         - lksbrssr
         - longfeiWan9
+        - mishmosh
         - trruckerfling
   alumni:
     create_default_maintainer: false
@@ -4804,13 +4805,8 @@ teams:
       maintainer:
         - anorth
         - BigLep
-        - jbenet
         - jennijuju
-        - mishmosh
-        - momack2
-        - protocolin
-        - raulk
-        - Stebalien
+        - magik6k
       member:
         - alanshaw
         - AmeanAsad
@@ -4836,13 +4832,15 @@ teams:
         - hammertoe
         - hannahhoward
         - ischasny
+        - jbenet
         - juliangruber
         - Kubuxu
         - lucaniz
-        - magik6k
         - masih
         - matejpavlovic
         - MF416
+        - mishmosh
+        - momack2
         - nicola
         - ninitrava
         - nonsense
@@ -4850,9 +4848,12 @@ teams:
         - patrickwoodhead
         - pk-controller
         - pk13-PLF
+        - protocolin
+        - raulk
         - ribasushi
         - rvagg
         - scotthconner
+        - Stebalien
         - Stefaan-V
         - Terryhung
         - TorfinnOlsen
@@ -4884,10 +4885,10 @@ teams:
         - davidd8
         - ischasny
         - LexLuthr
+        - magik6k
         - masih
         - nonsense
       member:
-        - magik6k
         - Reiers
         - snadrus
   CERT:
@@ -4902,7 +4903,7 @@ teams:
         - filecoin-ci
   collab-ff-seo-ux:
     members:
-      maintainer:
+      member:
         - smagdali
   collab-ipfs-force:
     members:
@@ -4941,10 +4942,10 @@ teams:
   cryptoeconomics:
     members:
       maintainer:
-        - jbenet
         - protocolin
         - zixuanzh
       member:
+        - jbenet
         - nicola
   Curio:
     members:
@@ -4969,15 +4970,15 @@ teams:
     members:
       maintainer:
         - anorth
-        - filecoin-helper
-        - jbenet
+        - magik6k
       member:
         - DrPeterVanNostrand
         - eshon
+        - filecoin-helper
         - frrist
+        - jbenet
         - jnthnvctr
         - Kubuxu
-        - magik6k
         - porcuquine
         - vmx
         - whyrusleeping
@@ -4987,7 +4988,7 @@ teams:
     {}
   docs-storage-provider:
     members:
-      maintainer:
+      member:
         - smagdali
   FIL-B:
     members:
@@ -5012,8 +5013,6 @@ teams:
       maintainer:
         - anorth
         - jennijuju
-        - momack2
-        - Stebalien
         - TippyFlitsUK
       member:
         - aarshkshah1992
@@ -5021,19 +5020,21 @@ teams:
         - Kubuxu
         - lucaniz
         - masih
+        - momack2
         - nicola
         - rjan90
         - rvagg
+        - Stebalien
         - ZenGround0
   fips-editors:
     members:
       maintainer:
         - anorth
         - jennijuju
-        - momack2
       member:
         - jsoares
         - kaitlin-beegle
+        - momack2
         - TippyFlitsUK
   Forest:
     members:
@@ -5059,41 +5060,41 @@ teams:
     members:
       maintainer:
         - jennijuju
-        - raulk
       member:
         - eshon
         - lksbrssr
+        - raulk
         - trruckerfling
   fvm-core-devs:
     members:
       maintainer:
         - anorth
-        - raulk
-        - Stebalien
       member:
         - Kubuxu
+        - raulk
+        - Stebalien
         - ZenGround0
   fvm-crate-owners:
     members:
       maintainer:
         - jennijuju
-        - raulk
-        - Stebalien
-      member:
         - magik6k
+      member:
+        - raulk
         - rjan90
         - rvagg
+        - Stebalien
   fvm-team:
     members:
       maintainer:
         - jennijuju
-        - raulk
-        - Stebalien
+        - magik6k
       member:
         - fridrik01
         - hammertoe
-        - magik6k
         - parthpathakweb3
+        - raulk
+        - Stebalien
         - trruckerfling
   github-mgmt approvers:
     # Notes: 
@@ -5103,8 +5104,7 @@ teams:
     # 4. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
     # 5. Leaning on "github-mgmt approvers" for day-to-day admin over true org owners was done
     #    as part of the effort to reduce org owners in https://github.com/filecoin-project/github-mgmt/issues/47 
-    description: Additional users beyong github-mgmt-stewards who can approve (but
-      not merge) github-mgmt PRs
+    create_default_maintainer: false
     members:
       # ATTN: members are expected to:
       #  - be familiar with github-mgmt / github-as-code
@@ -5122,15 +5122,12 @@ teams:
         # 1. Represents another part of the ecosystem: Filecoin Incentive Design Labs
         # 2. He's experienced working with and adminstering github-mgmt in other organizations (e.g., ipld, ipfs)
         - willscott
-    # Visibility (not-private) is needed so that the team can be referred to in CODEOWNERS
-    privacy: closed
   github-mgmt stewards:
     # Notes: 
     # 1. These members have push+ access to the github-mgmt repository (in addition to the org owners listed in "members.admin" above).
     # 2. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
     # 3. Leaning on "github-mgmt stewards" for day-to-day admin over true org owners was done
     #    as part of the effort to reduce org owners in https://github.com/filecoin-project/github-mgmt/issues/47 
-    description: Users that are effectively org owners/admins
     members:
       # WARN: membership here should be treated as cautiously as having an "org owner" role,
       # since one can escalate their privileges accordingly.
@@ -5148,7 +5145,7 @@ teams:
         # 1. This can be temporarily, but at least of 2024-08-02, he is contracted with FilOz to get github-mgmt setup and operationalized
         #    (e.g., https://github.com/filecoin-project/community/discussions/710).
         # 2. He has experience working with github-mgmt in other contexts (e.g., ipfs per https://github.com/ipfs/ipfs/issues/511)
-        - biglep
+        - BigLep
         # Why @galargh?
         # 1. Same reasons listed at the top in "members.admin".
         # 2. He has deep knowledge of the tool and its use as the creator.  This empowers him to help make changes and improvements in a low friction way.
@@ -5170,8 +5167,6 @@ teams:
         # Why @smagdali?
         # 1. Serves as technical projects representative for the Filecoin Foundation.
         - smagdali
-    # Visibility (not-private) is needed so that the team can be referred to in CODEOWNERS
-    privacy: closed
   infra:
     members:
       member:
@@ -5180,7 +5175,7 @@ teams:
         - ns4plabs
         - Terryhung
   ipdx:
-    description: ipdx.co team members
+    create_default_maintainer: false
     members:
       maintainer:
         - galargh
@@ -5193,7 +5188,6 @@ teams:
       maintainer:
         - BigLep
         - jennijuju
-        - raulk
       member:
         - cryptonemo
         - fridrik01
@@ -5204,6 +5198,7 @@ teams:
         - maciejwitowski
         - masih
         - nonsense
+        - raulk
         - rjan90
         - rvagg
         - snissn
@@ -5215,19 +5210,18 @@ teams:
       maintainer:
         - BigLep
         - jennijuju
-        - Stebalien
+        - magik6k
       member:
         - aarshkshah1992
         - Kubuxu
-        - magik6k
         - masih
         - rjan90
         - rvagg
+        - Stebalien
         - TippyFlitsUK
         - ZenGround0
   moderators:
-    description: This team has the Moderators role described in
-      https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#organization-moderators
+    create_default_maintainer: false
     # Assigning this team the Moderator role is configured through the GitHub UI, not in github-mgmt.
     # Sead team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
@@ -5249,11 +5243,11 @@ teams:
   oni:
     members:
       maintainer:
-        - momack2
         - raulk
       member:
         - alanshaw
         - jimpick
+        - momack2
         - nonsense
         - whyrusleeping
         - willscott
@@ -5278,15 +5272,15 @@ teams:
     members:
       maintainer:
         - anorth
-        - mishmosh
-        - protocolin
-        - raulk
       member:
         - davidd8
         - eshon
         - frrist
         - jnthnvctr
+        - mishmosh
         - porcuquine
+        - protocolin
+        - raulk
         - whyrusleeping
         - ZenGround0
   proofs:
@@ -5302,11 +5296,11 @@ teams:
   research:
     members:
       maintainer:
-        - jbenet
         - nicola
       member:
         - DrPeterVanNostrand
         - irenegia
+        - jbenet
         - jsoares
         - lucaniz
         - ninitrava
@@ -5329,8 +5323,7 @@ teams:
         - DiegoRBaquero
   security-managers:
     # Note: members of this team have read access to all repos per https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
-    description: This team has the Security Manager role described in
-      https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#security-managers
+    create_default_maintainer: false
     # Filecoin Foundation team members were added 202408 as part of reducing their org ownership in https://github.com/filecoin-project/github-mgmt/issues/47
     members:
       member:
@@ -5359,10 +5352,10 @@ teams:
     members:
       maintainer:
         - anorth
+      member:
         - jbenet
         - mishmosh
         - momack2
-      member:
         - nicola
         - porcuquine
         - whyrusleeping
@@ -5370,12 +5363,11 @@ teams:
         - zixuanzh
   starling-storage:
     members:
-      maintainer:
-        - mishmosh
       member:
         - alexandrumatei36
         - george-haddad
         - JadTermsani
+        - mishmosh
         - smooth-operator
   tooling:
     members:
@@ -5397,10 +5389,10 @@ teams:
       maintainer:
         - BigLep
         - jennijuju
+        - magik6k
         - Stebalien
       member:
         - BlocksOnAChain
-        - magik6k
         - ZenGround0
   Weaveworks:
     {}
@@ -5408,14 +5400,14 @@ teams:
     members:
       maintainer:
         - eshon
-        - filecoin-helper
-        - mishmosh
-        - momack2
-        - protocolin
       member:
         - andyschwab
         - dkkapur
         - emilymvaughan
+        - filecoin-helper
         - jnthnvctr
+        - mishmosh
+        - momack2
         - nicola
+        - protocolin
         - vesahc
