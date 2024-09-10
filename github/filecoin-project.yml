@@ -3236,6 +3236,8 @@ repositories:
     collaborators:
       maintain:
         - snadrus
+      triage:
+        - ribasushi
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
