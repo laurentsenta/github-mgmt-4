@@ -39,3 +39,19 @@ Below is documentation/expecations [filecoin-project owners](https://github.com/
 > Reason: why_the_request_is_being_made  
 > Approver: who_the_approver_is  
 > App Installation Link: https://github.com/organizations/filecoin-project/settings/installations/######  
+
+### Removing Members From the Organization
+Removing members from the organization with github-mgmt has been disabled (see [here](https://github.com/filecoin-project/github-mgmt/blob/master/terraform/resources.tf)).  This is a security measure; org member removals are hard to revert because to re-invite someone, they have to accept the invitation. 
+
+To remove someone, we follow these steps:
+1. (anyone) Open a PR that removes the member from all teams and repositories and leaves a comment next to their name saying they'll be manually removed via the UI.  We do this so there is record in the commit history of the intent of the change.
+2. Get the PR approved per normal process.
+3. (github-mgmt-steward) Merge the PR.
+4. (org owner) Confrim in https://github.com/filecoin-project/github-mgmt/actions that the actions are applied.
+5. (org owner) Access the user in the GitHub UI at https://github.com/orgs/filecoin-project/people/USERNAME
+6. (org owner) Remove the user from the organization via the "Remove from organization" button.
+7. (org owner) Grab a screenshot
+8. (org owner) [Run the sync workflow](https://github.com/filecoin-project/github-mgmt/actions/workflows/sync.yml) to remove the user from the terraform state
+9. (org owner) Post back in the original PR that the user has been fully removed, including the screenshot and a link to the sync workflow run.
+
+https://github.com/filecoin-project/github-mgmt/pull/66 is an example of this process.
