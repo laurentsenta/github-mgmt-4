@@ -44,7 +44,7 @@ Below is documentation/expecations [filecoin-project owners](https://github.com/
 ### Removing Members From the Organization
 Removing members from the organization with github-mgmt has been disabled (see [here](https://github.com/filecoin-project/github-mgmt/blob/master/terraform/resources.tf)).  This is a security measure; org member removals are hard to revert because to re-invite someone, they have to accept the invitation. 
 
-To remove someone, we follow these steps:
+To remove someone, an org admin should follow these steps:
 1. (anyone) Open a PR that removes the member from all teams and repositories and leaves a comment next to their name saying they'll be manually removed via the UI.  We do this so there is record in the commit history of the intent of the change.
 2. Get the PR approved per normal process.
 3. (github-mgmt-steward) Merge the PR.
