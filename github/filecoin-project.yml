@@ -151,7 +151,6 @@ members:
     - patrickwoodhead
     - pk-controller
     - pk13-PLF
-    - pl-deploy-bot # will be removed in the UI per https://github.com/filecoin-project/github-mgmt/pull/66
     - porcuquine
     - protocol-labs
     - protocolin
@@ -1128,6 +1127,22 @@ repositories:
       admin:
         - FIL-B
       push:
+        - lotus-maintainers
+    visibility: public
+  fevm-uniswap-v3-core:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - FIL-B
         - lotus-maintainers
     visibility: public
   ff-bounties:
