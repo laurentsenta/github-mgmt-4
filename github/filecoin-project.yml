@@ -2933,6 +2933,7 @@ repositories:
         - ianconsolata
         - ognots
       push:
+        - laurentsenta
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3154,6 +3155,7 @@ repositories:
         - rjan90
       push:
         - arajasek
+        - laurentsenta
         - LexLuthr
         - Reiers
         - snadrus
